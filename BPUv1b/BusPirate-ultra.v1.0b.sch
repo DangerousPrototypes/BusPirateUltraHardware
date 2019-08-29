@@ -33620,7 +33620,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/1" value="1M"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R6" library="dp_devices" deviceset="RESISTOR" device="-0603" value="10K"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -33879,6 +33878,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5K1"/>
 <part name="RN1" library="dp_devices" deviceset="RNETWORK" device="" value="10K"/>
 <part name="GND14" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -34258,10 +34258,6 @@ H     X    L   :(  (contention)</text>
 </instance>
 <instance part="P+6" gate="VCC" x="502.92" y="299.72" smashed="yes"/>
 <instance part="P+11" gate="VCC" x="96.52" y="205.74" smashed="yes"/>
-<instance part="R6" gate="G$1" x="337.82" y="15.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="330.2" y="15.24" size="1.778" layer="95"/>
-<attribute name="VALUE" x="330.2" y="12.7" size="1.778" layer="96"/>
-</instance>
 <instance part="R16" gate="G$1" x="533.4" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="535.94" y="78.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="535.94" y="76.2" size="1.778" layer="96"/>
@@ -34885,6 +34881,10 @@ H     X    L   :(  (contention)</text>
 <instance part="RN1" gate="C" x="416.56" y="373.38" rot="R90"/>
 <instance part="RN1" gate="D" x="411.48" y="378.46"/>
 <instance part="GND14" gate="G$1" x="416.56" y="365.76" smashed="yes"/>
+<instance part="R6" gate="G$1" x="337.82" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="340.36" y="15.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="340.36" y="12.7" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -35060,10 +35060,6 @@ H     X    L   :(  (contention)</text>
 <pinref part="GND28" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 <junction x="88.9" y="203.2"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="GND67" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="VR3" gate="G$1" pin="GND"/>
@@ -35547,6 +35543,10 @@ H     X    L   :(  (contention)</text>
 <segment>
 <pinref part="RN1" gate="C" pin="1"/>
 <pinref part="GND14" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND67" gate="G$1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -36590,8 +36590,8 @@ H     X    L   :(  (contention)</text>
 <pinref part="U3" gate="SPI" pin="IOB_108/SS"/>
 <wire x1="340.36" y1="20.32" x2="337.82" y2="20.32" width="0.1524" layer="91"/>
 <label x="335.28" y="20.32" size="1.778" layer="95" align="center-right"/>
-<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="20.32" x2="335.28" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <junction x="337.82" y="20.32"/>
 </segment>
 <segment>
