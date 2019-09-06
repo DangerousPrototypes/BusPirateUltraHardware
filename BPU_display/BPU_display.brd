@@ -93,23 +93,25 @@
 <wire x1="16.355" y1="58.9" x2="75.645" y2="58.9" width="0" layer="20"/>
 <wire x1="75.645" y1="58.9" x2="75.645" y2="61" width="0" layer="20"/>
 <wire x1="75.645" y1="61" x2="83.645" y2="61" width="0" layer="20" curve="-180"/>
-<wire x1="83.645" y1="61" x2="83.645" y2="44.31" width="0" layer="20"/>
-<wire x1="83.645" y1="44.31" x2="79.265" y2="44.31" width="0" layer="20"/>
-<wire x1="79.265" y1="44.31" x2="79.265" y2="41.98" width="0" layer="20"/>
-<wire x1="79.265" y1="41.98" x2="74.035" y2="41.98" width="0" layer="20"/>
-<wire x1="74.035" y1="41.98" x2="74.035" y2="38.02" width="0" layer="20"/>
-<wire x1="74.035" y1="38.02" x2="79.265" y2="38.02" width="0" layer="20"/>
-<wire x1="79.265" y1="38.02" x2="79.265" y2="35.69" width="0" layer="20"/>
-<wire x1="79.265" y1="35.69" x2="83.645" y2="35.69" width="0" layer="20"/>
-<wire x1="83.645" y1="35.69" x2="83.645" y2="19" width="0" layer="20"/>
+<wire x1="83.645" y1="61" x2="83.645" y2="45.31" width="0" layer="20"/>
+<wire x1="83.645" y1="34.69" x2="83.645" y2="19" width="0" layer="20"/>
 <wire x1="83.645" y1="19" x2="75.645" y2="19" width="0" layer="20" curve="-180"/>
 <wire x1="75.645" y1="19" x2="75.645" y2="21.1" width="0" layer="20"/>
 <wire x1="75.645" y1="21.1" x2="16.355" y2="21.1" width="0" layer="20"/>
 <wire x1="16.355" y1="21.1" x2="16.355" y2="58.9" width="0" layer="20"/>
 <hole x="79.645" y="61" drill="3.2"/>
 <hole x="79.645" y="19" drill="3.2"/>
-<circle x="79.645" y="61" radius="4" width="0" layer="39"/>
-<circle x="79.645" y="19" radius="4" width="0" layer="39"/>
+<circle x="79.645" y="61" radius="4" width="0" layer="41"/>
+<circle x="79.645" y="19" radius="4" width="0" layer="41"/>
+<wire x1="83.645" y1="45.31" x2="78.265" y2="45.31" width="0" layer="20"/>
+<wire x1="78.265" y1="45.31" x2="78.265" y2="42.98" width="0" layer="20"/>
+<wire x1="78.265" y1="42.98" x2="73.035" y2="42.98" width="0" layer="20"/>
+<wire x1="73.035" y1="42.98" x2="73.035" y2="37.02" width="0" layer="20"/>
+<wire x1="73.035" y1="37.02" x2="78.265" y2="37.02" width="0" layer="20"/>
+<wire x1="78.265" y1="37.02" x2="78.265" y2="34.69" width="0" layer="20"/>
+<wire x1="78.265" y1="34.69" x2="83.645" y2="34.69" width="0" layer="20"/>
+<circle x="79.645" y="19" radius="4" width="0" layer="42"/>
+<circle x="79.645" y="61" radius="4" width="0" layer="42"/>
 </plain>
 <libraries>
 <library name="dp_devices.v6">
@@ -1776,13 +1778,13 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="DISP1" pad="P12"/>
 <contactref element="J1" pad="P10"/>
 <contactref element="Q1" pad="2"/>
-<polygon width="0.254" layer="1" rank="6">
+<polygon width="0.254" layer="1" isolate="0.3048" rank="6">
 <vertex x="16.355" y="58.9"/>
 <vertex x="83.645" y="58.9"/>
 <vertex x="83.645" y="21.1"/>
 <vertex x="16.355" y="21.1"/>
 </polygon>
-<polygon width="0.254" layer="16" rank="6">
+<polygon width="0.254" layer="16" isolate="0.3048" rank="6">
 <vertex x="16.355" y="58.9"/>
 <vertex x="83.645" y="58.9"/>
 <vertex x="83.645" y="21.1"/>
