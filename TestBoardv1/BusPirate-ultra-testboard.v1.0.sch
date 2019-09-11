@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1259,25 +1259,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="R7" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="1k1"/>
 <part name="R8" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="1k1"/>
+<part name="LED15" library="dp_devices.v6" deviceset="LED" device="-0805"/>
+<part name="LED16" library="dp_devices.v6" deviceset="LED" device="-0805"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="66.04" y="109.22" size="1.778" layer="91" align="center-right">MOSI</text>
-<text x="66.04" y="106.68" size="1.778" layer="91" align="center-right">CLOCK</text>
-<text x="66.04" y="104.14" size="1.778" layer="91" align="center-right">MISO</text>
-<text x="66.04" y="101.6" size="1.778" layer="91" align="center-right">CS</text>
-<text x="66.04" y="99.06" size="1.778" layer="91" align="center-right">AUX</text>
-<text x="66.04" y="96.52" size="1.778" layer="91" align="center-right">ADC/DAC</text>
-<text x="66.04" y="93.98" size="1.778" layer="91" align="center-right">VEXTERN</text>
-<text x="66.04" y="91.44" size="1.778" layer="91" align="center-right">SWV33</text>
-<text x="66.04" y="88.9" size="1.778" layer="91" align="center-right">SWV50</text>
-<text x="66.04" y="86.36" size="1.778" layer="91" align="center-right">GND</text>
+<text x="66.04" y="86.36" size="1.778" layer="91" align="center-right">BPIO0</text>
+<text x="66.04" y="106.68" size="1.778" layer="91" align="center-right">Vout</text>
+<text x="66.04" y="104.14" size="1.778" layer="91" align="center-right">BPIO7</text>
+<text x="66.04" y="101.6" size="1.778" layer="91" align="center-right">BPIO6</text>
+<text x="66.04" y="99.06" size="1.778" layer="91" align="center-right">BPIO5</text>
+<text x="66.04" y="96.52" size="1.778" layer="91" align="center-right">BPIO4</text>
+<text x="66.04" y="93.98" size="1.778" layer="91" align="center-right">BPIO3</text>
+<text x="66.04" y="91.44" size="1.778" layer="91" align="center-right">BPIO2</text>
+<text x="66.04" y="88.9" size="1.778" layer="91" align="center-right">BPIO1</text>
+<text x="66.04" y="109.22" size="1.778" layer="91" align="center-right">GND</text>
 </plain>
 <instances>
-<instance part="J1" gate="J" x="73.66" y="99.06" rot="R180"/>
-<instance part="PAGE1" gate="G$1" x="0" y="0"/>
-<instance part="PAGE1" gate="G$2" x="158.75" y="3.81"/>
+<instance part="J1" gate="J" x="73.66" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.93" y="83.185" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="PAGE1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="PAGE1" gate="G$2" x="158.75" y="3.81" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="171.45" y="5.08" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="245.11" y="5.08" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="176.53" y="22.86" size="2.54" layer="94" font="vector"/>
+<attribute name="LICENSE" x="176.53" y="35.56" size="2.54" layer="94" font="vector"/>
+<attribute name="URL1" x="176.53" y="31.75" size="2.54" layer="94" font="vector"/>
+<attribute name="URL2" x="176.53" y="27.94" size="2.54" layer="94" font="vector"/>
+<attribute name="PROJECT" x="160.02" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="LED1" gate="LED" x="139.7" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.16" y="127" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="144.272" y="135.255" size="1.778" layer="96" rot="R180"/>
@@ -1287,7 +1299,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="137.668" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="147.32" y="129.54" smashed="yes" rot="R90"/>
-<instance part="SUPPLY2" gate="G$1" x="78.74" y="86.36" smashed="yes" rot="R90"/>
+<instance part="SUPPLY2" gate="G$1" x="78.74" y="109.22" smashed="yes" rot="R90"/>
 <instance part="LED3" gate="LED" x="139.7" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="137.16" y="111.76" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="144.272" y="120.015" size="1.778" layer="96" rot="R180"/>
@@ -1333,12 +1345,30 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="137.668" y="52.705" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="147.32" y="53.34" smashed="yes" rot="R90"/>
-<instance part="R1" gate="R" x="132.08" y="132.08"/>
-<instance part="R2" gate="R" x="132.08" y="116.84"/>
-<instance part="R3" gate="R" x="132.08" y="101.6"/>
-<instance part="R4" gate="R" x="132.08" y="86.36"/>
-<instance part="R5" gate="R" x="132.08" y="71.12"/>
-<instance part="R6" gate="R" x="132.08" y="55.88"/>
+<instance part="R1" gate="R" x="132.08" y="132.08" smashed="yes">
+<attribute name="NAME" x="128.27" y="133.5786" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="128.778" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R2" gate="R" x="132.08" y="116.84" smashed="yes">
+<attribute name="NAME" x="128.27" y="118.3386" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="113.538" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R3" gate="R" x="132.08" y="101.6" smashed="yes">
+<attribute name="NAME" x="128.27" y="103.0986" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="98.298" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R4" gate="R" x="132.08" y="86.36" smashed="yes">
+<attribute name="NAME" x="128.27" y="87.8586" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="83.058" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R5" gate="R" x="132.08" y="71.12" smashed="yes">
+<attribute name="NAME" x="128.27" y="72.6186" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="67.818" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R6" gate="R" x="132.08" y="55.88" smashed="yes">
+<attribute name="NAME" x="128.27" y="57.3786" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="128.27" y="52.578" size="1.778" layer="96" font="vector"/>
+</instance>
 <instance part="LED13" gate="LED" x="198.12" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="198.12" y="137.16" size="1.778" layer="95" rot="R180" align="center-right"/>
 <attribute name="VALUE" x="202.692" y="140.335" size="1.778" layer="96" rot="R180"/>
@@ -1349,68 +1379,31 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="203.2" y="114.3" smashed="yes"/>
 <instance part="SUPPLY9" gate="G$1" x="203.2" y="129.54" smashed="yes"/>
-<instance part="R7" gate="R" x="190.5" y="134.62"/>
-<instance part="R8" gate="R" x="190.5" y="119.38"/>
+<instance part="R7" gate="R" x="190.5" y="137.16" smashed="yes">
+<attribute name="NAME" x="186.69" y="138.6586" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="186.69" y="133.858" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R8" gate="R" x="190.5" y="121.92" smashed="yes">
+<attribute name="NAME" x="186.69" y="123.4186" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="186.69" y="118.618" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="LED15" gate="LED" x="200.66" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="200.66" y="121.92" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="196.088" y="118.745" size="1.778" layer="96"/>
+</instance>
+<instance part="LED16" gate="LED" x="200.66" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="200.66" y="137.16" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="196.088" y="133.985" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="3V3" class="0">
-<segment>
-<pinref part="LED2" gate="LED" pin="A"/>
-<wire x1="144.78" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
-<label x="149.86" y="134.62" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J" pin="3"/>
-<label x="76.2" y="91.44" size="1.778" layer="95" align="center-left"/>
-<pinref part="J1" gate="J" pin="4"/>
-<wire x1="73.66" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="93.98" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED4" gate="LED" pin="A"/>
-<wire x1="144.78" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<label x="149.86" y="119.38" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="LED6" gate="LED" pin="A"/>
-<wire x1="144.78" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
-<label x="149.86" y="104.14" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="LED8" gate="LED" pin="A"/>
-<wire x1="144.78" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<label x="149.86" y="88.9" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="LED10" gate="LED" pin="A"/>
-<wire x1="144.78" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
-<label x="149.86" y="73.66" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="LED12" gate="LED" pin="A"/>
-<wire x1="144.78" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<label x="149.86" y="58.42" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R7" gate="R" pin="1"/>
-<wire x1="185.42" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
-<label x="182.88" y="134.62" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="LED1" gate="LED" pin="C"/>
 <pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
 <label x="149.86" y="129.54" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
-<pinref part="J1" gate="J" pin="1"/>
-<wire x1="76.2" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
-<label x="81.28" y="86.36" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="LED" pin="C"/>
@@ -1449,65 +1442,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="203.2" y1="116.84" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <label x="203.2" y="116.84" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="MISO" class="0">
 <segment>
-<pinref part="J1" gate="J" pin="8"/>
-<wire x1="73.66" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
-<label x="76.2" y="104.14" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R3" gate="R" pin="1"/>
-<wire x1="127" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<label x="124.46" y="101.6" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
-<net name="CLOCK" class="0">
-<segment>
-<pinref part="J1" gate="J" pin="9"/>
-<wire x1="73.66" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
-<label x="76.2" y="106.68" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R2" gate="R" pin="1"/>
-<wire x1="127" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<label x="124.46" y="116.84" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
-<net name="CS" class="0">
-<segment>
-<pinref part="J1" gate="J" pin="7"/>
-<wire x1="73.66" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="101.6" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R4" gate="R" pin="1"/>
-<wire x1="127" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<label x="124.46" y="86.36" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
-<net name="AUX" class="0">
-<segment>
-<pinref part="J1" gate="J" pin="6"/>
-<wire x1="73.66" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.2" y="99.06" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R5" gate="R" pin="1"/>
-<wire x1="127" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="124.46" y="71.12" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
-<net name="ADC_DAC" class="0">
-<segment>
-<pinref part="J1" gate="J" pin="5"/>
-<wire x1="73.66" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="76.2" y="96.52" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
-<pinref part="R6" gate="R" pin="1"/>
-<wire x1="127" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<label x="124.46" y="55.88" size="1.778" layer="95" align="center-right"/>
+<pinref part="J1" gate="J" pin="10"/>
+<wire x1="73.66" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1570,40 +1508,167 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="137.16" y="55.88"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="R1" gate="R" pin="1"/>
-<wire x1="127" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
-<label x="124.46" y="132.08" size="1.778" layer="95" align="center-right"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J" pin="10"/>
-<wire x1="73.66" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="76.2" y="109.22" size="1.778" layer="95" align="center-left"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="LED13" gate="LED" pin="A"/>
 <pinref part="R7" gate="R" pin="2"/>
+<wire x1="195.58" y1="137.16" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="LED16" gate="LED" pin="C"/>
+<wire x1="195.58" y1="139.7" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<junction x="195.58" y="137.16"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED14" gate="LED" pin="A"/>
 <pinref part="R8" gate="R" pin="2"/>
+<wire x1="195.58" y1="121.92" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="LED15" gate="LED" pin="C"/>
+<wire x1="195.58" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<junction x="195.58" y="121.92"/>
 </segment>
 </net>
-<net name="5V0" class="0">
+<net name="BPIO0" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="1"/>
+<wire x1="73.66" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<label x="76.2" y="86.36" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R8" gate="R" pin="1"/>
+<wire x1="185.42" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<label x="182.88" y="121.92" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO1" class="0">
 <segment>
 <pinref part="J1" gate="J" pin="2"/>
 <wire x1="73.66" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 <label x="76.2" y="88.9" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
-<pinref part="R8" gate="R" pin="1"/>
-<wire x1="185.42" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
-<label x="182.88" y="119.38" size="1.778" layer="95" align="center-right"/>
+<pinref part="R7" gate="R" pin="1"/>
+<wire x1="185.42" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
+<label x="182.88" y="137.16" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO2" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="3"/>
+<wire x1="76.2" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<label x="76.2" y="91.44" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R6" gate="R" pin="1"/>
+<wire x1="127" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="124.46" y="55.88" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO3" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="4"/>
+<wire x1="73.66" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<label x="76.2" y="93.98" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R5" gate="R" pin="1"/>
+<wire x1="127" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+<label x="124.46" y="71.12" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO4" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="5"/>
+<wire x1="73.66" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+<label x="76.2" y="96.52" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R4" gate="R" pin="1"/>
+<wire x1="127" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="124.46" y="86.36" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO5" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="6"/>
+<wire x1="73.66" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="76.2" y="99.06" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R3" gate="R" pin="1"/>
+<wire x1="127" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<label x="124.46" y="101.6" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO6" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="7"/>
+<wire x1="73.66" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<label x="76.2" y="101.6" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R2" gate="R" pin="1"/>
+<wire x1="127" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<label x="124.46" y="116.84" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="BPIO7" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="8"/>
+<wire x1="73.66" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<label x="76.2" y="104.14" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="R1" gate="R" pin="1"/>
+<wire x1="127" y1="132.08" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
+<label x="124.46" y="132.08" size="1.778" layer="95" align="center-right"/>
+</segment>
+</net>
+<net name="VOUT" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="9"/>
+<wire x1="73.66" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+<label x="76.2" y="106.68" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="LED" pin="A"/>
+<wire x1="203.2" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<label x="205.74" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED16" gate="LED" pin="A"/>
+<wire x1="203.2" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<label x="205.74" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="LED" pin="A"/>
+<wire x1="144.78" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<label x="149.86" y="134.62" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="LED" pin="A"/>
+<wire x1="144.78" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<label x="149.86" y="119.38" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED6" gate="LED" pin="A"/>
+<wire x1="144.78" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<label x="149.86" y="104.14" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED8" gate="LED" pin="A"/>
+<wire x1="144.78" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<label x="149.86" y="88.9" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED10" gate="LED" pin="A"/>
+<wire x1="144.78" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<label x="149.86" y="73.66" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="LED" pin="A"/>
+<wire x1="144.78" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<label x="149.86" y="58.42" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 </nets>
