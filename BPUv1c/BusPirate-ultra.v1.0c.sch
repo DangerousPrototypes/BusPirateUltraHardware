@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10329,6 +10329,26 @@ ADC_MUX_S3 to FPGA</text>
 <wire x1="711.2" y1="48.26" x2="706.12" y2="48.26" width="0.1524" layer="91"/>
 <label x="706.12" y="48.26" size="1.778" layer="95" align="center-right"/>
 </segment>
+<segment>
+<pinref part="U202" gate="U" pin="AVDD"/>
+<wire x1="426.72" y1="393.7" x2="426.72" y2="403.86" width="0.1524" layer="91"/>
+<pinref part="C204" gate="C" pin="1"/>
+<wire x1="426.72" y1="403.86" x2="421.64" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="403.86" x2="426.72" y2="406.4" width="0.1524" layer="91"/>
+<junction x="426.72" y="403.86"/>
+<wire x1="426.72" y1="406.4" x2="429.26" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="U202" gate="U" pin="DVDD"/>
+<wire x1="429.26" y1="406.4" x2="431.8" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="393.7" x2="431.8" y2="403.86" width="0.1524" layer="91"/>
+<pinref part="C205" gate="C" pin="1"/>
+<wire x1="431.8" y1="403.86" x2="436.88" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="406.4" x2="431.8" y2="403.86" width="0.1524" layer="91"/>
+<junction x="431.8" y="403.86"/>
+<pinref part="SUPPLY40" gate="1" pin="V+"/>
+<wire x1="429.26" y1="408.94" x2="429.26" y2="406.4" width="0.1524" layer="91"/>
+<junction x="429.26" y="406.4"/>
+<label x="429.26" y="411.48" size="1.778" layer="95" align="bottom-center"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -10481,26 +10501,6 @@ ADC_MUX_S3 to FPGA</text>
 <pinref part="C501" gate="C" pin="2"/>
 <wire x1="551.18" y1="330.2" x2="551.18" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="551.18" y1="340.36" x2="548.64" y2="340.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U202" gate="U" pin="AVDD"/>
-<wire x1="426.72" y1="393.7" x2="426.72" y2="403.86" width="0.1524" layer="91"/>
-<pinref part="C204" gate="C" pin="1"/>
-<wire x1="426.72" y1="403.86" x2="421.64" y2="403.86" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="403.86" x2="426.72" y2="406.4" width="0.1524" layer="91"/>
-<junction x="426.72" y="403.86"/>
-<wire x1="426.72" y1="406.4" x2="429.26" y2="406.4" width="0.1524" layer="91"/>
-<pinref part="U202" gate="U" pin="DVDD"/>
-<wire x1="429.26" y1="406.4" x2="431.8" y2="406.4" width="0.1524" layer="91"/>
-<wire x1="431.8" y1="393.7" x2="431.8" y2="403.86" width="0.1524" layer="91"/>
-<pinref part="C205" gate="C" pin="1"/>
-<wire x1="431.8" y1="403.86" x2="436.88" y2="403.86" width="0.1524" layer="91"/>
-<wire x1="431.8" y1="406.4" x2="431.8" y2="403.86" width="0.1524" layer="91"/>
-<junction x="431.8" y="403.86"/>
-<pinref part="SUPPLY40" gate="1" pin="V+"/>
-<wire x1="429.26" y1="408.94" x2="429.26" y2="406.4" width="0.1524" layer="91"/>
-<junction x="429.26" y="406.4"/>
-<label x="429.26" y="411.48" size="1.778" layer="95" align="bottom-center"/>
 </segment>
 <segment>
 <pinref part="C200" gate="C" pin="2"/>

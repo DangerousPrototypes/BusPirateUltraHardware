@@ -33657,8 +33657,16 @@ http://dangerousprototypes.com</description>
 <wire x1="26.67" y1="41.8728" x2="26.8106" y2="41.8728" width="0.4064" layer="1"/>
 <wire x1="26.8106" y1="41.8728" x2="27.94" y2="43.0022" width="0.4064" layer="1"/>
 <contactref element="U302" pad="3"/>
+<contactref element="U202" pad="7"/>
+<contactref element="C204" pad="1"/>
+<contactref element="U202" pad="1"/>
+<contactref element="C205" pad="1"/>
 <wire x1="36.785" y1="35.351" x2="39.79" y2="36.3728" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.408" y1="-46.608" x2="19.501" y2="4.477" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.506" y1="-32.486" x2="19.501" y2="4.477" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.006" y1="-35.586" x2="-16.506" y2="-32.486" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.106" y1="-41.402" x2="-17.006" y2="-35.586" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.106" y1="-47.498" x2="-17.106" y2="-41.402" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.408" y1="-46.608" x2="-17.106" y2="-47.498" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED900" pad="A"/>
@@ -33856,10 +33864,6 @@ http://dangerousprototypes.com</description>
 <wire x1="9.7638" y1="4.6436" x2="9.7638" y2="4.7198" width="0.254" layer="1"/>
 <contactref element="C305" pad="2"/>
 <contactref element="C307" pad="2"/>
-<contactref element="U202" pad="7"/>
-<contactref element="C204" pad="1"/>
-<contactref element="U202" pad="1"/>
-<contactref element="C205" pad="1"/>
 <contactref element="U302" pad="2"/>
 <contactref element="C200" pad="2"/>
 <contactref element="U200" pad="24"/>
@@ -33873,11 +33877,7 @@ http://dangerousprototypes.com</description>
 <wire x1="7.366" y1="15.67" x2="6.096" y2="14.224" width="0" layer="19" extent="1-16"/>
 <wire x1="-7.532" y1="-17.018" x2="9.7638" y2="4.6436" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.532" y1="-23.114" x2="-7.532" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.506" y1="-32.486" x2="-7.532" y2="-23.114" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.006" y1="-35.586" x2="-16.506" y2="-32.486" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.106" y1="-41.402" x2="-17.006" y2="-35.586" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.106" y1="-47.498" x2="-17.106" y2="-41.402" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.908" y1="-45.108" x2="-17.106" y2="-47.498" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.908" y1="-45.108" x2="-7.532" y2="-23.114" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.99" y1="-52.7082" x2="-25.908" y2="-45.108" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
