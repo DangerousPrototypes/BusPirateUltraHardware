@@ -10593,20 +10593,6 @@ ADC_MUX_S3 to FPGA</text>
 <wire x1="73.66" y1="436.88" x2="71.12" y2="436.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="UART_RX" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="PA10/FT/USART1_RX('0')/TIM1_CH3('00'OR'01')"/>
-<wire x1="73.66" y1="447.04" x2="71.12" y2="447.04" width="0.1524" layer="91"/>
-<label x="71.12" y="447.04" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
-<net name="UART_TX" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="PA9/FT/USART1_TX('0')/TIM1_CH2('00'OR'01')"/>
-<wire x1="73.66" y1="449.58" x2="71.12" y2="449.58" width="0.1524" layer="91"/>
-<label x="71.12" y="449.58" size="1.778" layer="95" align="center-right"/>
-</segment>
-</net>
 <net name="D+" class="0">
 <segment>
 <wire x1="622.3" y1="187.96" x2="619.76" y2="187.96" width="0.1524" layer="91"/>
@@ -11436,33 +11422,33 @@ ADC_MUX_S3 to FPGA</text>
 <label x="429.26" y="152.4" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
-<pinref part="U100" gate="U" pin="PE2/FT/FSMC_A23"/>
-<wire x1="73.66" y1="381" x2="71.12" y2="381" width="0.1524" layer="91"/>
-<label x="71.12" y="381" size="1.778" layer="95" align="center-right"/>
+<pinref part="U100" gate="U" pin="PA10/FT/USART1_RX('0')/TIM1_CH3('00'OR'01')"/>
+<wire x1="73.66" y1="447.04" x2="71.12" y2="447.04" width="0.1524" layer="91"/>
+<label x="71.12" y="447.04" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="MCU_INT1" class="0">
 <segment>
-<pinref part="U100" gate="U" pin="PE3/FT/FSMC_A19"/>
-<wire x1="73.66" y1="378.46" x2="71.12" y2="378.46" width="0.1524" layer="91"/>
-<label x="71.12" y="378.46" size="1.778" layer="95" align="center-right"/>
+<pinref part="U700" gate="BANK0" pin="IOT_172"/>
+<wire x1="391.16" y1="142.24" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
+<label x="388.62" y="142.24" size="1.778" layer="95" align="center-right"/>
 </segment>
 <segment>
-<pinref part="U700" gate="BANK2" pin="GBIN5/IOB_81"/>
-<wire x1="528.32" y1="45.72" x2="530.86" y2="45.72" width="0.1524" layer="91"/>
-<label x="530.86" y="45.72" size="1.778" layer="95" align="center-left"/>
+<pinref part="U100" gate="U" pin="TIM8_CH4/TIM3_CH4('11')/FT/PC9"/>
+<wire x1="180.34" y1="406.4" x2="182.88" y2="406.4" width="0.1524" layer="91"/>
+<label x="182.88" y="406.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM" class="0">
 <segment>
-<pinref part="U700" gate="BANK3" pin="GBIN6/IOL_14A"/>
-<wire x1="429.26" y1="60.96" x2="431.8" y2="60.96" width="0.1524" layer="91"/>
-<label x="431.8" y="60.96" size="1.778" layer="95" align="center-left"/>
-</segment>
-<segment>
 <pinref part="U100" gate="U" pin="TIM8_CH1/TIM3_CH1('11')/FT/PC6"/>
 <wire x1="180.34" y1="414.02" x2="182.88" y2="414.02" width="0.1524" layer="91"/>
 <label x="182.88" y="414.02" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="U700" gate="BANK2" pin="GBIN5/IOB_81"/>
+<wire x1="528.32" y1="45.72" x2="530.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="530.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_MCO" class="0">
@@ -11543,12 +11529,6 @@ ADC_MUX_S3 to FPGA</text>
 <segment>
 <pinref part="U100" gate="U" pin="ADC123_IN11/PC1"/>
 <wire x1="180.34" y1="426.72" x2="182.88" y2="426.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="TIM8_CH4/TIM3_CH4('11')/FT/PC9"/>
-<wire x1="180.34" y1="406.4" x2="182.88" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -11637,8 +11617,8 @@ ADC_MUX_S3 to FPGA</text>
 </segment>
 <segment>
 <pinref part="U700" gate="BANK0" pin="IOT_181"/>
-<wire x1="426.72" y1="139.7" x2="429.26" y2="139.7" width="0.1524" layer="91"/>
-<label x="429.26" y="139.7" size="1.778" layer="95" align="center-left"/>
+<wire x1="426.72" y1="139.7" x2="431.8" y2="139.7" width="0.1524" layer="91"/>
+<label x="431.8" y="139.7" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 <net name="SRAM1_SIO0" class="0">
@@ -11661,8 +11641,8 @@ ADC_MUX_S3 to FPGA</text>
 </segment>
 <segment>
 <pinref part="U700" gate="BANK0" pin="IOT_178"/>
-<wire x1="426.72" y1="134.62" x2="429.26" y2="134.62" width="0.1524" layer="91"/>
-<label x="429.26" y="134.62" size="1.778" layer="95" align="center-left"/>
+<wire x1="426.72" y1="134.62" x2="431.8" y2="134.62" width="0.1524" layer="91"/>
+<label x="431.8" y="134.62" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 <net name="SRAM1_SIO2" class="0">
@@ -11685,8 +11665,8 @@ ADC_MUX_S3 to FPGA</text>
 </segment>
 <segment>
 <pinref part="U700" gate="BANK0" pin="IOT_179"/>
-<wire x1="426.72" y1="137.16" x2="429.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="429.26" y="137.16" size="1.778" layer="95" align="center-left"/>
+<wire x1="426.72" y1="137.16" x2="431.8" y2="137.16" width="0.1524" layer="91"/>
+<label x="431.8" y="137.16" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -11719,10 +11699,16 @@ ADC_MUX_S3 to FPGA</text>
 <wire x1="73.66" y1="330.2" x2="71.12" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="MASTER_RESET" class="0">
 <segment>
 <pinref part="U100" gate="U" pin="PG8/FT"/>
 <wire x1="73.66" y1="322.58" x2="71.12" y2="322.58" width="0.1524" layer="91"/>
+<label x="71.12" y="322.58" size="1.778" layer="95" align="center-right"/>
+</segment>
+<segment>
+<pinref part="U700" gate="BANK3" pin="GBIN6/IOL_14A"/>
+<wire x1="429.26" y1="60.96" x2="431.8" y2="60.96" width="0.1524" layer="91"/>
+<label x="431.8" y="60.96" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -12302,8 +12288,8 @@ ADC_MUX_S3 to FPGA</text>
 <net name="ADC_MUX_S0" class="0">
 <segment>
 <pinref part="U700" gate="BANK1" pin="GBIN3/IOR_140"/>
-<wire x1="528.32" y1="147.32" x2="530.86" y2="147.32" width="0.1524" layer="91"/>
-<label x="530.86" y="147.32" size="1.778" layer="95"/>
+<wire x1="528.32" y1="147.32" x2="533.4" y2="147.32" width="0.1524" layer="91"/>
+<label x="533.4" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U200" gate="U" pin="S0"/>
@@ -12314,8 +12300,8 @@ ADC_MUX_S3 to FPGA</text>
 <net name="ADC_MUX_S1" class="0">
 <segment>
 <pinref part="U700" gate="BANK1" pin="GBIN2/IOR_141"/>
-<wire x1="528.32" y1="149.86" x2="530.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="530.86" y="149.86" size="1.778" layer="95"/>
+<wire x1="528.32" y1="149.86" x2="533.4" y2="149.86" width="0.1524" layer="91"/>
+<label x="533.4" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U200" gate="U" pin="S1"/>
@@ -12326,8 +12312,8 @@ ADC_MUX_S3 to FPGA</text>
 <net name="ADC_MUX_S2" class="0">
 <segment>
 <pinref part="U700" gate="BANK1" pin="IOR_144"/>
-<wire x1="528.32" y1="152.4" x2="530.86" y2="152.4" width="0.1524" layer="91"/>
-<label x="530.86" y="152.4" size="1.778" layer="95"/>
+<wire x1="528.32" y1="152.4" x2="533.4" y2="152.4" width="0.1524" layer="91"/>
+<label x="533.4" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U200" gate="U" pin="S2"/>
@@ -12422,8 +12408,8 @@ ADC_MUX_S3 to FPGA</text>
 <net name="ADC_MUX_EN" class="0">
 <segment>
 <pinref part="U700" gate="BANK1" pin="IOR_146"/>
-<wire x1="528.32" y1="154.94" x2="530.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="530.86" y="154.94" size="1.778" layer="95"/>
+<wire x1="528.32" y1="154.94" x2="533.4" y2="154.94" width="0.1524" layer="91"/>
+<label x="533.4" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U200" gate="U" pin="!E"/>
@@ -12695,9 +12681,9 @@ ADC_MUX_S3 to FPGA</text>
 <label x="241.3" y="106.68" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
-<pinref part="U100" gate="U" pin="PG0/FT/FSMC_A10"/>
-<wire x1="73.66" y1="342.9" x2="71.12" y2="342.9" width="0.1524" layer="91"/>
-<label x="71.12" y="342.9" size="1.778" layer="95" align="center-right"/>
+<pinref part="U100" gate="U" pin="PA9/FT/USART1_TX('0')/TIM1_CH2('00'OR'01')"/>
+<wire x1="73.66" y1="449.58" x2="71.12" y2="449.58" width="0.1524" layer="91"/>
+<label x="71.12" y="449.58" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="DISPLAY_SPI_CLOCK" class="0">
@@ -12799,9 +12785,9 @@ ADC_MUX_S3 to FPGA</text>
 <label x="706.12" y="68.58" size="1.778" layer="95" align="center-right"/>
 </segment>
 <segment>
-<pinref part="U100" gate="U" pin="FSMC_A6/FT/PF12"/>
-<wire x1="180.34" y1="355.6" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
-<label x="182.88" y="355.6" size="1.778" layer="95" align="center-left"/>
+<pinref part="U100" gate="U" pin="FSMC_NIOS16/FT/PF11"/>
+<wire x1="180.34" y1="358.14" x2="182.88" y2="358.14" width="0.1524" layer="91"/>
+<label x="182.88" y="358.14" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
 <net name="DISPLAY_D/P" class="0">
@@ -12811,9 +12797,9 @@ ADC_MUX_S3 to FPGA</text>
 <label x="706.12" y="66.04" size="1.778" layer="95" align="center-right"/>
 </segment>
 <segment>
-<pinref part="U100" gate="U" pin="FSMC_NIOS16/FT/PF11"/>
-<wire x1="180.34" y1="358.14" x2="182.88" y2="358.14" width="0.1524" layer="91"/>
-<label x="182.88" y="358.14" size="1.778" layer="95" align="center-left"/>
+<pinref part="U100" gate="U" pin="ADC12_IN9/TIM3_CH4('00'OR'10')/TIM8_CH3N/TIM1_CH3N('01')/PB1"/>
+<wire x1="180.34" y1="340.36" x2="182.88" y2="340.36" width="0.1524" layer="91"/>
+<label x="182.88" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISPLAY_PWM" class="0">
@@ -12993,6 +12979,30 @@ ADC_MUX_S3 to FPGA</text>
 <pinref part="R200" gate="R" pin="1"/>
 <pinref part="U200" gate="U" pin="Z"/>
 <wire x1="325.12" y1="391.16" x2="335.28" y2="391.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="U100" gate="U" pin="I2C1_SCL('0')/TIM4_CH1('0')/USART1_TX('1')/FT/PB6"/>
+<wire x1="180.34" y1="327.66" x2="182.88" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U100" gate="U" pin="I2C1_SDA('0')/FSMC_NADV/TIM4_CH2('0')/USART1_RX('1')/FT/PB7"/>
+<wire x1="180.34" y1="325.12" x2="182.88" y2="325.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="U700" gate="BANK3" pin="GBIN7/IOL_13B"/>
+<wire x1="429.26" y1="58.42" x2="431.8" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="U700" gate="BANK2" pin="GBIN4/IOB_82"/>
+<wire x1="528.32" y1="48.26" x2="530.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

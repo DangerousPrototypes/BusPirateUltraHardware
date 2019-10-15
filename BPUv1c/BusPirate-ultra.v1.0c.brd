@@ -33960,12 +33960,6 @@ http://dangerousprototypes.com</description>
 <wire x1="34.785" y1="36.131" x2="34.912" y2="36.258" width="0.254" layer="1"/>
 <wire x1="34.785" y1="35.75" x2="34.785" y2="36.131" width="0.254" layer="1"/>
 </signal>
-<signal name="UART_RX">
-<contactref element="U100" pad="102"/>
-</signal>
-<signal name="UART_TX">
-<contactref element="U100" pad="101"/>
-</signal>
 <signal name="D+">
 <contactref element="R800" pad="1"/>
 <contactref element="R801" pad="2"/>
@@ -34869,8 +34863,6 @@ http://dangerousprototypes.com</description>
 <via x="24.765" y="34.29" extent="1-16" drill="0.4064"/>
 <via x="52.832" y="36.9288" extent="1-16" drill="0.508"/>
 <wire x1="28.6738" y1="39.3418" x2="48.387" y2="39.3418" width="0.254" layer="16"/>
-<contactref element="U100" pad="1"/>
-<wire x1="15.285" y1="33.75" x2="24.225" y2="33.75" width="0.254" layer="1"/>
 <wire x1="24.765" y1="34.29" x2="24.225" y2="33.75" width="0.254" layer="1"/>
 <wire x1="28.6738" y1="39.3418" x2="24.765" y2="35.433" width="0.254" layer="16"/>
 <wire x1="48.387" y1="39.3418" x2="50.8" y2="36.9288" width="0.254" layer="16"/>
@@ -34879,32 +34871,22 @@ http://dangerousprototypes.com</description>
 <wire x1="52.832" y1="36.7733" x2="52.8393" y2="36.766" width="0.254" layer="1"/>
 <wire x1="52.8393" y1="36.766" x2="52.8393" y2="35.75" width="0.254" layer="1"/>
 <wire x1="52.832" y1="36.9288" x2="52.832" y2="36.7733" width="0.254" layer="1"/>
+<contactref element="U100" pad="102"/>
+<wire x1="28.6738" y1="39.3418" x2="36.785" y2="30.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MCU_INT1">
-<via x="25.654" y="33.909" extent="1-16" drill="0.4064"/>
-<wire x1="28.8167375" y1="38.91" x2="48.133" y2="38.91" width="0.254" layer="16"/>
-<contactref element="U100" pad="2"/>
-<wire x1="15.285" y1="33.25" x2="24.995" y2="33.25" width="0.254" layer="1"/>
-<wire x1="28.8167375" y1="38.91" x2="25.654" y2="35.7472625" width="0.254" layer="16"/>
-<wire x1="24.995" y1="33.25" x2="25.654" y2="33.909" width="0.254" layer="1"/>
-<wire x1="25.654" y1="35.7472625" x2="25.654" y2="33.909" width="0.254" layer="16"/>
-<wire x1="53.848" y1="30.353" x2="51.435" y2="27.94" width="0.254" layer="16"/>
-<wire x1="48.133" y1="38.91" x2="53.848" y2="33.195" width="0.254" layer="16"/>
-<wire x1="53.848" y1="33.195" x2="53.848" y2="30.353" width="0.254" layer="16"/>
-<contactref element="U700" pad="49"/>
-<wire x1="51.3393" y1="14.25" x2="51.3393" y2="16.5413" width="0.254" layer="1"/>
-<wire x1="51.3393" y1="16.5413" x2="51.435" y2="16.637" width="0.254" layer="1"/>
-<via x="51.435" y="16.637" extent="1-16" drill="0.4064"/>
-<wire x1="51.435" y1="16.637" x2="51.435" y2="27.94" width="0.254" layer="16"/>
+<contactref element="U700" pad="115"/>
+<contactref element="U100" pad="99"/>
+<wire x1="36.785" y1="29.25" x2="59.8393" y2="35.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM">
-<contactref element="U700" pad="21"/>
 <contactref element="U100" pad="96"/>
 <wire x1="40.6964625" y1="23.75" x2="39.7684" y2="24.6780625" width="0.254" layer="1"/>
 <wire x1="39.7684" y1="24.6780625" x2="39.7684" y2="27.09073125" width="0.254" layer="1"/>
 <wire x1="39.7684" y1="27.09073125" x2="39.10913125" y2="27.75" width="0.254" layer="1"/>
 <wire x1="39.10913125" y1="27.75" x2="36.785" y2="27.75" width="0.254" layer="1"/>
-<wire x1="43.3393" y1="23.75" x2="40.6964625" y2="23.75" width="0.254" layer="1"/>
+<contactref element="U700" pad="49"/>
+<wire x1="40.6964625" y1="23.75" x2="51.3393" y2="14.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_MCO">
 <contactref element="U100" pad="100"/>
@@ -34979,9 +34961,6 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="N$35">
 <contactref element="U100" pad="27"/>
-</signal>
-<signal name="N$41">
-<contactref element="U100" pad="99"/>
 </signal>
 <signal name="N$23">
 <contactref element="U100" pad="28"/>
@@ -35096,8 +35075,10 @@ http://dangerousprototypes.com</description>
 <signal name="N$52">
 <contactref element="U100" pad="90"/>
 </signal>
-<signal name="N$53">
+<signal name="MASTER_RESET">
 <contactref element="U100" pad="93"/>
+<contactref element="U700" pad="21"/>
+<wire x1="36.785" y1="26.25" x2="43.3393" y2="23.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$54">
 <contactref element="U100" pad="124"/>
@@ -36084,7 +36065,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U501" pad="13"/>
 <contactref element="U501" pad="5"/>
 <contactref element="U501" pad="6"/>
-<contactref element="U100" pad="56"/>
 <wire x1="90.2" y1="3.65" x2="89.55" y2="3.65" width="0.254" layer="1"/>
 <wire x1="88.25" y1="9.25" x2="87.6" y2="9.25" width="0.254" layer="1"/>
 <via x="90.826015625" y="5.058984375" extent="1-16" drill="0.4064"/>
@@ -36115,7 +36095,6 @@ http://dangerousprototypes.com</description>
 <wire x1="87.6" y1="7.904" x2="87.63" y2="7.874" width="0.3048" layer="1"/>
 <via x="87.63" y="7.874" extent="1-16" drill="0.35"/>
 <wire x1="87.63" y1="7.874" x2="91.059" y2="11.303" width="0.3048" layer="16"/>
-<wire x1="26.785" y1="14.25" x2="26.785" y2="13.601" width="0.254" layer="1"/>
 <wire x1="26.785" y1="13.601" x2="27.432" y2="12.954" width="0.254" layer="1"/>
 <via x="27.432" y="12.954" extent="1-16" drill="0.4064"/>
 <wire x1="27.432" y1="12.954" x2="28.0924" y2="12.2936" width="0.254" layer="16"/>
@@ -36139,6 +36118,8 @@ http://dangerousprototypes.com</description>
 <wire x1="42.24658125" y1="11.60141875" x2="42.926" y2="10.922" width="0.254" layer="16"/>
 <wire x1="61.214" y1="7.112" x2="63.3984" y2="4.9276" width="0.254" layer="1"/>
 <wire x1="63.3984" y1="4.9276" x2="63.5" y2="4.9276" width="0.254" layer="1"/>
+<contactref element="U100" pad="101"/>
+<wire x1="36.8172375" y1="12.2936" x2="36.785" y2="30.25" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DISPLAY_SPI_CLOCK">
 <contactref element="U100" pad="41"/>
@@ -36245,17 +36226,17 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="DISPLAY_CS">
 <contactref element="J4" pad="P1"/>
-<contactref element="U100" pad="50"/>
 <wire x1="23.785" y1="10.38813125" x2="29.501" y2="4.67213125" width="0.254" layer="1"/>
-<wire x1="23.785" y1="14.25" x2="23.785" y2="10.38813125" width="0.254" layer="1"/>
 <wire x1="29.501" y1="4.67213125" x2="29.501" y2="4.477" width="0.254" layer="1"/>
+<contactref element="U100" pad="49"/>
+<wire x1="23.785" y1="10.38813125" x2="23.285" y2="14.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISPLAY_D/P">
 <contactref element="J4" pad="P2"/>
-<contactref element="U100" pad="49"/>
-<wire x1="23.285" y1="14.25" x2="23.285" y2="10.205" width="0.254" layer="1"/>
 <wire x1="23.285" y1="10.205" x2="28.251" y2="5.239" width="0.254" layer="1"/>
 <wire x1="28.251" y1="5.239" x2="28.251" y2="4.477" width="0.254" layer="1"/>
+<contactref element="U100" pad="47"/>
+<wire x1="23.285" y1="10.205" x2="22.285" y2="14.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISPLAY_PWM">
 <contactref element="U100" pad="46"/>
@@ -36417,6 +36398,18 @@ http://dangerousprototypes.com</description>
 <contactref element="R200" pad="1"/>
 <contactref element="U200" pad="1"/>
 <wire x1="58.039" y1="5.295" x2="-28.99" y2="-58.5438" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$48">
+<contactref element="U100" pad="136"/>
+</signal>
+<signal name="N$49">
+<contactref element="U100" pad="137"/>
+</signal>
+<signal name="N$50">
+<contactref element="U700" pad="20"/>
+</signal>
+<signal name="N$51">
+<contactref element="U700" pad="52"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
