@@ -8030,6 +8030,9 @@ http://dangerousprototypes.com</description>
 <part name="R429" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
 <part name="R430" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
 <part name="R431" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
+<part name="R310" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="R311" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="GND40" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8552,32 +8555,32 @@ ADC_MUX_EN to FPGA</text>
 </instance>
 <instance part="P+24" gate="VCC" x="548.64" y="302.26" smashed="yes"/>
 <instance part="P+12" gate="VCC" x="96.52" y="48.26" smashed="yes"/>
-<instance part="R303" gate="R" x="378.46" y="304.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="381" y="304.8" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="381" y="302.26" size="1.778" layer="96" font="vector"/>
+<instance part="R303" gate="R" x="386.08" y="304.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="388.62" y="304.8" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="388.62" y="302.26" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R304" gate="R" x="398.78" y="304.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="391.16" y="304.8" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="391.16" y="302.26" size="1.778" layer="96" font="vector"/>
+<instance part="R304" gate="R" x="406.4" y="304.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.78" y="304.8" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="398.78" y="302.26" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND53" gate="G$1" x="388.62" y="297.18" smashed="yes"/>
-<instance part="C301" gate="C" x="370.84" y="320.04" smashed="yes">
-<attribute name="NAME" x="373.38" y="325.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="373.38" y="322.58" size="1.778" layer="96"/>
+<instance part="GND53" gate="G$1" x="396.24" y="297.18" smashed="yes"/>
+<instance part="C301" gate="C" x="378.46" y="320.04" smashed="yes">
+<attribute name="NAME" x="381" y="325.12" size="1.778" layer="95"/>
+<attribute name="VALUE" x="381" y="322.58" size="1.778" layer="96"/>
 </instance>
 <instance part="GND44" gate="G$1" x="337.82" y="281.94" smashed="yes"/>
-<instance part="GND50" gate="G$1" x="370.84" y="314.96" smashed="yes"/>
+<instance part="GND50" gate="G$1" x="378.46" y="314.96" smashed="yes"/>
 <instance part="R300" gate="R" x="358.14" y="322.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="360.68" y="322.58" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="360.68" y="320.04" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U301" gate="U" x="337.82" y="292.1" smashed="yes">
-<attribute name="NAME" x="340.36" y="287.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="340.36" y="284.48" size="1.778" layer="96"/>
+<attribute name="NAME" x="337.82" y="287.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="337.82" y="284.48" size="1.778" layer="96"/>
 </instance>
 <instance part="R308" gate="R" x="358.14" y="287.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="360.68" y="287.02" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="360.68" y="284.48" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="350.52" y="287.02" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="350.52" y="284.48" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R307" gate="R" x="353.06" y="292.1" smashed="yes">
 <attribute name="NAME" x="350.52" y="297.18" size="1.778" layer="95" font="vector"/>
@@ -8589,17 +8592,17 @@ ADC_MUX_EN to FPGA</text>
 </instance>
 <instance part="GND38" gate="G$1" x="322.58" y="325.12" smashed="yes"/>
 <instance part="GND46" gate="G$1" x="345.44" y="297.18" smashed="yes"/>
-<instance part="Q301" gate="A" x="381" y="314.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="375.92" y="312.42" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="375.92" y="309.88" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="Q301" gate="A" x="388.62" y="314.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="383.54" y="312.42" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="383.54" y="309.88" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="Q301" gate="B" x="396.24" y="314.96" smashed="yes">
-<attribute name="NAME" x="398.78" y="314.96" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="398.78" y="312.42" size="1.778" layer="96" font="vector"/>
+<instance part="Q301" gate="B" x="403.86" y="314.96" smashed="yes">
+<attribute name="NAME" x="406.4" y="314.96" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="406.4" y="312.42" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q300" gate="Q" x="388.62" y="325.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="384.81" y="330.2" size="1.778" layer="96"/>
-<attribute name="NAME" x="384.81" y="332.74" size="1.778" layer="95"/>
+<instance part="Q300" gate="Q" x="396.24" y="325.12" smashed="yes" rot="R90">
+<attribute name="VALUE" x="392.43" y="330.2" size="1.778" layer="96"/>
+<attribute name="NAME" x="392.43" y="332.74" size="1.778" layer="95"/>
 </instance>
 <instance part="U300" gate="IC" x="345.44" y="322.58" smashed="yes">
 <attribute name="VALUE" x="337.82" y="332.74" size="1.778" layer="96"/>
@@ -8717,7 +8720,7 @@ ADC_MUX_EN to FPGA</text>
 <attribute name="DRAWING_NAME" x="764.54" y="16.51" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="GND80" gate="G$1" x="632.46" y="147.32" smashed="yes"/>
-<instance part="GND56" gate="G$1" x="414.02" y="299.72" smashed="yes"/>
+<instance part="GND56" gate="G$1" x="421.64" y="299.72" smashed="yes"/>
 <instance part="SUPPLY9" gate="1" x="330.2" y="332.74" smashed="yes"/>
 <instance part="SUPPLY10" gate="1" x="337.82" y="302.26" smashed="yes"/>
 <instance part="GND48" gate="G$1" x="342.9" y="243.84" smashed="yes"/>
@@ -9065,13 +9068,13 @@ ADC_MUX_EN to FPGA</text>
 <attribute name="NAME" x="553.72" y="279.4" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="553.72" y="294.64" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R305" gate="R" x="414.02" y="307.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="416.56" y="307.34" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="416.56" y="304.8" size="1.778" layer="96" font="vector"/>
+<instance part="R305" gate="R" x="421.64" y="307.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="424.18" y="307.34" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="424.18" y="304.8" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R302" gate="R" x="414.02" y="317.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="416.56" y="317.5" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="416.56" y="314.96" size="1.778" layer="96" font="vector"/>
+<instance part="R302" gate="R" x="421.64" y="317.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="424.18" y="317.5" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="424.18" y="314.96" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R204" gate="R" x="388.62" y="383.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="391.16" y="383.54" size="1.778" layer="95" font="vector"/>
@@ -9164,6 +9167,15 @@ ADC_MUX_EN to FPGA</text>
 <attribute name="NAME" x="132.08" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="20.32" size="1.778" layer="96"/>
 </instance>
+<instance part="R310" gate="R" x="368.3" y="297.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="370.84" y="297.18" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="370.84" y="294.64" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R311" gate="R" x="368.3" y="287.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="370.84" y="287.02" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="370.84" y="284.48" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND40" gate="G$1" x="368.3" y="279.4" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9620,10 +9632,10 @@ ADC_MUX_EN to FPGA</text>
 <segment>
 <pinref part="R304" gate="R" pin="1"/>
 <pinref part="GND53" gate="G$1" pin="GND"/>
-<wire x1="398.78" y1="299.72" x2="388.62" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="299.72" x2="396.24" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="R303" gate="R" pin="1"/>
-<wire x1="378.46" y1="299.72" x2="388.62" y2="299.72" width="0.1524" layer="91"/>
-<junction x="388.62" y="299.72"/>
+<wire x1="386.08" y1="299.72" x2="396.24" y2="299.72" width="0.1524" layer="91"/>
+<junction x="396.24" y="299.72"/>
 </segment>
 <segment>
 <pinref part="C301" gate="C" pin="2"/>
@@ -9886,6 +9898,10 @@ ADC_MUX_EN to FPGA</text>
 <segment>
 <pinref part="R101" gate="R" pin="1"/>
 <pinref part="GND34" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R311" gate="R" pin="2"/>
+<pinref part="GND40" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -11486,7 +11502,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="429.26" y="149.86" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="MCU_AUX6" class="0">
+<net name="MCU_AUX5" class="0">
 <segment>
 <pinref part="U100" gate="U" pin="TIM4_CH4('0')/I2C1_SDA('1')/FT/PB9"/>
 <wire x1="180.34" y1="320.04" x2="182.88" y2="320.04" width="0.1524" layer="91"/>
@@ -11498,18 +11514,18 @@ ADC_MUX_EN to FPGA</text>
 <label x="429.26" y="147.32" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="MCU_ADC6" class="0">
+<net name="MCU_ADC2" class="0">
 <segment>
 <pinref part="U100" gate="U" pin="PA2/USART2_TX('0')/TIM5_CH3/ADC123_IN2/TIM2_CH3('00'OR'01)"/>
 <wire x1="73.66" y1="467.36" x2="71.12" y2="467.36" width="0.1524" layer="91"/>
 <label x="71.12" y="467.36" size="1.778" layer="95" align="center-right"/>
 </segment>
 <segment>
-<wire x1="414.02" y1="312.42" x2="419.1" y2="312.42" width="0.1524" layer="91"/>
-<label x="419.1" y="312.42" size="1.778" layer="95"/>
+<wire x1="421.64" y1="312.42" x2="426.72" y2="312.42" width="0.1524" layer="91"/>
+<label x="426.72" y="312.42" size="1.778" layer="95"/>
 <pinref part="R305" gate="R" pin="1"/>
 <pinref part="R302" gate="R" pin="2"/>
-<junction x="414.02" y="312.42"/>
+<junction x="421.64" y="312.42"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -11830,7 +11846,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="401.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MCU_AUX5" class="0">
+<net name="MCU_AUX4" class="0">
 <segment>
 <pinref part="U100" gate="U" pin="TIM4_CH3('0')/I2C1_SCL('1')/FT/PB8"/>
 <wire x1="180.34" y1="322.58" x2="182.88" y2="322.58" width="0.1524" layer="91"/>
@@ -11928,19 +11944,19 @@ ADC_MUX_EN to FPGA</text>
 </net>
 <net name="VREF/VOUT" class="0">
 <segment>
-<wire x1="393.7" y1="327.66" x2="398.78" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="320.04" x2="398.78" y2="327.66" width="0.1524" layer="91"/>
-<junction x="398.78" y="327.66"/>
-<label x="416.56" y="327.66" size="1.778" layer="95" align="center-left"/>
-<wire x1="416.56" y1="327.66" x2="414.02" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="327.66" x2="406.4" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="320.04" x2="406.4" y2="327.66" width="0.1524" layer="91"/>
+<junction x="406.4" y="327.66"/>
+<label x="424.18" y="327.66" size="1.778" layer="95" align="center-left"/>
+<wire x1="424.18" y1="327.66" x2="421.64" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="B" pin="E"/>
 <pinref part="Q300" gate="Q" pin="S"/>
-<wire x1="414.02" y1="327.66" x2="411.48" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="327.66" x2="398.78" y2="327.66" width="0.1524" layer="91"/>
-<junction x="414.02" y="327.66"/>
+<wire x1="421.64" y1="327.66" x2="419.1" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="327.66" x2="406.4" y2="327.66" width="0.1524" layer="91"/>
+<junction x="421.64" y="327.66"/>
 <pinref part="R302" gate="R" pin="1"/>
-<wire x1="414.02" y1="325.12" x2="414.02" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="322.58" x2="414.02" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="325.12" x2="421.64" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="322.58" x2="421.64" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J" pin="9"/>
@@ -12045,11 +12061,11 @@ ADC_MUX_EN to FPGA</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="391.16" y1="322.58" x2="391.16" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="322.58" x2="398.78" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="R304" gate="R" pin="2"/>
-<wire x1="391.16" y1="309.88" x2="398.78" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="309.88" x2="406.4" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="B" pin="C"/>
-<junction x="398.78" y="309.88"/>
+<junction x="406.4" y="309.88"/>
 <pinref part="Q300" gate="Q" pin="G"/>
 </segment>
 </net>
@@ -12057,32 +12073,36 @@ ADC_MUX_EN to FPGA</text>
 <segment>
 <wire x1="355.6" y1="327.66" x2="358.14" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="R300" gate="R" pin="2"/>
-<wire x1="370.84" y1="327.66" x2="378.46" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="327.66" x2="383.54" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="320.04" x2="378.46" y2="327.66" width="0.1524" layer="91"/>
-<junction x="378.46" y="327.66"/>
+<wire x1="378.46" y1="327.66" x2="386.08" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="327.66" x2="391.16" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="320.04" x2="386.08" y2="327.66" width="0.1524" layer="91"/>
+<junction x="386.08" y="327.66"/>
 <pinref part="C301" gate="C" pin="1"/>
-<wire x1="370.84" y1="325.12" x2="370.84" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="327.66" x2="370.84" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="325.12" x2="378.46" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="327.66" x2="368.3" y2="327.66" width="0.1524" layer="91"/>
 <junction x="358.14" y="327.66"/>
-<junction x="370.84" y="327.66"/>
+<junction x="378.46" y="327.66"/>
 <pinref part="Q301" gate="A" pin="E"/>
 <pinref part="Q300" gate="Q" pin="D"/>
 <pinref part="U300" gate="IC" pin="OUT"/>
+<pinref part="R310" gate="R" pin="1"/>
+<wire x1="368.3" y1="327.66" x2="378.46" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="302.26" x2="368.3" y2="327.66" width="0.1524" layer="91"/>
+<junction x="368.3" y="327.66"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R303" gate="R" pin="2"/>
 <pinref part="Q301" gate="A" pin="C"/>
-<wire x1="393.7" y1="314.96" x2="386.08" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="314.96" x2="393.7" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="A" pin="B"/>
 <pinref part="Q301" gate="B" pin="B"/>
-<wire x1="386.08" y1="314.96" x2="383.54" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="309.88" x2="386.08" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="309.88" x2="386.08" y2="314.96" width="0.1524" layer="91"/>
-<junction x="378.46" y="309.88"/>
-<junction x="386.08" y="314.96"/>
+<wire x1="393.7" y1="314.96" x2="391.16" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="309.88" x2="393.7" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="309.88" x2="393.7" y2="314.96" width="0.1524" layer="91"/>
+<junction x="386.08" y="309.88"/>
+<junction x="393.7" y="314.96"/>
 </segment>
 </net>
 <net name="BPIO5" class="0">
@@ -12553,7 +12573,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="132.08" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="MCU_ADC5" class="0">
+<net name="MCU_ADC3" class="0">
 <segment>
 <wire x1="617.22" y1="152.4" x2="614.68" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R805" gate="R" pin="2"/>
@@ -13109,13 +13129,6 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="R431" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="DISPLAY_CSI" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="FSMC_NIOS16/FT/PF11"/>
-<wire x1="180.34" y1="358.14" x2="182.88" y2="358.14" width="0.1524" layer="91"/>
-<label x="182.88" y="358.14" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DISPLAY_RESET" class="0">
 <segment>
 <pinref part="J4" gate="J" pin="1"/>
@@ -13129,6 +13142,20 @@ ADC_MUX_EN to FPGA</text>
 <wire x1="205.74" y1="337.82" x2="210.82" y2="337.82" width="0.1524" layer="91"/>
 <junction x="205.74" y="337.82"/>
 <label x="210.82" y="337.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MCU_ADC0" class="0">
+<segment>
+<pinref part="U100" gate="U" pin="PA0/WKUP/USART2_CTS('0')/ADC123_IN0/TIM2_CH1_ETR/TIM5_CH1/TIM8_ETR"/>
+<wire x1="73.66" y1="472.44" x2="71.12" y2="472.44" width="0.1524" layer="91"/>
+<label x="71.12" y="472.44" size="1.778" layer="95" align="center-right"/>
+</segment>
+<segment>
+<pinref part="R310" gate="R" pin="2"/>
+<pinref part="R311" gate="R" pin="1"/>
+<wire x1="368.3" y1="292.1" x2="373.38" y2="292.1" width="0.1524" layer="91"/>
+<junction x="368.3" y="292.1"/>
+<label x="373.38" y="292.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
