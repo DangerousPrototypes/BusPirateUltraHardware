@@ -11450,7 +11450,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="71.12" y="447.04" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="MCU_INT1I" class="0">
+<net name="MCU_AUX0" class="0">
 <segment>
 <pinref part="U700" gate="BANK0" pin="IOT_172"/>
 <wire x1="391.16" y1="142.24" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
@@ -11764,16 +11764,16 @@ ADC_MUX_EN to FPGA</text>
 <label x="431.8" y="160.02" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="MCU_AUX4" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="PD6/FT/FSMC_NWAIT/USART2_RX('1')"/>
-<wire x1="73.66" y1="414.02" x2="71.12" y2="414.02" width="0.1524" layer="91"/>
-<label x="71.12" y="414.02" size="1.778" layer="95" align="center-right"/>
-</segment>
+<net name="MCU_INT3" class="0">
 <segment>
 <pinref part="U700" gate="BANK0" pin="IOT_212"/>
 <wire x1="426.72" y1="157.48" x2="431.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="431.8" y="157.48" size="1.778" layer="95" align="center-left"/>
+</segment>
+<segment>
+<pinref part="U100" gate="U" pin="PD2/FT/TIM3_ETR/UART5_RX"/>
+<wire x1="73.66" y1="424.18" x2="71.12" y2="424.18" width="0.1524" layer="91"/>
+<label x="71.12" y="424.18" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -12570,12 +12570,6 @@ ADC_MUX_EN to FPGA</text>
 <label x="71.12" y="464.82" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="PD2/FT/TIM3_ETR/UART5_RX"/>
-<wire x1="73.66" y1="424.18" x2="71.12" y2="424.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R300" gate="R" pin="1"/>
@@ -12760,18 +12754,6 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="RN501" gate="D" pin="1"/>
 <pinref part="U501" gate="B" pin="Y"/>
 <wire x1="228.6" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DISPLAY_CS" class="0">
-<segment>
-<pinref part="J4" gate="J" pin="1"/>
-<wire x1="711.2" y1="68.58" x2="706.12" y2="68.58" width="0.1524" layer="91"/>
-<label x="706.12" y="68.58" size="1.778" layer="95" align="center-right"/>
-</segment>
-<segment>
-<pinref part="U100" gate="U" pin="FSMC_NIOS16/FT/PF11"/>
-<wire x1="180.34" y1="358.14" x2="182.88" y2="358.14" width="0.1524" layer="91"/>
-<label x="182.88" y="358.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISPLAY_AUX1" class="0">
@@ -12982,19 +12964,16 @@ ADC_MUX_EN to FPGA</text>
 <wire x1="528.32" y1="48.26" x2="530.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DISPLAY_RESET" class="0">
-<segment>
-<pinref part="U100" gate="U" pin="BOOT1/FT/PB2"/>
-<pinref part="R101" gate="R" pin="2"/>
-<wire x1="180.34" y1="337.82" x2="205.74" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="337.82" x2="210.82" y2="337.82" width="0.1524" layer="91"/>
-<junction x="205.74" y="337.82"/>
-<label x="210.82" y="337.82" size="1.778" layer="95"/>
-</segment>
+<net name="DISPLAY_CS" class="0">
 <segment>
 <pinref part="J4" gate="J" pin="5"/>
 <wire x1="711.2" y1="58.42" x2="706.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="706.12" y="58.42" size="1.778" layer="95" align="center-right"/>
+</segment>
+<segment>
+<pinref part="U100" gate="U" pin="ADC12_IN14/PC4"/>
+<wire x1="180.34" y1="419.1" x2="182.88" y2="419.1" width="0.1524" layer="91"/>
+<label x="182.88" y="419.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FSMC_A6" class="0">
@@ -13130,10 +13109,26 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="R431" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DISPLAY_CSI" class="0">
 <segment>
-<pinref part="U100" gate="U" pin="ADC12_IN14/PC4"/>
-<wire x1="180.34" y1="419.1" x2="182.88" y2="419.1" width="0.1524" layer="91"/>
+<pinref part="U100" gate="U" pin="FSMC_NIOS16/FT/PF11"/>
+<wire x1="180.34" y1="358.14" x2="182.88" y2="358.14" width="0.1524" layer="91"/>
+<label x="182.88" y="358.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DISPLAY_RESET" class="0">
+<segment>
+<pinref part="J4" gate="J" pin="1"/>
+<wire x1="711.2" y1="68.58" x2="706.12" y2="68.58" width="0.1524" layer="91"/>
+<label x="706.12" y="68.58" size="1.778" layer="95" align="center-right"/>
+</segment>
+<segment>
+<pinref part="U100" gate="U" pin="BOOT1/FT/PB2"/>
+<pinref part="R101" gate="R" pin="2"/>
+<wire x1="180.34" y1="337.82" x2="205.74" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="337.82" x2="210.82" y2="337.82" width="0.1524" layer="91"/>
+<junction x="205.74" y="337.82"/>
+<label x="210.82" y="337.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
