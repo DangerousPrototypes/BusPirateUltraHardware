@@ -3095,6 +3095,10 @@ http://dangerousprototypes.com</description>
 <rectangle x1="2.805" y1="2.2" x2="3.05" y2="3.2" layer="51" rot="R180"/>
 <rectangle x1="-3.05" y1="-3.2" x2="-2.805" y2="-2.2" layer="51"/>
 <rectangle x1="-3.045" y1="2.2" x2="-2.8" y2="3.2" layer="51" rot="R180"/>
+<wire x1="-3.452" y1="3.717" x2="3.452" y2="3.717" width="0.05" layer="39"/>
+<wire x1="3.452" y1="3.717" x2="3.452" y2="-3.717" width="0.05" layer="39"/>
+<wire x1="3.452" y1="-3.717" x2="-3.452" y2="-3.717" width="0.05" layer="39"/>
+<wire x1="-3.452" y1="-3.717" x2="-3.452" y2="3.717" width="0.05" layer="39"/>
 </package>
 <package name="MOLEX_533980771">
 <smd name="B1" x="-8.175" y="1.513" dx="2.1" dy="3" layer="1"/>
@@ -3807,10 +3811,10 @@ http://dangerousprototypes.com</description>
 </package>
 <package name="TSSOP-24">
 <description>Plastic Thin Shrink Small Outline package 24-pins</description>
-<wire x1="-4.1546" y1="-2.2828" x2="4.1546" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="4.1546" y1="2.2828" x2="4.1546" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="4.1546" y1="2.2828" x2="-4.1546" y2="2.2828" width="0.1524" layer="21"/>
-<wire x1="-4.1546" y1="-2.2828" x2="-4.1546" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-3.95" y1="-2.2828" x2="3.95" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="3.95" y1="2.2828" x2="3.95" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="3.95" y1="2.2828" x2="-3.95" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-3.95" y1="-2.2828" x2="-3.95" y2="2.2828" width="0.1524" layer="21"/>
 <circle x="-2.9406" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
 <smd name="1" x="-3.59" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
 <smd name="2" x="-2.94" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
@@ -3862,6 +3866,10 @@ http://dangerousprototypes.com</description>
 <rectangle x1="-2.3916" y1="2.2828" x2="-2.1884" y2="3.121" layer="51"/>
 <rectangle x1="-3.0416" y1="2.2828" x2="-2.8384" y2="3.121" layer="51"/>
 <rectangle x1="-3.6916" y1="2.2828" x2="-3.4884" y2="3.121" layer="51"/>
+<wire x1="-4.102" y1="3.717" x2="4.102" y2="3.717" width="0.05" layer="39"/>
+<wire x1="4.102" y1="3.717" x2="4.102" y2="-3.717" width="0.05" layer="39"/>
+<wire x1="4.102" y1="-3.717" x2="-4.102" y2="-3.717" width="0.05" layer="39"/>
+<wire x1="-4.102" y1="-3.717" x2="-4.102" y2="3.717" width="0.05" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -7658,6 +7666,14 @@ http://dangerousprototypes.com</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="0.3048" drill="0">
+</class>
+<class number="2" name="signal_analog" width="0.254" drill="0">
+</class>
+<class number="3" name="signal_digital" width="0.254" drill="0">
+</class>
+<class number="4" name="signal_mixed" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LED900" library="dp_devices.v6" deviceset="LED" device="-0805" value="YELLOW"/>
@@ -7681,18 +7697,18 @@ http://dangerousprototypes.com</description>
 <part name="LED903" library="dp_devices.v6" deviceset="LED" device="-0805" value="YELLOW"/>
 <part name="LED907" library="dp_devices.v6" deviceset="LED" device="-0805" value="Optional YELLOW"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="R805" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="50K"/>
-<part name="R806" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="50K"/>
+<part name="R805" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="50K"/>
+<part name="R806" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="50K"/>
 <part name="RN500" library="dp_devices" deviceset="RNETWORK" device="" value="2K"/>
 <part name="LOGO1" library="dp_devices" deviceset="LOGO_CC-0" device=""/>
 <part name="U601" library="dp_devices" deviceset="IC_MEM_23LC1024" device="" value="23LC1024"/>
 <part name="SUPPLY28" library="supply2" deviceset="V+" device=""/>
 <part name="U600" library="dp_devices" deviceset="IC_MEM_23LC1024" device="" value="23LC1024"/>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="R800" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="1.5K"/>
-<part name="R802" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="22R"/>
-<part name="R801" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="22R"/>
-<part name="R100" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="R800" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="1.5K"/>
+<part name="R802" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="22R"/>
+<part name="R801" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="22R"/>
+<part name="R100" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
 <part name="J2" library="dp_devices.v6" deviceset="CON_HEADER_1X04" device=""/>
 <part name="RN501" library="dp_devices" deviceset="RNETWORK" device="" value="2K"/>
@@ -7732,8 +7748,8 @@ http://dangerousprototypes.com</description>
 <part name="R405" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="1M"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R701" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="R700" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="R701" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
+<part name="R700" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="+3V34" library="dp_devices.v6" deviceset="SUPPLY_+3V3" device=""/>
@@ -7813,10 +7829,10 @@ http://dangerousprototypes.com</description>
 <part name="C301" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="4.7uF"/>
 <part name="GND44" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND50" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R300" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="99.22K"/>
+<part name="R300" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="99.22K"/>
 <part name="U301" library="dp_devices.v6" deviceset="IC_OP-AMP_MCP6001" device="" value="MCP6001"/>
-<part name="R308" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="R307" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="77.96K"/>
+<part name="R308" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
+<part name="R307" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="77.96K"/>
 <part name="C300" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="4.7uF"/>
 <part name="GND38" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND46" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
@@ -7824,7 +7840,7 @@ http://dangerousprototypes.com</description>
 <part name="Q300" library="dp_devices.v6" deviceset="TRANSISTOR_FET_TSM2301CX" device="" value="PMV65XP"/>
 <part name="U300" library="dp_devices.v6" deviceset="IC_MCP1824_ADJ" device="" value="MCP1824_ADJ"/>
 <part name="GND42" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R301" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="100K"/>
+<part name="R301" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="100K"/>
 <part name="GND41" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="V+" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="V+" device=""/>
@@ -7892,13 +7908,13 @@ http://dangerousprototypes.com</description>
 <part name="GND65" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND68" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="U201" library="dp_devices.v6" deviceset="IC_OP-AMP_MCP6001" device="" value="MCP6001"/>
-<part name="R200" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="0R"/>
+<part name="R200" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="0R"/>
 <part name="D200" library="dp_devices.v6" deviceset="DIODE" device="-SOD-123" value="1N4148"/>
 <part name="SUPPLY16" library="supply2" deviceset="V+" device=""/>
 <part name="GND54" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND55" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND52" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R201" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="0R"/>
+<part name="R201" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="0R"/>
 <part name="FRAME5" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="GND80" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND56" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
@@ -7914,7 +7930,7 @@ http://dangerousprototypes.com</description>
 <part name="GND67" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="GND39" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="R306" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="0R"/>
-<part name="R309" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="0R"/>
+<part name="R309" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="0R"/>
 <part name="U406" library="dp_devices.v6" deviceset="IC_BUFF_74LVC1G07" device="" value="74LVC1G07DBV"/>
 <part name="U410" library="dp_devices.v6" deviceset="IC_BUFF_74LVC1G07" device="" value="74LVC1G07DBV"/>
 <part name="U414" library="dp_devices.v6" deviceset="IC_BUFF_74LVC1G07" device="" value="74LVC1G07DBV"/>
@@ -7929,10 +7945,10 @@ http://dangerousprototypes.com</description>
 <part name="GND83" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="J1" library="usbc" deviceset="USB-C-12" device=""/>
 <part name="GND81" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R803" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="5K1"/>
-<part name="R804" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="5K1"/>
+<part name="R803" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="5K1"/>
+<part name="R804" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="5K1"/>
 <part name="GND58" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R702" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="R702" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
 <part name="C304" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="DNP"/>
 <part name="C400" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C404" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
@@ -7950,46 +7966,46 @@ http://dangerousprototypes.com</description>
 <part name="C407" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C411" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C415" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
-<part name="C103" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C102" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C103" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C102" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C105" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C715" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C303" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C200" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C715" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C303" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C200" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C700" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
 <part name="C706" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
 <part name="C701" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C709" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C702" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C201" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C709" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C702" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C201" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C500" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C501" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C106" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C714" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C501" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C106" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C714" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C107" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C707" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C108" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C703" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C711" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C109" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C704" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C712" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C110" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C707" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C108" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C703" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C711" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C109" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C704" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C712" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C110" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C600" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C705" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C713" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C111" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C112" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C705" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C713" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C111" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C112" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C601" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C114" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C602" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
+<part name="C114" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
+<part name="C602" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C115" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
 <part name="C116" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="0.1uF"/>
-<part name="C202" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
+<part name="C202" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1uF"/>
 <part name="C306" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
-<part name="C308" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
-<part name="C100" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="22pF"/>
-<part name="C101" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="22pF"/>
+<part name="C308" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1uF"/>
+<part name="C100" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="22pF"/>
+<part name="C101" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="22pF"/>
 <part name="C416" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C417" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="C418" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
@@ -8000,22 +8016,22 @@ http://dangerousprototypes.com</description>
 <part name="C423" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="0.1uF"/>
 <part name="R305" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
 <part name="R302" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="R204" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="R202" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="C302" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
+<part name="R204" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
+<part name="R202" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
+<part name="C302" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1uF"/>
 <part name="GND84" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C305" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="4.7uF"/>
 <part name="GND36" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="C307" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="4.7uF"/>
 <part name="GND85" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="R203" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="25R"/>
-<part name="C203" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1.5nF"/>
+<part name="R203" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="25R"/>
+<part name="C203" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1.5nF"/>
 <part name="GND86" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="U202" library="dp_devices.v6" deviceset="IC_ADC_ADS7041" device="" value="ADS7041"/>
 <part name="GND87" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="C204" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
+<part name="C204" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1uF"/>
 <part name="GND88" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
-<part name="C205" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0603" value="1uF"/>
+<part name="C205" library="dp_devices.v6" deviceset="CAPACITOR_NPOL" device="-0402" value="1uF"/>
 <part name="GND89" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 <part name="SUPPLY40" library="supply2" deviceset="V+" device=""/>
 <part name="U302" library="dp_devices.v6" deviceset="IC_MCP1700" device="" value="MCP1700"/>
@@ -8030,8 +8046,8 @@ http://dangerousprototypes.com</description>
 <part name="R429" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
 <part name="R430" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
 <part name="R431" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="220R"/>
-<part name="R310" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
-<part name="R311" library="dp_devices.v6" deviceset="RESISTOR" device="-0603" value="10K"/>
+<part name="R310" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
+<part name="R311" library="dp_devices.v6" deviceset="RESISTOR" device="-0402" value="10K"/>
 <part name="GND40" library="dp_devices.v6" deviceset="SUPPLY_GND" device=""/>
 </parts>
 <sheets>
@@ -9904,7 +9920,7 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="GND40" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3V3" class="1">
 <segment>
 <wire x1="774.7" y1="185.42" x2="779.78" y2="185.42" width="0.1524" layer="91"/>
 <label x="774.7" y="185.42" size="1.778" layer="95"/>
@@ -10470,7 +10486,7 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="LED906" gate="LED" pin="A"/>
 </segment>
 </net>
-<net name="VUSB" class="0">
+<net name="VUSB" class="1">
 <segment>
 <wire x1="302.26" y1="254" x2="309.88" y2="254" width="0.1524" layer="91"/>
 <label x="302.26" y="254" size="1.778" layer="95" rot="R180"/>
@@ -10654,7 +10670,7 @@ ADC_MUX_EN to FPGA</text>
 <wire x1="73.66" y1="436.88" x2="71.12" y2="436.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D+" class="0">
+<net name="D+" class="3">
 <segment>
 <wire x1="622.3" y1="187.96" x2="619.76" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R800" gate="R" pin="1"/>
@@ -10805,7 +10821,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BUFDIR2" class="0">
+<net name="BUFDIR2" class="3">
 <segment>
 <pinref part="U408" gate="U" pin="DIR"/>
 <label x="58.42" y="93.98" size="1.778" layer="95" align="center-left"/>
@@ -11014,7 +11030,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="317.5" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="1V2" class="0">
+<net name="1V2" class="1">
 <segment>
 <pinref part="U303" gate="G$1" pin="OUT"/>
 <wire x1="401.32" y1="254" x2="406.4" y2="254" width="0.1524" layer="91"/>
@@ -11906,7 +11922,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="353.06" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="FSMC_A10" class="0">
+<net name="FSMC_A10" class="3">
 <segment>
 <pinref part="U700" gate="BANK2" pin="IOB_57"/>
 <wire x1="492.76" y1="66.04" x2="490.22" y2="66.04" width="0.1524" layer="91"/>
@@ -11942,7 +11958,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="347.98" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="VREF/VOUT" class="0">
+<net name="VREF/VOUT" class="1">
 <segment>
 <wire x1="401.32" y1="327.66" x2="406.4" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="320.04" x2="406.4" y2="327.66" width="0.1524" layer="91"/>
@@ -12105,7 +12121,7 @@ ADC_MUX_EN to FPGA</text>
 <junction x="393.7" y="314.96"/>
 </segment>
 </net>
-<net name="BPIO5" class="0">
+<net name="BPIO5" class="4">
 <segment>
 <pinref part="RN501" gate="C" pin="2"/>
 <wire x1="238.76" y1="99.06" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
@@ -12132,7 +12148,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="142.24" y="121.92" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="BPIO6" class="0">
+<net name="BPIO6" class="4">
 <segment>
 <pinref part="RN501" gate="B" pin="2"/>
 <wire x1="238.76" y1="53.34" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
@@ -12159,7 +12175,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="142.24" y="71.12" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="BPIO7" class="0">
+<net name="BPIO7" class="4">
 <segment>
 <pinref part="RN501" gate="A" pin="2"/>
 <wire x1="238.76" y1="68.58" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
@@ -12255,7 +12271,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="142.24" y="175.26" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="BUFDIR4" class="0">
+<net name="BUFDIR4" class="3">
 <segment>
 <pinref part="U401" gate="U" pin="DIR"/>
 <label x="132.08" y="198.12" size="1.778" layer="95" align="center-left"/>
@@ -12297,7 +12313,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="490.22" y="144.78" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="ADC_MUX_S0" class="0">
+<net name="ADC_MUX_S0" class="3">
 <segment>
 <pinref part="U200" gate="U" pin="S0"/>
 <wire x1="309.88" y1="434.34" x2="307.34" y2="434.34" width="0.1524" layer="91"/>
@@ -12309,7 +12325,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="490.22" y="139.7" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="ADC_MUX_S1" class="0">
+<net name="ADC_MUX_S1" class="3">
 <segment>
 <pinref part="U200" gate="U" pin="S1"/>
 <wire x1="309.88" y1="431.8" x2="307.34" y2="431.8" width="0.1524" layer="91"/>
@@ -12333,7 +12349,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="490.22" y="134.62" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="BUFDIR6" class="0">
+<net name="BUFDIR6" class="3">
 <segment>
 <pinref part="U409" gate="U" pin="DIR"/>
 <label x="132.08" y="93.98" size="1.778" layer="95" align="center-left"/>
@@ -12349,7 +12365,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BUFIO6" class="0">
+<net name="BUFIO6" class="4">
 <segment>
 <pinref part="U409" gate="U" pin="A"/>
 <wire x1="96.52" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
@@ -12361,7 +12377,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BUFOD6" class="0">
+<net name="BUFOD6" class="4">
 <segment>
 <pinref part="R415" gate="R" pin="1"/>
 <wire x1="104.14" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
@@ -12375,7 +12391,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BUFDIR7" class="0">
+<net name="BUFDIR7" class="3">
 <segment>
 <pinref part="U413" gate="U" pin="DIR"/>
 <label x="132.08" y="40.64" size="1.778" layer="95" align="center-left"/>
@@ -12429,7 +12445,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="530.86" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="N$32" class="2">
 <segment>
 <pinref part="U201" gate="U" pin="+"/>
 <pinref part="R200" gate="R" pin="2"/>
@@ -12642,7 +12658,7 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="C304" gate="C" pin="2"/>
 </segment>
 </net>
-<net name="MCU_VPU" class="0">
+<net name="MCU_VPU" class="3">
 <segment>
 <pinref part="U501" gate="D" pin="E"/>
 <wire x1="220.98" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
@@ -12818,7 +12834,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="416.56" size="1.778" layer="95" align="center-left"/>
 </segment>
 </net>
-<net name="D-" class="0">
+<net name="D-" class="3">
 <segment>
 <pinref part="J1" gate="G$1" pin="DN1"/>
 <wire x1="609.6" y1="185.42" x2="614.68" y2="185.42" width="0.1524" layer="91"/>
@@ -12924,9 +12940,9 @@ ADC_MUX_EN to FPGA</text>
 <label x="447.04" y="383.54" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
-<pinref part="U700" gate="BANK2" pin="IOB_79"/>
-<wire x1="492.76" y1="48.26" x2="490.22" y2="48.26" width="0.1524" layer="91"/>
-<label x="490.22" y="48.26" size="1.778" layer="95" align="center-right"/>
+<pinref part="U700" gate="BANK2" pin="IOB_80"/>
+<wire x1="492.76" y1="45.72" x2="490.22" y2="45.72" width="0.1524" layer="91"/>
+<label x="490.22" y="45.72" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="ADC_DATA" class="0">
@@ -12936,9 +12952,9 @@ ADC_MUX_EN to FPGA</text>
 <label x="447.04" y="381" size="1.778" layer="95" align="center-left"/>
 </segment>
 <segment>
-<pinref part="U700" gate="BANK2" pin="IOB_80"/>
-<wire x1="492.76" y1="45.72" x2="490.22" y2="45.72" width="0.1524" layer="91"/>
-<label x="490.22" y="45.72" size="1.778" layer="95" align="center-right"/>
+<pinref part="U700" gate="BANK2" pin="IOB_79"/>
+<wire x1="492.76" y1="48.26" x2="490.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="490.22" y="48.26" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
 <net name="ADC_MUX_S3" class="0">
@@ -12953,7 +12969,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="490.22" y="132.08" size="1.778" layer="95" align="center-right"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="N$47" class="2">
 <segment>
 <pinref part="R200" gate="R" pin="1"/>
 <pinref part="U200" gate="U" pin="Z"/>
@@ -12996,7 +13012,7 @@ ADC_MUX_EN to FPGA</text>
 <label x="182.88" y="419.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FSMC_A6" class="0">
+<net name="FSMC_A6" class="3">
 <segment>
 <pinref part="U100" gate="U" pin="FSMC_A6/FT/PF12"/>
 <wire x1="180.34" y1="355.6" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
@@ -13101,7 +13117,7 @@ ADC_MUX_EN to FPGA</text>
 <pinref part="R429" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="BPIO6I" class="0">
+<net name="BPIO6I" class="4">
 <segment>
 <wire x1="124.46" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U409" gate="U" pin="B"/>
