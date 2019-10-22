@@ -10,18 +10,18 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -36,9 +36,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
@@ -160,22 +160,6 @@ CLK</text>
 <text x="26.035" y="23.114" size="1.016" layer="21" font="vector" ratio="12" align="center">SMDPRUTSER</text>
 <text x="25.4618" y="5.5753" size="1.27" layer="22" font="vector" ratio="12" rot="SMR180" align="center">http://dangerousprototypes.com</text>
 <text x="25.4618" y="7.6073" size="1.27" layer="22" font="vector" ratio="12" rot="SMR180" align="center">https://smdprutser.nl</text>
-<wire x1="50.1904" y1="6.6294" x2="49.9618" y2="6.858" width="0.1524" layer="25"/>
-<wire x1="49.9618" y1="6.858" x2="49.9618" y2="6.6294" width="0.1524" layer="25"/>
-<wire x1="49.9618" y1="6.858" x2="50.1904" y2="6.858" width="0.1524" layer="25"/>
-<wire x1="50.1904" y1="6.6294" x2="50.3682" y2="6.4516" width="0.1524" layer="25"/>
-<wire x1="10.541" y1="6.858" x2="10.541" y2="7.8486" width="0.1524" layer="25"/>
-<wire x1="10.541" y1="7.8486" x2="10.1346" y2="8.255" width="0.1524" layer="25"/>
-<wire x1="10.1346" y1="8.255" x2="10.1346" y2="8.001" width="0.1524" layer="25"/>
-<wire x1="10.1346" y1="8.255" x2="10.3632" y2="8.255" width="0.1524" layer="25"/>
-<wire x1="61.976" y1="11.176" x2="61.976" y2="15.113" width="0.254" layer="51"/>
-<wire x1="67.818" y1="25.273" x2="63.881" y2="25.273" width="0.254" layer="51"/>
-<wire x1="66.421" y1="38.989" x2="66.421" y2="42.672" width="0.05" layer="51"/>
-<wire x1="66.421" y1="42.672" x2="66.421" y2="46.228" width="0.05" layer="51"/>
-<wire x1="66.421" y1="46.228" x2="75.565" y2="46.228" width="0.05" layer="51"/>
-<wire x1="75.565" y1="46.228" x2="75.565" y2="43.18" width="0.05" layer="51"/>
-<wire x1="75.565" y1="43.18" x2="75.565" y2="38.989" width="0.05" layer="51"/>
-<wire x1="75.565" y1="38.989" x2="66.421" y2="38.989" width="0.05" layer="51"/>
 </plain>
 <libraries>
 <library name="wuerth-elektronik">
@@ -30936,184 +30920,6 @@ http://dangerousprototypes.com</description>
 <wire x1="3.452" y1="-3.717" x2="-3.452" y2="-3.717" width="0.05" layer="39"/>
 <wire x1="-3.452" y1="-3.717" x2="-3.452" y2="3.717" width="0.05" layer="39"/>
 </package>
-<package name="MOLEX_533980771">
-<smd name="B1" x="-8.175" y="1.513" dx="2.1" dy="3" layer="1"/>
-<smd name="B2" x="8.175" y="1.513" dx="2.1" dy="3" layer="1"/>
-<smd name="P1" x="5.625" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P2" x="4.375" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P3" x="3.125" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P4" x="1.875" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P5" x="0.625" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P6" x="-0.625" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P7" x="-1.875" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P8" x="-3.125" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P9" x="-4.375" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<smd name="P10" x="-5.625" y="-1.238" dx="0.8" dy="1.3" layer="1"/>
-<wire x1="-9.53" y1="3.317" x2="9.53" y2="3.317" width="0.05" layer="39"/>
-<wire x1="9.53" y1="3.317" x2="9.53" y2="-2.192" width="0.05" layer="39"/>
-<wire x1="9.53" y1="-2.192" x2="-9.53" y2="-2.192" width="0.05" layer="39"/>
-<wire x1="-9.53" y1="-2.192" x2="-9.53" y2="3.317" width="0.05" layer="39"/>
-<wire x1="-6.765" y1="2.3925" x2="-5.145" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-4.835" y1="2.3925" x2="-2.5" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="5.145" y1="2.3925" x2="6.765" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="2.3925" x2="-6.765" y2="1.3725" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="1.3725" x2="-6.765" y2="0.6225" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="0.6225" x2="-6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="-0.1975" x2="-7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="2.3925" x2="6.765" y2="1.3725" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="1.3725" x2="6.765" y2="0.6225" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="0.6225" x2="6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="-0.1975" x2="7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="1.3725" x2="-6.455" y2="1.3725" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="1.3725" x2="-6.455" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="2.1725" x2="-5.145" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-5.145" y1="2.1725" x2="-4.835" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-4.835" y1="2.1725" x2="-2.5" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="2.1725" x2="6.455" y2="1.3725" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="1.3725" x2="6.765" y2="1.3725" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="2.1725" x2="-6.765" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="2.1725" x2="6.765" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-5.145" y1="2.5925" x2="-5.145" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-4.835" y1="2.5925" x2="-4.835" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="4.835" y1="2.5925" x2="4.835" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="4.835" y1="2.3925" x2="4.835" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="5.145" y1="2.5925" x2="5.145" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-8.555" y1="2.5925" x2="-8.755" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-8.555" y1="0.3925" x2="-8.755" y2="0.5925" width="0.1524" layer="51"/>
-<wire x1="-7.375" y1="2.5925" x2="-7.375" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="-7.375" y1="0.1025" x2="-7.375" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="8.555" y1="2.5925" x2="8.755" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="8.555" y1="0.3925" x2="8.755" y2="0.5925" width="0.1524" layer="51"/>
-<wire x1="7.375" y1="2.5925" x2="7.375" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="7.375" y1="0.1025" x2="7.375" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="2.5" y1="2.5925" x2="7.075" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="2.5925" x2="7.075" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="2.2925" x2="7.075" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="0.1025" x2="7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-0.1975" x2="7.075" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-0.8175" x2="7.075" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-1.0875" x2="5.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="5.785" y1="-1.0875" x2="5.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="5.465" y1="-1.0875" x2="4.535" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="4.535" y1="-1.0875" x2="4.215" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="4.215" y1="-1.0875" x2="3.285" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="3.285" y1="-1.0875" x2="2.965" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="2.965" y1="-1.0875" x2="2.5" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="2.5925" x2="-7.075" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="2.5925" x2="-7.075" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="2.2925" x2="-7.075" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="0.1025" x2="-7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-0.1975" x2="-7.075" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-0.8175" x2="-7.075" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-1.0875" x2="-5.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-5.785" y1="-1.0875" x2="-5.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-5.465" y1="-1.0875" x2="-4.535" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-4.535" y1="-1.0875" x2="-4.215" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-4.215" y1="-1.0875" x2="-3.285" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-3.285" y1="-1.0875" x2="-2.965" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-2.965" y1="-1.0875" x2="-2.5" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="2.5" y1="2.3925" x2="4.835" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="2.5" y1="2.1725" x2="6.455" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="2.5925" x2="2.5" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="2.3925" x2="2.5" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="2.1725" x2="2.5" y2="2.1725" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="-1.0875" x2="-2.035" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-2.035" y1="-1.0875" x2="-1.715" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-1.715" y1="-1.0875" x2="-0.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-0.785" y1="-1.0875" x2="-0.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-0.465" y1="-1.0875" x2="0.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="0.465" y1="-1.0875" x2="0.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="0.785" y1="-1.0875" x2="1.715" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="1.715" y1="-1.0875" x2="2.035" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="2.035" y1="-1.0875" x2="2.5" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="5.465" y1="-1.0875" x2="5.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="4.215" y1="-1.0875" x2="4.535" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="2.965" y1="-1.0875" x2="3.285" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="1.715" y1="-1.0875" x2="2.035" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="0.465" y1="-1.0875" x2="0.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-0.785" y1="-1.0875" x2="-0.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-2.035" y1="-1.0875" x2="-1.715" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-3.285" y1="-1.0875" x2="-2.965" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-4.535" y1="-1.0875" x2="-4.215" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-5.785" y1="-1.0875" x2="-5.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="5.465" y1="-1.0875" x2="5.785" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="4.215" y1="-1.0875" x2="4.535" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="2.965" y1="-1.0875" x2="3.285" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-3.285" y1="-1.0875" x2="-2.965" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-4.535" y1="-1.0875" x2="-4.215" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="-5.785" y1="-1.0875" x2="-5.465" y2="-1.0875" width="0.1524" layer="51"/>
-<wire x1="8.555" y1="2.5925" x2="8.555" y2="0.3925" width="0.1524" layer="51"/>
-<wire x1="8.755" y1="0.5925" x2="8.755" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="8.265" y1="2.2925" x2="7.075" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="2.2925" x2="7.075" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="0.1025" x2="8.265" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="8.265" y1="0.1025" x2="8.265" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="8.555" y1="2.5925" x2="7.075" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="2.5925" x2="7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-0.1975" x2="8.555" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="8.555" y1="-0.1975" x2="8.555" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="-8.555" y1="2.5925" x2="-8.555" y2="0.3925" width="0.1524" layer="51"/>
-<wire x1="-8.755" y1="0.5925" x2="-8.755" y2="2.3925" width="0.1524" layer="51"/>
-<wire x1="-8.265" y1="2.2925" x2="-7.075" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="2.2925" x2="-7.075" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="0.1025" x2="-8.265" y2="0.1025" width="0.1524" layer="51"/>
-<wire x1="-8.265" y1="0.1025" x2="-8.265" y2="2.2925" width="0.1524" layer="51"/>
-<wire x1="-8.555" y1="2.5925" x2="-7.075" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="2.5925" x2="-7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-0.1975" x2="-8.555" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-8.555" y1="-0.1975" x2="-8.555" y2="2.5925" width="0.1524" layer="51"/>
-<wire x1="6.135" y1="-0.1975" x2="6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="-0.1975" x2="6.455" y2="-0.5075" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="-0.5075" x2="6.135" y2="-0.5075" width="0.1524" layer="51"/>
-<wire x1="6.135" y1="-0.5075" x2="6.135" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="-0.1975" x2="-6.135" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.135" y1="-0.1975" x2="-6.135" y2="-0.5075" width="0.1524" layer="51"/>
-<wire x1="-6.135" y1="-0.5075" x2="-6.455" y2="-0.5075" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="-0.5075" x2="-6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.135" y1="-0.1975" x2="6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="-0.1975" x2="6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="-0.1975" x2="7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-0.1975" x2="7.075" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="7.075" y1="-0.8175" x2="6.135" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="6.135" y1="-0.8175" x2="6.135" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-0.1975" x2="-6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="-0.1975" x2="-6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="-0.1975" x2="-6.135" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.135" y1="-0.1975" x2="-6.135" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="-6.135" y1="-0.8175" x2="-7.075" y2="-0.8175" width="0.1524" layer="51"/>
-<wire x1="-7.075" y1="-0.8175" x2="-7.075" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="0.6225" x2="6.765" y2="0.6225" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="0.6225" x2="6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.765" y1="-0.1975" x2="6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="6.455" y1="-0.1975" x2="6.455" y2="0.6225" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="0.6225" x2="-6.455" y2="0.6225" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="0.6225" x2="-6.455" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.455" y1="-0.1975" x2="-6.765" y2="-0.1975" width="0.1524" layer="51"/>
-<wire x1="-6.765" y1="-0.1975" x2="-6.765" y2="0.6225" width="0.1524" layer="51"/>
-<rectangle x1="-5.795" y1="1.088" x2="-5.455" y2="1.868" layer="51"/>
-<rectangle x1="-5.785" y1="-1.587" x2="-5.465" y2="-1.087" layer="51"/>
-<rectangle x1="-4.545" y1="1.088" x2="-4.205" y2="1.868" layer="51"/>
-<rectangle x1="-3.295" y1="1.088" x2="-2.955" y2="1.868" layer="51"/>
-<rectangle x1="-2.045" y1="1.088" x2="-1.705" y2="1.868" layer="51"/>
-<rectangle x1="-0.795" y1="1.088" x2="-0.455" y2="1.868" layer="51"/>
-<rectangle x1="0.455" y1="1.088" x2="0.795" y2="1.868" layer="51"/>
-<rectangle x1="1.705" y1="1.088" x2="2.045" y2="1.868" layer="51"/>
-<rectangle x1="2.955" y1="1.088" x2="3.295" y2="1.868" layer="51"/>
-<rectangle x1="4.205" y1="1.088" x2="4.545" y2="1.868" layer="51"/>
-<rectangle x1="5.455" y1="1.088" x2="5.795" y2="1.868" layer="51"/>
-<rectangle x1="-4.535" y1="-1.587" x2="-4.215" y2="-1.087" layer="51"/>
-<rectangle x1="-3.285" y1="-1.587" x2="-2.965" y2="-1.087" layer="51"/>
-<rectangle x1="-2.035" y1="-1.587" x2="-1.715" y2="-1.087" layer="51"/>
-<rectangle x1="-0.785" y1="-1.587" x2="-0.465" y2="-1.087" layer="51"/>
-<rectangle x1="0.465" y1="-1.587" x2="0.785" y2="-1.087" layer="51"/>
-<rectangle x1="1.715" y1="-1.587" x2="2.035" y2="-1.087" layer="51"/>
-<rectangle x1="2.965" y1="-1.587" x2="3.285" y2="-1.087" layer="51"/>
-<rectangle x1="4.215" y1="-1.587" x2="4.535" y2="-1.087" layer="51"/>
-<rectangle x1="5.465" y1="-1.587" x2="5.785" y2="-1.087" layer="51"/>
-<text x="7.239" y="0.635" size="1.27" layer="51" font="vector">1</text>
-<text x="-8.75" y="3.75" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-8.75" y="-3.75" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-</package>
 <package name="R402">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -31298,17 +31104,41 @@ http://dangerousprototypes.com</description>
 <rectangle x1="-1.75" y1="-2.1" x2="-1.25" y2="-1" layer="51"/>
 <smd name="1" x="-1.5" y="-1.65" dx="0.9" dy="1.3" layer="1" stop="no"/>
 <smd name="3" x="1.5" y="-1.65" dx="0.9" dy="1.3" layer="1" stop="no"/>
-<smd name="2" x="0" y="-0.15" dx="0.9" dy="1.3" layer="1" stop="no" cream="no"/>
-<rectangle x1="-0.867" y1="-0.825" x2="0.866" y2="2.3" layer="1"/>
-<rectangle x1="-0.451" y1="-2.3" x2="0.45" y2="2.3" layer="1"/>
-<rectangle x1="-0.867" y1="-0.825" x2="0.866" y2="2.3" layer="31"/>
-<rectangle x1="-0.451" y1="-2.3" x2="0.45" y2="2.3" layer="31"/>
-<rectangle x1="-0.917" y1="-0.876" x2="0.917" y2="2.351" layer="29"/>
-<rectangle x1="-0.501" y1="-2.351" x2="0.501" y2="-0.825" layer="29"/>
+<smd name="2" x="0" y="-0.15" dx="0.9" dy="0.9" layer="1" stop="no" cream="no"/>
 <rectangle x1="-2.001" y1="-2.351" x2="-0.999" y2="-0.949" layer="29"/>
 <rectangle x1="0.999" y1="-2.351" x2="2.001" y2="-0.949" layer="29"/>
 <text x="0" y="3" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.778" layer="27" align="top-center">&gt;VALUE</text>
+<polygon width="0.1" layer="1">
+<vertex x="-0.817" y="2.25"/>
+<vertex x="0.816" y="2.25"/>
+<vertex x="0.816" y="-0.775"/>
+<vertex x="0.4" y="-0.775"/>
+<vertex x="0.4" y="-2.25"/>
+<vertex x="-0.401" y="-2.25"/>
+<vertex x="-0.401" y="-0.775"/>
+<vertex x="-0.817" y="-0.775"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-0.865" y="2.3"/>
+<vertex x="0.865" y="2.3"/>
+<vertex x="0.866" y="-0.825"/>
+<vertex x="0.45" y="-0.825"/>
+<vertex x="0.45" y="-2.3"/>
+<vertex x="-0.451" y="-2.3"/>
+<vertex x="-0.451" y="-0.825"/>
+<vertex x="-0.867" y="-0.825"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-0.817" y="2.25"/>
+<vertex x="0.816" y="2.25"/>
+<vertex x="0.816" y="-0.775"/>
+<vertex x="0.4" y="-0.775"/>
+<vertex x="0.4" y="-2.25"/>
+<vertex x="-0.401" y="-2.25"/>
+<vertex x="-0.401" y="-0.775"/>
+<vertex x="-0.817" y="-0.775"/>
+</polygon>
 </package>
 <package name="TSSOP-24">
 <description>Plastic Thin Shrink Small Outline package 24-pins</description>
@@ -31371,6 +31201,38 @@ http://dangerousprototypes.com</description>
 <wire x1="4.102" y1="3.717" x2="4.102" y2="-3.717" width="0.05" layer="39"/>
 <wire x1="4.102" y1="-3.717" x2="-4.102" y2="-3.717" width="0.05" layer="39"/>
 <wire x1="-4.102" y1="-3.717" x2="-4.102" y2="3.717" width="0.05" layer="39"/>
+</package>
+<package name="X05B20L10T">
+<wire x1="-5.4524" y1="-2.9524" x2="5.4524" y2="-2.9524" width="0.05" layer="39"/>
+<wire x1="5.4524" y1="-2.9524" x2="5.4524" y2="3.1524" width="0.05" layer="39"/>
+<wire x1="5.4524" y1="3.1524" x2="-5.4524" y2="3.1524" width="0.05" layer="39"/>
+<wire x1="-5.4524" y1="3.1524" x2="-5.4524" y2="-2.9524" width="0.05" layer="39"/>
+<wire x1="-4.8" y1="1.6" x2="4.8" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="4.8" y1="1.6" x2="4.8" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="4.8" y1="-1.5" x2="-4.8" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-4.8" y1="-1.5" x2="-4.8" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="-5.3" y1="-1.5" x2="5.3" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="5.3" y1="-1.5" x2="5.3" y2="-2.8" width="0.1524" layer="51"/>
+<wire x1="5.3" y1="-2.8" x2="-5.3" y2="-2.8" width="0.1524" layer="51"/>
+<wire x1="-5.3" y1="-2.8" x2="-5.3" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-5.0524" y1="-1.3476" x2="-5.0524" y2="1.7524" width="0.1524" layer="21"/>
+<wire x1="-5.0524" y1="1.7524" x2="-2.5524" y2="1.7524" width="0.1524" layer="21"/>
+<wire x1="2.5524" y1="1.7524" x2="5.0524" y2="1.7524" width="0.1524" layer="21"/>
+<wire x1="5.0524" y1="1.7524" x2="5.0524" y2="-1.3476" width="0.1524" layer="21"/>
+<smd name="11" x="-3.9" y="0" dx="2" dy="3" layer="1"/>
+<smd name="12" x="3.9" y="0" dx="2" dy="3" layer="1"/>
+<smd name="1" x="2.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="2" x="1.75" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="3" x="1.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="4" x="0.75" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="5" x="0.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="6" x="-0.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="7" x="-0.75" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="8" x="-1.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="9" x="-1.75" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<smd name="10" x="-2.25" y="2.35" dx="0.3" dy="1.3" layer="1"/>
+<text x="0" y="3.75" size="1.27" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.75" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -31805,15 +31667,15 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="78.73" y="44.46" size="1.27" layer="27"/>
 </element>
 <element name="R902" library="dp_devices.v6" package="R603" value="1K1" x="75.625" y="47" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.692" y="48.26" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="75.692" y="48.26" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="76.895" y="49.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L800" library="wuerth-elektronik" package="WE-KI_0805_B" value="1.5A" x="3.937" y="16.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.032" y="17.018" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="2.032" y="17.018" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="2.921" y="15.6365" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="C800" library="dp_devices.v6" package="SMC_A" value="10uF" x="6.731" y="16.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.572" y="19.431" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="5.207" y="19.431" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="7.4611" y="15.3699" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="LED906" library="dp_devices.v6" package="LED-805" value="Optional YELLOW" x="80" y="47" smashed="yes" rot="MR90">
@@ -31842,53 +31704,53 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="41.27" y="44.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R805" library="dp_devices.v6" package="R402" value="50K" x="9.398" y="16.256" smashed="yes">
-<attribute name="NAME" x="6.223" y="16.256" size="1.016" layer="25" font="vector" ratio="12" rot="SR180" align="center"/>
+<attribute name="NAME" x="9.779" y="17.145" size="0.7112" layer="25" font="vector" ratio="12" rot="SR0" align="center"/>
 <attribute name="VALUE" x="8.5091" y="14.2239" size="1.27" layer="27"/>
 </element>
 <element name="R806" library="dp_devices.v6" package="R402" value="50K" x="9.398" y="14.478" smashed="yes">
-<attribute name="NAME" x="9.398" y="16.002" size="1.016" layer="25" font="vector" ratio="12" rot="SR180" align="center"/>
+<attribute name="NAME" x="6.985" y="14.478" size="0.6604" layer="25" font="vector" ratio="10" rot="SR0" align="center"/>
 <attribute name="VALUE" x="8.509" y="12.446" size="1.27" layer="27"/>
 </element>
 <element name="RN500" library="dp_devices" package="RN8P-4R-CRA06S" value="2K" x="94.615" y="40.894" smashed="yes">
-<attribute name="NAME" x="98.425" y="40.894" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="94.615" y="37.973" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="92.615" y="37.894" size="1.27" layer="27"/>
 </element>
 <element name="LOGO1" library="dp_devices" package="LOGO_CC-0" value="LOGO_CC-0" x="71.755" y="44.45" smashed="yes" rot="MR270"/>
 <element name="U$2" library="ohw-logo" package="OSHW_8X350_NOTEXT" value="" x="73.787" y="15.113" smashed="yes" rot="MR270"/>
 <element name="U$4" library="dp_devices" package="DP_LOGO_ART_1.5X1.5" value="" x="60.724" y="43.98225" smashed="yes" rot="MR270"/>
 <element name="U601" library="dp_devices" package="SOIC-8" value="23LC1024" x="58.928" y="42.037" smashed="yes">
-<attribute name="NAME" x="62.23" y="42.037" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="58.928" y="37.465" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="63.373" y="40.132" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="U600" library="dp_devices" package="SOIC-8" value="23LC1024" x="46.99" y="41.91" smashed="yes">
-<attribute name="NAME" x="47.5996" y="46.5074" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="42.3926" y="39.2684" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="51.435" y="40.005" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R800" library="dp_devices.v6" package="R402" value="1.5K" x="13.9446" y="28.623" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.367" y="28.6258" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="13.97" y="31.75" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="16.2306" y="27.861" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R802" library="dp_devices.v6" package="R402" value="22R" x="10.541" y="28.623" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.541" y="30.1752" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="11.303" y="30.1752" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="8.255" y="29.385" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R801" library="dp_devices.v6" package="R402" value="22R" x="12.2428" y="28.623" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.2428" y="30.1752" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="12.7508" y="30.1752" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="9.9568" y="29.385" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R100" library="dp_devices.v6" package="R402" value="10K" x="23.876" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.3746" y="11.176" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="22.3266" y="11.176" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="21.59" y="11.938" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="J2" library="dp_devices.v6" package="M1X4" value="CON_HEADER_1X04" x="27.94" y="46.355" smashed="yes">
 <attribute name="NAME" x="36.068" y="48.4886" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
 </element>
 <element name="RN501" library="dp_devices" package="RN8P-4R-CRA06S" value="2K" x="94.615" y="8.89" smashed="yes">
-<attribute name="NAME" x="98.1964" y="8.89" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="94.5896" y="11.938" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="92.615" y="5.89" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="U700" library="dp_devices.v6" package="TQFP-144" value="ICE40HX4K" x="54.0893" y="25" locked="yes" smashed="yes">
-<attribute name="NAME" x="50.6222" y="37.3126" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="50.6222" y="37.0586" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="45.1993" y="11.665" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="U100" library="dp_devices.v6" package="TQFP-144" value="STM32F103ZX" x="26.035" y="25" locked="yes" smashed="yes">
@@ -31896,35 +31758,35 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="17.145" y="11.665" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="U400" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="80.264" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="78.232" y="43.2054" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="77.4446" y="43.053" size="0.7112" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="76.7715" y="45.72" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R402" library="dp_devices.v6" package="R402" value="100K" x="77.47" y="40.894" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.7494" y="38.862" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="76.9874" y="38.989" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="79.375" y="40.259" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R400" library="dp_devices.v6" package="R402" value="100K" x="80.518" y="45.339" smashed="yes">
-<attribute name="NAME" x="78.105" y="45.085" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="83.312" y="45.339" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="79.883" y="43.434" size="1.27" layer="27"/>
 </element>
 <element name="R404" library="dp_devices.v6" package="R402" value="1M" x="84.582" y="43.815" smashed="yes" rot="R270">
-<attribute name="NAME" x="84.582" y="42.0624" size="0.9144" layer="25" font="vector" ratio="16" align="center"/>
+<attribute name="NAME" x="85.6996" y="43.815" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="82.677" y="44.45" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U404" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="70.358" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.4022" y="43.18" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="67.183" y="43.1292" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="66.8655" y="45.72" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R408" library="dp_devices.v6" package="R402" value="100K" x="67.31" y="40.894" smashed="yes" rot="R90">
-<attribute name="NAME" x="65.6082" y="40.6908" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="65.786" y="40.894" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="69.215" y="40.259" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R406" library="dp_devices.v6" package="R402" value="100K" x="70.358" y="45.339" smashed="yes">
-<attribute name="NAME" x="70.358" y="43.9928" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="70.358" y="46.7868" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="69.723" y="43.434" size="1.27" layer="27"/>
 </element>
 <element name="R410" library="dp_devices.v6" package="R402" value="1M" x="74.676" y="44.196" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.676" y="42.164" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="74.803" y="45.847" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="72.771" y="44.831" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U408" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="80.264" y="34.544" smashed="yes" rot="R270">
@@ -31932,27 +31794,27 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="76.7715" y="37.084" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R414" library="dp_devices.v6" package="R402" value="100K" x="77.216" y="32.258" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.216" y="30.607" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="77.216" y="30.607" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="79.121" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R412" library="dp_devices.v6" package="R402" value="100K" x="80.518" y="36.703" smashed="yes">
-<attribute name="NAME" x="80.3402" y="35.4838" size="0.9144" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="80.518" y="37.592" size="0.7112" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="79.883" y="34.798" size="1.27" layer="27"/>
 </element>
 <element name="R416" library="dp_devices.v6" package="R402" value="1M" x="84.582" y="35.179" smashed="yes" rot="R270">
-<attribute name="NAME" x="84.582" y="32.9184" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="85.344" y="37.7444" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="82.677" y="35.814" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U412" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="70.358" y="34.544" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.4022" y="34.5694" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="67.31" y="34.544" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="66.8655" y="37.084" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R420" library="dp_devices.v6" package="R402" value="100K" x="67.564" y="32.258" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.167" y="32.258" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="66.167" y="32.258" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="69.469" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R418" library="dp_devices.v6" package="R402" value="100K" x="70.612" y="36.703" smashed="yes">
-<attribute name="NAME" x="70.612" y="35.687" size="0.9144" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="70.612" y="37.719" size="0.8128" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="69.977" y="34.798" size="1.27" layer="27"/>
 </element>
 <element name="R422" library="dp_devices.v6" package="R402" value="1M" x="74.803" y="35.179" smashed="yes" rot="R270">
@@ -31960,39 +31822,39 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="72.898" y="35.814" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U401" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="80.264" y="14.478" smashed="yes" rot="R270">
-<attribute name="NAME" x="82.8802" y="15.2654" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="77.2922" y="14.5034" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.7715" y="17.018" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R403" library="dp_devices.v6" package="R402" value="100K" x="77.47" y="12.192" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.1398" y="14.605" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="75.9968" y="12.573" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="79.375" y="11.557" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R401" library="dp_devices.v6" package="R402" value="100K" x="80.264" y="16.637" smashed="yes">
-<attribute name="NAME" x="78.5622" y="16.637" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="81.534" y="17.9832" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="79.629" y="14.732" size="1.27" layer="27"/>
 </element>
 <element name="R405" library="dp_devices.v6" package="R402" value="1M" x="84.582" y="12.192" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.7758" y="12.0904" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="85.7758" y="12.0904" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="86.487" y="11.557" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R701" library="dp_devices.v6" package="R402" value="10K" x="32.766" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.2834" y="14.097" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="32.766" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="30.861" y="11.811" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R700" library="dp_devices.v6" package="R402" value="10K" x="30.988" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.385" y="11.176" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="30.988" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="29.083" y="11.811" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U303" library="dp_devices" package="SOT-23-5@1" value="MCP1801T-1202I/OT" x="41.275" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.4556" y="11.557" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="39.37" y="9.3726" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="37.846" y="13.335" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="XTAL100" library="dp_devices.v6" package="XTAL_4X6" value="8Mhz" x="12.192" y="21.257" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.6266" y="23.7998" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="9.7536" y="24.8158" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="15.6845" y="18.3995" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C104" library="dp_devices.v6" package="SMC_A" value="1uF" x="12.954" y="14.478" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.89" y="14.478" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="15.621" y="14.478" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="14.554" y="16.478" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="J3" library="dp_devices.v6" package="M1X10_MALE_RIGHT_ANGLES_PTH_SHROUDED" value="CON_HEADER_1X10-RIGHT_ANGLED_PTH_SHROUDED" x="93.185" y="25" locked="yes" smashed="yes" rot="R270">
@@ -32001,15 +31863,15 @@ http://dangerousprototypes.com</description>
 </element>
 <element name="PCB1" library="dp_blank_pcb" package="DP10050_V1" value="PCB_DP_RECTANGLE-50X100" x="0" y="0" locked="yes" smashed="yes"/>
 <element name="C710" library="dp_devices.v6" package="C402" value="0.1uF" x="41.021" y="21.3868" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.021" y="22.606" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="41.021" y="22.606" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="42.291" y="23.6093" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C708" library="dp_devices.v6" package="C402" value="0.1uF" x="41.021" y="19.685" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.1226" y="18.3896" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="41.1226" y="18.3896" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="42.291" y="21.9075" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C113" library="dp_devices.v6" package="C402" value="0.1uF" x="38.608" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.608" y="17.7292" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="38.608" y="17.6022" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="36.3855" y="21.59" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U101" library="dp_devices.v6" package="SOIC-8" value="W25X40CL" x="22.86" y="42.0878" smashed="yes" rot="R180">
@@ -32017,23 +31879,23 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="18.415" y="43.9928" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="U405" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="70.358" y="14.478" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.326" y="14.478" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="67.183" y="14.478" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="66.8655" y="17.018" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R409" library="dp_devices.v6" package="R402" value="100K" x="67.564" y="12.192" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.3194" y="12.192" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="67.437" y="10.5664" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="69.469" y="11.557" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R407" library="dp_devices.v6" package="R402" value="100K" x="70.612" y="16.637" smashed="yes" rot="R180">
-<attribute name="NAME" x="70.612" y="15.621" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="70.612" y="19.304" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="71.247" y="18.542" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R411" library="dp_devices.v6" package="R402" value="1M" x="74.676" y="12.192" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.676" y="14.6304" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="74.9046" y="10.287" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="76.581" y="11.557" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U409" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="80.264" y="6.096" smashed="yes" rot="R270">
-<attribute name="NAME" x="78.105" y="6.096" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="77.597" y="6.096" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.7715" y="8.636" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R415" library="dp_devices.v6" package="R402" value="100K" x="77.216" y="3.937" smashed="yes" rot="R90">
@@ -32041,19 +31903,19 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="79.121" y="3.302" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R413" library="dp_devices.v6" package="R402" value="100K" x="80.518" y="8.255" smashed="yes">
-<attribute name="NAME" x="78.2574" y="8.6868" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="80.518" y="9.398" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="79.883" y="6.35" size="1.27" layer="27"/>
 </element>
 <element name="R417" library="dp_devices.v6" package="R402" value="1M" x="84.582" y="3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.312" y="5.461" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="85.979" y="2.159" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="86.487" y="3.175" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U413" library="dp_devices.v6" package="SC-70-6" value="SN74LVC1T45DBV" x="70.358" y="6.096" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.39" y="6.096" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="67.31" y="6.096" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="66.8655" y="8.636" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R421" library="dp_devices.v6" package="R402" value="100K" x="67.31" y="3.937" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.31" y="1.9962" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="65.9488" y="3.302" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="69.215" y="3.302" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R419" library="dp_devices.v6" package="R402" value="100K" x="70.485" y="8.255" smashed="yes">
@@ -32061,11 +31923,11 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="69.85" y="6.35" size="1.27" layer="27"/>
 </element>
 <element name="R423" library="dp_devices.v6" package="R402" value="1M" x="74.676" y="3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.676" y="6.604" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="74.676" y="1.524" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="76.581" y="3.175" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R303" library="dp_devices.v6" package="R603" value="65K" x="40.259" y="3.556" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.259" y="6.477" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="41.656" y="3.556" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="42.545" y="2.794" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R304" library="dp_devices.v6" package="R603" value="100K" x="34.671" y="3.683" smashed="yes" rot="R270">
@@ -32073,75 +31935,75 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="32.385" y="4.445" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C301" library="dp_devices.v6" package="C603" value="4.7uF" x="12.9286" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.3764" y="11.684" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="14.3764" y="12.065" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="10.7061" y="12.7" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R300" library="dp_devices.v6" package="R402" value="99.22K" x="11.049" y="11.684" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.049" y="13.843" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="11.049" y="10.287" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="13.335" y="10.922" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="U301" library="dp_devices.v6" package="SOT-23-5" value="MCP6001" x="8.8138" y="5.9436" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.2484" y="7.5438" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="6.731" y="7.239" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="10.7188" y="9.3726" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R308" library="dp_devices.v6" package="R402" value="10K" x="10.414" y="9.144" smashed="yes">
-<attribute name="NAME" x="13.208" y="9.652" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="10.668" y="7.112" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="9.652" y="6.858" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R307" library="dp_devices.v6" package="R402" value="77.96K" x="7.874" y="9.144" smashed="yes">
-<attribute name="NAME" x="9.8552" y="5.6896" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="5.842" y="9.144" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="7.112" y="6.858" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C300" library="dp_devices.v6" package="C603" value="4.7uF" x="3.683" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.683" y="14.224" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="3.683" y="14.097" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="4.953" y="14.9225" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="Q301" library="dp_devices.v6" package="SOT-363" value="DMMT3906W" x="37.465" y="3.556" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.068" y="1.397" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="36.068" y="1.27" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="40.005" y="3.556" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="Q300" library="dp_devices.v6" package="SOT-23" value="PMV65XP" x="37.338" y="6.985" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.544" y="6.985" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="35.941" y="9.017" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="40.8305" y="5.08" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="U300" library="dp_devices.v6" package="SOT-23-5" value="MCP1824_ADJ" x="7.874" y="11.811" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.874" y="13.97" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="6.985" y="13.716" size="0.6604" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="4.445" y="13.716" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R301" library="dp_devices.v6" package="R402" value="100K" x="3.302" y="10.668" smashed="yes" rot="R180">
-<attribute name="NAME" x="0.762" y="10.668" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="1.524" y="10.668" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="4.064" y="12.954" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="U201" library="dp_devices.v6" package="SOT-23-5" value="MCP6001" x="57.023" y="6.477" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.1782" y="8.4074" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="54.3306" y="8.4582" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="60.452" y="4.572" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R200" library="dp_devices.v6" package="R402" value="0R" x="57.023" y="9.144" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.023" y="7.62" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="60.579" y="9.144" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="57.658" y="11.049" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D200" library="dp_devices.v6" package="SOD-123" value="1N4148" x="60.96" y="5.207" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.928" y="2.794" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="62.484" y="5.207" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="63.5" y="3.937" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R201" library="dp_devices.v6" package="R402" value="0R" x="53.086" y="5.588" smashed="yes" rot="R180">
-<attribute name="NAME" x="54.0512" y="3.5814" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="53.0606" y="7.0612" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="53.721" y="7.493" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U402" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="80.264" y="40.259" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.264" y="38.608" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="80.264" y="38.608" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.454" y="40.259" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
-<element name="R306" library="dp_devices.v6" package="R603" value="0R" x="12.7254" y="2.7686" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7254" y="1.4986" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="VALUE" x="13.3604" y="4.6736" size="1.27" layer="27" rot="R180"/>
+<element name="R306" library="dp_devices.v6" package="R603" value="0R" x="12.7" y="2.667" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="1.397" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="13.335" y="4.572" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R309" library="dp_devices.v6" package="R402" value="0R" x="3.302" y="8.89" smashed="yes">
-<attribute name="NAME" x="0" y="8.89" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="3.302" y="7.747" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="3.302" y="6.35" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center"/>
 </element>
 <element name="U406" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="70.358" y="40.259" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.834" y="38.481" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="68.834" y="38.735" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="66.548" y="40.259" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U410" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="80.264" y="31.623" smashed="yes" rot="R270">
@@ -32153,7 +32015,7 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="66.548" y="31.623" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U403" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="80.264" y="11.557" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.264" y="9.906" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="77.597" y="10.541" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.454" y="11.557" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U415" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="70.358" y="3.175" smashed="yes" rot="R270">
@@ -32161,15 +32023,15 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="66.548" y="3.175" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U411" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="80.264" y="3.175" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.5528" y="1.3716" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="78.7908" y="1.2446" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.454" y="3.175" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U407" library="dp_devices.v6" package="SC-70-5" value="74LVC1G07DBV" x="70.358" y="11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="70.358" y="9.779" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="70.358" y="12.954" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="66.548" y="11.43" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="U500" library="dp_devices.v6" package="TSSOP-14" value="74HCT4066PW" x="88.9" y="43.815" smashed="yes">
-<attribute name="NAME" x="88.9" y="48.514" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="90.043" y="48.387" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="92.8" y="43.815" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="U501" library="dp_devices.v6" package="TSSOP-14" value="74HCT4066PW" x="88.9" y="6.35" smashed="yes">
@@ -32177,65 +32039,61 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="92.8" y="6.35" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="U602" library="dp_devices.v6" package="TSSOP-20" value="74LVC245A" x="72.644" y="24.257" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.644" y="28.194" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
-</element>
-<element name="J4" library="dp_devices.v6" package="MOLEX_533980771" value="CON_MOLEX_MALE_SMT_SH_1.25" x="23.876" y="5.715" smashed="yes">
-<attribute name="NAME" x="23.876" y="2.286" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
-<attribute name="VALUE" x="15.126" y="1.965" size="1.27" layer="27" font="vector"/>
+<attribute name="NAME" x="70.485" y="28.194" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
 </element>
 <element name="J1" library="usbc" package="C-31-M-12" value="USB-C-12" x="4.69" y="25" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.397" y="25.019" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R803" library="dp_devices.v6" package="R402" value="5K1" x="5.588" y="33.274" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.588" y="35.052" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="5.588" y="35.306" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="7.493" y="32.639" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R804" library="dp_devices.v6" package="R402" value="5K1" x="3.81" y="33.274" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.81" y="35.052" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
+<attribute name="NAME" x="3.81" y="35.306" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="5.715" y="32.639" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R702" library="dp_devices.v6" package="R402" value="10K" x="65.786" y="12.192" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.3128" y="12.192" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="65.405" y="9.525" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="67.691" y="11.557" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C304" library="dp_devices.v6" package="C603" value="DNP" x="8.9662" y="2.7432" smashed="yes">
-<attribute name="NAME" x="8.9662" y="1.4732" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
-<attribute name="VALUE" x="8.9662" y="1.4732" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
+<element name="C304" library="dp_devices.v6" package="C603" value="DNP" x="8.89" y="2.667" smashed="yes">
+<attribute name="NAME" x="8.89" y="1.397" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="8.89" y="1.397" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
-<element name="C400" library="dp_devices.v6" package="C402" value="0.1uF" x="77.47" y="45.339" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.6412" y="45.974" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="VALUE" x="77.47" y="46.609" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
+<element name="C400" library="dp_devices.v6" package="C402" value="0.1uF" x="77.47" y="45.212" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.0128" y="44.069" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="VALUE" x="77.47" y="46.482" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C404" library="dp_devices.v6" package="C402" value="0.1uF" x="67.691" y="45.339" smashed="yes">
-<attribute name="NAME" x="67.691" y="44.069" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="66.802" y="46.736" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="67.691" y="44.069" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C408" library="dp_devices.v6" package="C402" value="0.1uF" x="77.597" y="36.703" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.184" y="36.703" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="77.597" y="37.592" size="0.7112" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="77.597" y="37.973" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C412" library="dp_devices.v6" package="C402" value="0.1uF" x="67.691" y="36.703" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.897" y="36.703" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="66.04" y="36.703" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="67.691" y="37.973" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C405" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="44.196" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.898" y="45.847" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="72.898" y="47.117" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="71.628" y="44.196" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C409" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="35.179" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.312" y="37.211" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="83.439" y="37.592" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="81.534" y="35.179" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C413" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="35.179" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.168" y="35.179" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="73.533" y="36.957" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="71.628" y="35.179" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C401" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="43.815" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.82" y="43.815" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="83.185" y="42.418" size="0.7112" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="81.534" y="43.815" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C402" library="dp_devices.v6" package="C402" value="0.1uF" x="77.597" y="16.637" smashed="yes">
-<attribute name="NAME" x="75.9206" y="16.637" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="77.597" y="18.1356" size="0.9144" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="77.597" y="15.367" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C406" library="dp_devices.v6" package="C402" value="0.1uF" x="67.691" y="16.637" smashed="yes">
@@ -32243,35 +32101,35 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="67.691" y="15.367" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C410" library="dp_devices.v6" package="C402" value="0.1uF" x="77.597" y="8.255" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.8576" y="8.255" size="0.9144" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="77.089" y="9.525" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="77.597" y="9.525" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C414" library="dp_devices.v6" package="C402" value="0.1uF" x="67.564" y="8.255" smashed="yes">
-<attribute name="NAME" x="67.564" y="9.6266" size="1.1684" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="65.405" y="7.2136" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="67.564" y="6.985" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C403" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="15.113" smashed="yes" rot="R270">
-<attribute name="NAME" x="81.3054" y="14.6812" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="83.2358" y="16.9164" size="0.9144" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="81.534" y="15.113" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C407" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="15.113" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.755" y="15.113" size="0.9144" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="72.898" y="18.161" size="0.9144" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="71.628" y="15.113" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C411" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="6.731" smashed="yes" rot="R270">
-<attribute name="NAME" x="81.534" y="7.239" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="82.042" y="9.398" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="81.534" y="6.731" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C415" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="6.731" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.628" y="6.731" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="73.406" y="8.382" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="71.628" y="6.731" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C103" library="dp_devices.v6" package="C402" value="0.1uF" x="12.446" y="16.637" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.144" y="16.637" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="14.097" y="16.891" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="12.446" y="17.907" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C102" library="dp_devices.v6" package="C402" value="0.1uF" x="14.732" y="37.846" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.2334" y="37.8488" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="14.7574" y="41.4048" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.002" y="37.846" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C105" library="dp_devices.v6" package="C603" value="0.1uF" x="26.67" y="42.7228" smashed="yes" rot="R90">
@@ -32279,23 +32137,23 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="27.94" y="42.7228" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C715" library="dp_devices.v6" package="C402" value="0.1uF" x="64.008" y="12.192" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.008" y="9.144" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="63.627" y="9.652" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="62.738" y="12.192" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
-<element name="C303" library="dp_devices.v6" package="C402" value="0.1uF" x="13.3604" y="5.3086" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.5194" y="4.3688" size="0.9144" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="14.6304" y="5.3086" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+<element name="C303" library="dp_devices.v6" package="C402" value="0.1uF" x="12.7" y="5.334" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.6078" y="4.699" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="13.97" y="5.334" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C200" library="dp_devices.v6" package="C402" value="0.1uF" x="76.962" y="19.812" smashed="yes">
-<attribute name="NAME" x="76.962" y="21.3614" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="74.041" y="20.2184" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="76.962" y="18.542" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C700" library="dp_devices.v6" package="C603" value="0.1uF" x="50.8" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.2412" y="42.2656" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="50.3682" y="42.2656" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="52.07" y="39.37" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C706" library="dp_devices.v6" package="C603" value="0.1uF" x="52.832" y="39.37" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.1716" y="42.3164" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="52.832" y="42.291" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="54.102" y="39.37" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C701" library="dp_devices.v6" package="C603" value="0.1uF" x="55.118" y="40.64" smashed="yes" rot="R90">
@@ -32303,31 +32161,31 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="56.388" y="40.64" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C709" library="dp_devices.v6" package="C402" value="0.1uF" x="40.4876" y="30.0736" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.0398" y="30.1498" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="40.513" y="31.75" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="39.2176" y="30.0736" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C702" library="dp_devices.v6" package="C402" value="0.1uF" x="62.992" y="38.862" smashed="yes" rot="R90">
-<attribute name="NAME" x="63.0174" y="42.1386" size="1.1684" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="63.0174" y="42.3926" size="1.1684" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="64.262" y="38.862" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C201" library="dp_devices.v6" package="C402" value="0.1uF" x="55.88" y="3.556" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.8358" y="3.6322" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="56.1848" y="2.4638" size="0.7112" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="55.88" y="4.826" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C500" library="dp_devices.v6" package="C603" value="0.1uF" x="83.947" y="46.99" smashed="yes">
-<attribute name="NAME" x="85.1408" y="48.514" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="85.2678" y="48.514" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="83.947" y="45.72" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C501" library="dp_devices.v6" package="C402" value="0.1uF" x="84.582" y="9.906" smashed="yes">
-<attribute name="NAME" x="84.6074" y="11.2268" size="0.9144" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="84.582" y="8.636" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="84.582" y="8.636" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C106" library="dp_devices.v6" package="C402" value="0.1uF" x="34.544" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.9438" y="10.668" size="1.1684" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="34.544" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="33.274" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C714" library="dp_devices.v6" package="C402" value="0.1uF" x="53.848" y="11.303" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.562" y="12.9286" size="0.9144" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="52.6034" y="11.303" size="0.9144" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="52.578" y="11.303" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C107" library="dp_devices.v6" package="C603" value="0.1uF" x="36.83" y="37.6428" smashed="yes" rot="R90">
@@ -32335,67 +32193,67 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="38.1" y="37.6428" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C707" library="dp_devices.v6" package="C402" value="0.1uF" x="64.77" y="37.211" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.294" y="37.211" size="1.1684" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="64.77" y="40.005" size="0.8128" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="66.04" y="37.211" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C108" library="dp_devices.v6" package="C402" value="0.1uF" x="16.51" y="37.846" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.621" y="37.846" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="17.145" y="41.402" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="17.78" y="37.846" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C703" library="dp_devices.v6" package="C402" value="0.1uF" x="67.056" y="30.099" smashed="yes">
-<attribute name="NAME" x="67.056" y="28.448" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="67.437" y="28.829" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="67.056" y="28.829" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C711" library="dp_devices.v6" package="C402" value="0.1uF" x="55.753" y="11.303" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.2008" y="11.303" size="1.1684" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="58.801" y="11.303" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="54.483" y="11.303" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
-<element name="C109" library="dp_devices.v6" package="C402" value="0.1uF" x="16.8402" y="11.303" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.3134" y="11.303" size="1.1684" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="15.5702" y="11.303" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+<element name="C109" library="dp_devices.v6" package="C402" value="0.1uF" x="16.5862" y="11.303" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.0594" y="11.303" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="15.3162" y="11.303" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C704" library="dp_devices.v6" package="C402" value="0.1uF" x="67.056" y="24.13" smashed="yes">
-<attribute name="NAME" x="67.056" y="25.8064" size="1.27" layer="25" font="vector" ratio="15" rot="SR180" align="center"/>
+<attribute name="NAME" x="67.31" y="22.8346" size="0.8128" layer="25" font="vector" ratio="12" rot="SR0" align="center"/>
 <attribute name="VALUE" x="67.056" y="22.86" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C712" library="dp_devices.v6" package="C402" value="0.1uF" x="49.784" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.7586" y="12.827" size="1.1684" layer="25" font="vector" ratio="15" align="bottom-center"/>
+<attribute name="NAME" x="48.768" y="11.176" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="48.514" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C110" library="dp_devices.v6" package="C402" value="0.1uF" x="9.144" y="31.242" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.144" y="29.7434" size="1.1684" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="NAME" x="9.144" y="32.7914" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="9.144" y="32.512" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
 </element>
 <element name="C600" library="dp_devices.v6" package="C603" value="0.1uF" x="42.545" y="44.45" smashed="yes">
-<attribute name="NAME" x="42.545" y="42.926" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="42.291" y="42.926" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="42.545" y="43.18" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C705" library="dp_devices.v6" package="C402" value="0.1uF" x="67.056" y="25.908" smashed="yes">
-<attribute name="NAME" x="67.056" y="24.384" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="67.056" y="26.924" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="67.056" y="24.638" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
-<element name="C713" library="dp_devices.v6" package="C402" value="0.1uF" x="46.482" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.958" y="12.192" size="1.1684" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
-<attribute name="VALUE" x="45.212" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+<element name="C713" library="dp_devices.v6" package="C402" value="0.1uF" x="46.355" y="11.176" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.958" y="11.176" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="VALUE" x="45.085" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C111" library="dp_devices.v6" package="C402" value="0.1uF" x="25.654" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.178" y="11.176" size="1.1684" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="25.654" y="8.763" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="24.384" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C112" library="dp_devices.v6" package="C402" value="0.1uF" x="29.21" y="11.176" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.734" y="11.176" size="1.1684" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="29.21" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="27.94" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C601" library="dp_devices.v6" package="C603" value="0.1uF" x="53.721" y="44.45" smashed="yes">
-<attribute name="NAME" x="52.705" y="45.974" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="52.705" y="45.974" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="53.721" y="43.18" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C114" library="dp_devices.v6" package="C402" value="0.1uF" x="40.132" y="26.162" smashed="yes">
-<attribute name="NAME" x="40.132" y="27.686" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="40.132" y="27.559" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="40.132" y="24.892" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C602" library="dp_devices.v6" package="C402" value="0.1uF" x="73.152" y="28.702" smashed="yes">
-<attribute name="NAME" x="74.422" y="30.226" size="1.1684" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="73.787" y="29.718" size="0.8128" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="73.152" y="27.432" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C115" library="dp_devices.v6" package="C603" value="0.1uF" x="28.702" y="38.9128" smashed="yes" rot="R90">
@@ -32407,94 +32265,161 @@ http://dangerousprototypes.com</description>
 <attribute name="VALUE" x="27.94" y="38.9128" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="C202" library="dp_devices.v6" package="C402" value="1uF" x="58.674" y="3.556" smashed="yes">
-<attribute name="NAME" x="56.7436" y="2.794" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="59.055" y="2.5146" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="58.674" y="2.286" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C306" library="dp_devices.v6" package="C603" value="1uF" x="9.144" y="36.322" smashed="yes">
-<attribute name="NAME" x="9.144" y="37.084" size="1.27" layer="25" font="vector" ratio="15" align="bottom-center"/>
+<attribute name="NAME" x="9.144" y="34.036" size="1.1684" layer="25" font="vector" ratio="12" align="bottom-center"/>
 <attribute name="VALUE" x="9.144" y="35.052" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C308" library="dp_devices.v6" package="C402" value="1uF" x="41.275" y="13.97" smashed="yes">
-<attribute name="NAME" x="41.275" y="14.8844" size="1.27" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="41.275" y="14.8844" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
 <attribute name="VALUE" x="41.275" y="12.7" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C100" library="dp_devices.v6" package="C402" value="22pF" x="9.271" y="18.5928" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.2804" y="18.5928" size="1.1684" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="9.6774" y="21.2598" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="8.001" y="18.5928" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C101" library="dp_devices.v6" package="C402" value="22pF" x="12.954" y="25.908" smashed="yes">
-<attribute name="NAME" x="12.954" y="26.924" size="1.1684" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="11.684" y="26.416" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="12.954" y="24.638" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
 <element name="C416" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="40.894" smashed="yes" rot="R270">
-<attribute name="NAME" x="82.4738" y="43.3578" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="83.1342" y="39.2938" size="0.7112" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="81.534" y="40.894" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C417" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="40.894" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.5932" y="43.3324" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="72.8726" y="38.6842" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="71.628" y="40.894" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C418" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="32.258" smashed="yes" rot="R270">
-<attribute name="NAME" x="82.804" y="30.0228" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="83.2612" y="30.607" size="0.7112" layer="25" font="vector" ratio="10" align="center"/>
 <attribute name="VALUE" x="81.534" y="32.258" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C419" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="12.192" smashed="yes" rot="R270">
-<attribute name="NAME" x="84.074" y="13.462" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="82.804" y="9.906" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="81.534" y="12.192" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C420" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="32.258" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.898" y="30.0228" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<attribute name="NAME" x="73.406" y="30.607" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="71.628" y="32.258" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C421" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="12.192" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.7964" y="9.7536" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="72.898" y="9.906" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="71.628" y="12.192" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C422" library="dp_devices.v6" package="C402" value="0.1uF" x="82.804" y="3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="82.804" y="5.5372" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="83.185" y="1.0922" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="81.534" y="3.81" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="C423" library="dp_devices.v6" package="C402" value="0.1uF" x="72.898" y="3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.898" y="5.588" size="0.9144" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="NAME" x="72.898" y="1.524" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="71.628" y="3.81" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
 </element>
 <element name="R305" library="dp_devices.v6" package="R603" value="10K" x="42.926" y="5.6134" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.926" y="4.699" size="0.9144" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="40.386" y="6.604" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="42.926" y="8.1534" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="R302" library="dp_devices.v6" package="R603" value="10K" x="42.926" y="7.493" smashed="yes">
-<attribute name="NAME" x="41.91" y="8.4328" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="NAME" x="42.926" y="8.5598" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
 <attribute name="VALUE" x="42.926" y="4.953" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center"/>
 </element>
 <element name="R204" library="dp_devices.v6" package="R402" value="10K" x="50.038" y="3.556" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.371" y="5.461" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<attribute name="NAME" x="50.038" y="2.54" size="0.7112" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="50.038" y="6.096" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="R202" library="dp_devices.v6" package="R402" value="10K" x="53.086" y="3.556" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.308" y="2.794" size="0.9144" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="53.34" y="2.921" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="53.086" y="6.096" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
-<element name="C302" library="dp_devices.v6" package="C402" value="1uF" x="12.7" y="8.382" rot="R270"/>
-<element name="C305" library="dp_devices.v6" package="C603" value="4.7uF" x="9.144" y="44.704" rot="R270"/>
-<element name="C307" library="dp_devices.v6" package="C603" value="4.7uF" x="37.084" y="11.43"/>
-<element name="R203" library="dp_devices.v6" package="R402" value="25R" x="50.038" y="5.588" rot="R180"/>
-<element name="C203" library="dp_devices.v6" package="C402" value="1.5nF" x="44.45" y="3.556" rot="R180"/>
-<element name="U202" library="dp_devices.v6" package="VSSOP-8_DCU_PDSO_G8" value="ADS7041" x="46.99" y="6.858" rot="R180"/>
-<element name="C204" library="dp_devices.v6" package="C402" value="1uF" x="47.244" y="3.556" rot="R180"/>
-<element name="C205" library="dp_devices.v6" package="C402" value="1uF" x="50.038" y="7.62"/>
-<element name="U302" library="dp_devices.v6" package="SOT-89" value="MCP1700" x="9.144" y="40.386"/>
-<element name="U200" library="dp_devices.v6" package="TSSOP-24" value="74HCT4067" x="81.026" y="24.892" rot="R90"/>
-<element name="R101" library="dp_devices.v6" package="R402" value="10K" x="27.432" y="11.176" rot="R270"/>
-<element name="R424" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="40.894" rot="R90"/>
-<element name="R425" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="40.894" rot="R90"/>
-<element name="R426" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="32.258" rot="R90"/>
-<element name="R427" library="dp_devices.v6" package="R402" value="220R" x="74.803" y="32.258" rot="R90"/>
-<element name="R428" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="15.113" rot="R270"/>
-<element name="R429" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="15.113" rot="R270"/>
-<element name="R430" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="6.731" rot="R270"/>
-<element name="R431" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="6.731" rot="R270"/>
-<element name="R310" library="dp_devices.v6" package="R402" value="10K" x="15.875" y="9.906"/>
-<element name="R311" library="dp_devices.v6" package="R402" value="10K" x="16.51" y="12.827" rot="R90"/>
+<element name="C302" library="dp_devices.v6" package="C402" value="1uF" x="12.7" y="8.382" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.303" y="7.366" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="8.382" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="C305" library="dp_devices.v6" package="C603" value="4.7uF" x="9.144" y="44.704" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.446" y="44.196" size="1.1684" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="7.874" y="44.704" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="C307" library="dp_devices.v6" package="C603" value="4.7uF" x="37.084" y="11.43" smashed="yes">
+<attribute name="NAME" x="37.084" y="12.446" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="37.084" y="10.16" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
+</element>
+<element name="R203" library="dp_devices.v6" package="R402" value="25R" x="50.038" y="5.588" smashed="yes" rot="R180">
+<attribute name="NAME" x="50.038" y="6.985" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="50.038" y="6.858" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
+</element>
+<element name="C203" library="dp_devices.v6" package="C402" value="1.5nF" x="44.45" y="3.556" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.291" y="3.556" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="44.45" y="4.826" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
+</element>
+<element name="U202" library="dp_devices.v6" package="VSSOP-8_DCU_PDSO_G8" value="ADS7041" x="46.99" y="6.858" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.831" y="7.62" size="0.9144" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="46.99" y="9.398" size="1.1684" layer="27" font="vector" ratio="12" rot="R180" align="top-center"/>
+</element>
+<element name="C204" library="dp_devices.v6" package="C402" value="1uF" x="47.244" y="3.556" smashed="yes" rot="R180">
+<attribute name="NAME" x="47.244" y="2.794" size="0.7112" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="47.244" y="4.826" size="1.27" layer="27" font="vector" ratio="10" rot="R180" align="top-center"/>
+</element>
+<element name="C205" library="dp_devices.v6" package="C402" value="1uF" x="50.038" y="7.62" smashed="yes">
+<attribute name="NAME" x="50.038" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="50.038" y="6.35" size="1.27" layer="27" font="vector" ratio="10" align="top-center"/>
+</element>
+<element name="U302" library="dp_devices.v6" package="SOT-89" value="MCP1700" x="9.144" y="40.386" smashed="yes">
+<attribute name="NAME" x="4.826" y="41.148" size="1.1684" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="9.144" y="37.386" size="1.778" layer="27" align="top-center"/>
+</element>
+<element name="U200" library="dp_devices.v6" package="TSSOP-24" value="74HCT4067" x="81.026" y="24.892" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.8675" y="20.6375" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="83.2485" y="30.607" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="R101" library="dp_devices.v6" package="R402" value="10K" x="27.432" y="11.176" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.178" y="8.763" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="26.162" y="11.176" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R424" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="40.894" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.614" y="39.878" size="0.7112" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="85.852" y="40.894" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+</element>
+<element name="R425" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="40.894" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.2" y="40.894" size="0.7112" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="75.946" y="40.894" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+</element>
+<element name="R426" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="32.258" smashed="yes" rot="R90">
+<attribute name="NAME" x="85.725" y="29.845" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="85.852" y="32.258" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+</element>
+<element name="R427" library="dp_devices.v6" package="R402" value="220R" x="74.803" y="32.258" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.073" y="32.512" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="76.073" y="32.258" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+</element>
+<element name="R428" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="15.113" smashed="yes" rot="R270">
+<attribute name="NAME" x="84.836" y="17.653" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="83.312" y="15.113" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R429" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="15.113" smashed="yes" rot="R270">
+<attribute name="NAME" x="74.676" y="17.653" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="73.406" y="15.113" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R430" library="dp_devices.v6" package="R402" value="220R" x="84.582" y="6.731" smashed="yes" rot="R270">
+<attribute name="NAME" x="85.471" y="6.604" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="83.312" y="6.731" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R431" library="dp_devices.v6" package="R402" value="220R" x="74.676" y="6.731" smashed="yes" rot="R270">
+<attribute name="NAME" x="75.438" y="7.112" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="73.406" y="6.731" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R310" library="dp_devices.v6" package="R402" value="10K" x="14.478" y="8.382" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.018" y="8.382" size="0.9144" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="13.208" y="8.382" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="R311" library="dp_devices.v6" package="R402" value="10K" x="14.478" y="5.334" smashed="yes" rot="R270">
+<attribute name="NAME" x="14.732" y="2.921" size="0.7112" layer="25" font="vector" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="13.208" y="5.334" size="1.27" layer="27" font="vector" ratio="10" rot="R270" align="top-center"/>
+</element>
+<element name="J4" library="dp_devices.v6" package="X05B20L10T" value="CON-FPC_X05B20L10T" x="21.082" y="4.953" smashed="yes">
+<attribute name="NAME" x="21.082" y="0.575" size="1.1684" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="21.082" y="1.203" size="1.27" layer="27" font="vector" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -32577,12 +32502,12 @@ http://dangerousprototypes.com</description>
 <contactref element="C710" pad="2"/>
 <contactref element="C708" pad="2"/>
 <contactref element="C113" pad="2"/>
-<via x="41.148" y="9.525" extent="1-16" drill="0.508"/>
+<via x="41.275" y="9.525" extent="1-16" drill="0.508"/>
 <via x="39.243" y="13.462" extent="1-16" drill="0.35"/>
-<via x="34.29" y="6.096" extent="1-16" drill="0.508"/>
+<via x="34.544" y="6.096" extent="1-16" drill="0.508"/>
 <via x="25.019" y="36.83" extent="1-16" drill="0.4064"/>
 <via x="35.56" y="33.02" extent="1-16" drill="0.4064"/>
-<via x="16.764" y="40.894" extent="1-16" drill="0.508"/>
+<via x="14.732" y="39.624" extent="1-16" drill="0.508"/>
 <via x="22.9108" y="30.353" extent="1-16" drill="0.508"/>
 <via x="22.86" y="25.0444" extent="1-16" drill="0.508"/>
 <via x="31.2674" y="25.146" extent="1-16" drill="0.508"/>
@@ -32591,9 +32516,9 @@ http://dangerousprototypes.com</description>
 <via x="39.497" y="21.59" extent="1-16" drill="0.4064"/>
 <via x="34.8996" y="21.717" extent="1-16" drill="0.4064"/>
 <via x="34.0106" y="17.78" extent="1-16" drill="0.4064"/>
-<via x="19.4564" y="16.4846" extent="1-16" drill="0.508"/>
-<via x="17.272" y="18.8976" extent="1-16" drill="0.508"/>
-<via x="16.3068" y="14.5796" extent="1-16" drill="0.508"/>
+<via x="19.9644" y="16.4846" extent="1-16" drill="0.508"/>
+<via x="17.272" y="19.1516" extent="1-16" drill="0.508"/>
+<via x="18.161" y="15.494" extent="1-16" drill="0.35"/>
 <via x="7.874" y="11.811" extent="1-16" drill="0.508"/>
 <via x="23.7998" y="16.4846" extent="1-16" drill="0.35"/>
 <via x="49.022" y="15.494" extent="1-16" drill="0.508"/>
@@ -32663,7 +32588,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U500" pad="7"/>
 <contactref element="U501" pad="7"/>
 <contactref element="U602" pad="10"/>
-<contactref element="J4" pad="P10"/>
 <contactref element="J1" pad="GND@1"/>
 <contactref element="J1" pad="GND@2"/>
 <contactref element="J1" pad="P$2"/>
@@ -32674,7 +32598,7 @@ http://dangerousprototypes.com</description>
 <contactref element="R804" pad="2"/>
 <via x="40.386" y="5.842" extent="1-16" drill="0.508"/>
 <contactref element="R702" pad="1"/>
-<via x="17.1704" y="4.0386" extent="1-16" drill="0.508"/>
+<via x="18.796" y="5.842" extent="1-16" drill="0.35"/>
 <via x="79.121" y="8.255" extent="1-16" drill="0.35"/>
 <via x="64.897" y="10.668" extent="1-16" drill="0.4064"/>
 <via x="68.453" y="10.668" extent="1-16" drill="0.35"/>
@@ -32694,14 +32618,14 @@ http://dangerousprototypes.com</description>
 <via x="85.725" y="11.557" extent="1-16" drill="0.4064"/>
 <via x="82.042" y="28.448" extent="1-16" drill="0.4064"/>
 <via x="63.246" y="17.78" extent="1-16" drill="0.4064"/>
-<via x="45.085" y="10.16" extent="1-16" drill="0.508"/>
-<via x="15.1384" y="4.8006" extent="1-16" drill="0.508"/>
+<via x="44.831" y="10.541" extent="1-16" drill="0.508"/>
+<via x="13.589" y="4.191" extent="1-16" drill="0.35"/>
 <via x="18.1864" y="0.9906" extent="1-16" drill="0.508"/>
 <via x="6.1214" y="8.2042" extent="1-16" drill="0.508"/>
 <via x="1.1684" y="12.6746" extent="1-16" drill="0.508"/>
 <via x="6.8834" y="19.5326" extent="1-16" drill="0.508"/>
 <via x="13.9954" y="20.5486" extent="1-16" drill="0.508"/>
-<via x="4.953" y="35.354" extent="1-16" drill="0.4064"/>
+<via x="5.588" y="35.052" extent="1-16" drill="0.4064"/>
 <via x="20.447" y="37.084" extent="1-16" drill="0.4064"/>
 <via x="43.815" y="35.56" extent="1-16" drill="0.4064"/>
 <via x="31.623" y="33.528" extent="1-16" drill="0.4064"/>
@@ -32824,7 +32748,7 @@ http://dangerousprototypes.com</description>
 <contactref element="R204" pad="2"/>
 <via x="72.644" y="17.526" extent="1-16" drill="0.4064"/>
 <contactref element="C302" pad="1"/>
-<via x="9.1694" y="5.9436" extent="1-16" drill="0.508"/>
+<via x="11.2014" y="6.9596" extent="1-16" drill="0.35"/>
 <contactref element="C305" pad="1"/>
 <contactref element="C307" pad="1"/>
 <contactref element="C203" pad="2"/>
@@ -32860,8 +32784,12 @@ http://dangerousprototypes.com</description>
 <via x="82.804" y="5.334" extent="1-16" drill="0.35"/>
 <via x="6.985" y="36.37" extent="1-16" drill="0.4064"/>
 <via x="6.35" y="38.656" extent="1-16" drill="0.4064"/>
-<wire x1="16.8402" y1="10.653" x2="16.51" y2="13.477" width="0" layer="19" extent="1-1"/>
-<wire x1="34.285" y1="14.25" x2="36.234" y2="11.43" width="0" layer="19" extent="1-1"/>
+<contactref element="J4" pad="10"/>
+<via x="18.542" y="10.668" extent="1-16" drill="0.35"/>
+<via x="34.417" y="12.954" extent="1-16" drill="0.35"/>
+<via x="7.874" y="45.514" extent="1-16" drill="0.4064"/>
+<via x="16.51" y="39.624" extent="1-16" drill="0.508"/>
+<via x="3.81" y="35.052" extent="1-16" drill="0.4064"/>
 </signal>
 <signal name="3V3" class="1">
 <contactref element="R900" pad="2"/>
@@ -32926,8 +32854,6 @@ http://dangerousprototypes.com</description>
 <wire x1="41.91" y1="41.275" x2="49.657" y2="41.275" width="1.1684" layer="16"/>
 <wire x1="49.657" y1="41.275" x2="50.927" y2="40.005" width="1.1684" layer="16"/>
 <via x="41.91" y="41.275" extent="1-16" drill="0.508"/>
-<via x="50.292" y="15.5128" extent="1-16" drill="0.508"/>
-<wire x1="50.292" y1="15.5128" x2="49.8393" y2="15.0601" width="0.3048" layer="1"/>
 <wire x1="49.8393" y1="15.0601" x2="49.8393" y2="14.25" width="0.3048" layer="1"/>
 <via x="53.975" y="19.431" extent="1-16" drill="0.508"/>
 <wire x1="43.9630625" y1="19.25" x2="44.3360625" y2="18.877" width="0.3048" layer="1"/>
@@ -32936,7 +32862,6 @@ http://dangerousprototypes.com</description>
 <wire x1="43.3393" y1="19.25" x2="43.9630625" y2="19.25" width="0.3048" layer="1"/>
 <wire x1="51.8393" y1="35.75" x2="51.8393" y2="36.3377" width="0.3048" layer="1"/>
 <wire x1="61.595" y1="28.575" x2="61.595" y2="24.257" width="1.1684" layer="2"/>
-<wire x1="61.595" y1="24.257" x2="61.595" y2="17.78" width="1.1684" layer="2"/>
 <via x="56.007" y="44.45" extent="1-16" drill="0.4064"/>
 <wire x1="41.91" y1="41.275" x2="24.765" y2="41.275" width="1.1684" layer="16"/>
 <wire x1="24.765" y1="17.78" x2="29.65" y2="17.78" width="0.6096" layer="16"/>
@@ -32949,10 +32874,8 @@ http://dangerousprototypes.com</description>
 <wire x1="24.785" y1="17.76" x2="24.765" y2="17.78" width="0.3048" layer="1"/>
 <via x="24.765" y="17.78" extent="1-16" drill="0.4064"/>
 <wire x1="24.765" y1="17.78" x2="21.336" y2="17.78" width="0.6096" layer="16"/>
-<via x="18.415" y="17.78" extent="1-16" drill="0.4064"/>
-<wire x1="21.336" y1="17.78" x2="18.415" y2="17.78" width="0.4064" layer="16"/>
-<wire x1="15.285" y1="17.75" x2="18.385" y2="17.75" width="0.3048" layer="1"/>
-<wire x1="18.385" y1="17.75" x2="18.415" y2="17.78" width="0.3048" layer="1"/>
+<via x="18.796" y="17.78" extent="1-16" drill="0.4064"/>
+<wire x1="21.336" y1="17.78" x2="18.796" y2="17.78" width="0.4064" layer="16"/>
 <wire x1="15.285" y1="18.25" x2="15.285" y2="17.75" width="0.3048" layer="1"/>
 <wire x1="29.785" y1="14.25" x2="29.785" y2="17.645" width="0.3048" layer="1"/>
 <wire x1="29.785" y1="17.645" x2="29.65" y2="17.78" width="0.3048" layer="1"/>
@@ -33008,7 +32931,6 @@ http://dangerousprototypes.com</description>
 <wire x1="54.102" y1="27.432" x2="54.102" y2="31.75" width="0.4064" layer="1"/>
 <wire x1="45.72" y1="31.75" x2="49.911" y2="31.75" width="0.3048" layer="16"/>
 <wire x1="53.975" y1="27.305" x2="53.975" y2="19.431" width="1.1684" layer="2"/>
-<wire x1="53.975" y1="16.9644" x2="53.975" y2="19.431" width="1.1684" layer="2"/>
 <wire x1="54.102" y1="27.432" x2="54.102" y2="26.289" width="1.1684" layer="1"/>
 <wire x1="55.8393" y1="35.75" x2="55.8393" y2="31.75" width="0.3048" layer="1"/>
 <wire x1="55.8393" y1="31.75" x2="54.102" y2="31.75" width="0.3048" layer="1"/>
@@ -33041,7 +32963,7 @@ http://dangerousprototypes.com</description>
 <via x="43.18" y="41.275" extent="1-16" drill="0.508"/>
 <wire x1="43.395" y1="44.45" x2="43.18" y2="44.235" width="0.3048" layer="1"/>
 <wire x1="43.18" y1="44.235" x2="43.18" y2="41.275" width="0.3048" layer="1"/>
-<wire x1="18.031" y1="13.107" x2="18.031" y2="13.081" width="0.3048" layer="1"/>
+<wire x1="17.523" y1="12.827" x2="17.523" y2="12.599" width="0.3048" layer="1"/>
 <via x="49.911" y="31.75" extent="1-16" drill="0.4064"/>
 <wire x1="49.911" y1="31.75" x2="51.8393" y2="31.75" width="0.3048" layer="1"/>
 <contactref element="U402" pad="5"/>
@@ -33052,12 +32974,10 @@ http://dangerousprototypes.com</description>
 <contactref element="U415" pad="5"/>
 <contactref element="U411" pad="5"/>
 <contactref element="U407" pad="5"/>
-<wire x1="61.595" y1="17.78" x2="62.865" y2="16.51" width="1.1684" layer="2"/>
 <wire x1="61.595" y1="28.575" x2="61.595" y2="27.432" width="1.1684" layer="1"/>
 <via x="61.595" y="29.75" extent="1-16" drill="0.4064"/>
 <wire x1="58.42" y1="40.005" x2="56.007" y2="40.005" width="1.1684" layer="16"/>
 <contactref element="U602" pad="20"/>
-<contactref element="J4" pad="P9"/>
 <wire x1="50.8" y1="37.377" x2="50.8" y2="38.52" width="0.3048" layer="1"/>
 <wire x1="56.007" y1="40.005" x2="50.927" y2="40.005" width="1.1684" layer="16"/>
 <via x="17.018" y="25.781" extent="1-16" drill="0.4064"/>
@@ -33067,9 +32987,9 @@ http://dangerousprototypes.com</description>
 <wire x1="21.59" y1="22.86" x2="18.669" y2="25.781" width="0.3048" layer="1"/>
 <via x="17.0307" y="30.4927" extent="1-16" drill="0.4064"/>
 <wire x1="14.702" y1="17.75" x2="15.285" y2="17.75" width="0.3048" layer="1"/>
-<wire x1="18.415" y1="17.78" x2="18.415" y2="13.465" width="0.4064" layer="16"/>
-<wire x1="18.415" y1="13.465" x2="18.031" y2="13.081" width="0.4064" layer="16"/>
-<via x="18.031" y="13.081" extent="1-16" drill="0.4064"/>
+<wire x1="18.923" y1="17.653" x2="18.923" y2="14.227" width="0.4064" layer="16"/>
+<wire x1="18.923" y1="14.227" x2="17.523" y2="12.827" width="0.4064" layer="16"/>
+<via x="17.523" y="12.827" extent="1-16" drill="0.4064"/>
 <via x="74.93" y="28.6645625" extent="1-16" drill="0.4064"/>
 <via x="68.199" y="4.572" extent="1-16" drill="0.35"/>
 <via x="68.199" y="6.731" extent="1-16" drill="0.35"/>
@@ -33106,29 +33026,22 @@ http://dangerousprototypes.com</description>
 <wire x1="61.595" y1="29.75" x2="61.595" y2="29.972" width="0.3048" layer="16"/>
 <wire x1="49.784" y1="11.8577875" x2="49.784" y2="11.826" width="0.3048" layer="1"/>
 <via x="62.865" y="12.954" extent="1-16" drill="0.4064"/>
-<wire x1="49.784" y1="11.826" x2="49.911" y2="12.026" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="22.86" x2="21.59" y2="21.59" width="1.1684" layer="16"/>
 <wire x1="21.59" y1="21.59" x2="21.59" y2="17.78" width="1.1684" layer="16"/>
 <wire x1="21.59" y1="17.78" x2="21.336" y2="17.78" width="0.4064" layer="16"/>
 <wire x1="18.285" y1="13.361" x2="18.031" y2="13.107" width="0.3048" layer="1"/>
 <wire x1="18.285" y1="14.25" x2="18.285" y2="13.361" width="0.3048" layer="1"/>
-<wire x1="19.501" y1="4.477" x2="19.501" y2="5.391" width="0.3048" layer="1"/>
-<wire x1="19.501" y1="5.391" x2="19.05" y2="5.842" width="0.3048" layer="1"/>
-<via x="19.05" y="5.842" extent="1-16" drill="0.4064"/>
-<wire x1="19.05" y1="5.842" x2="18.034" y2="6.858" width="0.3048" layer="16"/>
-<wire x1="18.034" y1="6.858" x2="18.034" y2="7.874" width="0.3048" layer="16"/>
-<via x="18.034" y="7.874" extent="1-16" drill="0.4064"/>
-<wire x1="18.034" y1="12.48799375" x2="18.034" y2="7.874" width="0.3048" layer="1"/>
-<wire x1="18.031" y1="13.081" x2="18.031" y2="12.49099375" width="0.3048" layer="1"/>
-<wire x1="18.031" y1="12.49099375" x2="18.034" y2="12.48799375" width="0.3048" layer="1"/>
+<via x="19.939" y="5.842" extent="1-16" drill="0.4064"/>
+<wire x1="19.939" y1="5.842" x2="18.034" y2="7.747" width="0.3048" layer="16"/>
+<via x="17.526" y="7.747" extent="1-16" drill="0.4064"/>
 <wire x1="21.971" y1="34.798" x2="21.59" y2="34.417" width="1.1684" layer="16"/>
 <wire x1="67.564" y1="33.02" x2="67.564" y2="32.908" width="0.3048" layer="1"/>
 <wire x1="77.47" y1="41.656" x2="77.47" y2="41.544" width="0.3048" layer="1"/>
 <wire x1="77.47" y1="41.656" x2="78.74" y2="41.656" width="0.3048" layer="1"/>
-<wire x1="54.571" y1="44.45" x2="56.007" y2="44.45" width="0.254" layer="1"/>
-<wire x1="43.395" y1="44.45" x2="45.025" y2="44.45" width="0.254" layer="1"/>
-<wire x1="56.007" y1="44.45" x2="57.023" y2="44.45" width="0.254" layer="1"/>
-<wire x1="57.023" y1="44.45" x2="57.023" y2="44.637" width="0.254" layer="1"/>
+<wire x1="54.571" y1="44.45" x2="56.007" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="43.395" y1="44.45" x2="45.025" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="56.007" y1="44.45" x2="57.023" y2="44.45" width="0.3048" layer="1"/>
+<wire x1="57.023" y1="44.45" x2="57.023" y2="44.637" width="0.3048" layer="1"/>
 <wire x1="55.8393" y1="39.0687" x2="55.118" y2="39.79" width="0.3048" layer="1"/>
 <wire x1="55.8393" y1="35.75" x2="55.8393" y2="39.0687" width="0.3048" layer="1"/>
 <contactref element="C400" pad="2"/>
@@ -33169,8 +33082,6 @@ http://dangerousprototypes.com</description>
 <wire x1="25.3628" y1="41.8728" x2="24.765" y2="41.275" width="0.4064" layer="1"/>
 <contactref element="C306" pad="2"/>
 <wire x1="43.18" y1="41.275" x2="41.91" y2="41.275" width="0.3048" layer="1"/>
-<wire x1="16.8402" y1="11.953" x2="17.7942" y2="13.107" width="0.3048" layer="1"/>
-<wire x1="17.7942" y1="13.107" x2="18.031" y2="13.107" width="0.3048" layer="1"/>
 <contactref element="C416" pad="2"/>
 <contactref element="C417" pad="2"/>
 <contactref element="C418" pad="2"/>
@@ -33186,11 +33097,8 @@ http://dangerousprototypes.com</description>
 <contactref element="C204" pad="1"/>
 <contactref element="U202" pad="1"/>
 <contactref element="C205" pad="1"/>
-<wire x1="34.785" y1="14.25" x2="34.785" y2="13.47358125" width="0.3048" layer="1"/>
-<wire x1="35.34298125" y1="13.21958125" x2="34.785" y2="13.21958125" width="0.3048" layer="1"/>
 <wire x1="29.9548" y1="13.6652" x2="34.8973625" y2="13.6652" width="0.3048" layer="2"/>
 <wire x1="34.8973625" y1="13.6652" x2="35.34298125" y2="13.21958125" width="0.3048" layer="2"/>
-<wire x1="75.344" y1="28.0625625" x2="75.344" y2="27.94" width="0.3048" layer="1"/>
 <wire x1="75.344" y1="27.94" x2="75.344" y2="27.182" width="0.3048" layer="1"/>
 <wire x1="64.8393" y1="24.25" x2="66.406" y2="24.25" width="0.3048" layer="1"/>
 <wire x1="66.406" y1="24.25" x2="66.406" y2="24.13" width="0.3048" layer="1"/>
@@ -33198,9 +33106,7 @@ http://dangerousprototypes.com</description>
 <wire x1="55.3393" y1="14.25" x2="55.3393" y2="15.3997" width="0.3048" layer="1"/>
 <wire x1="55.3393" y1="15.3997" x2="55.245" y2="15.494" width="0.3048" layer="1"/>
 <via x="55.245" y="15.494" extent="1-16" drill="0.4064"/>
-<wire x1="54.102" y1="16.637" x2="54.102" y2="17.0914" width="0.3048" layer="2"/>
 <via x="61.595" y="24.257" extent="1-16" drill="0.4064"/>
-<via x="62.992" y="16.383" extent="1-16" drill="0.4064"/>
 <wire x1="72.233" y1="40.909" x2="71.258" y2="40.909" width="0.3048" layer="1"/>
 <via x="78.232" y="43.815" extent="1-16" drill="0.4064"/>
 <wire x1="55.3393" y1="14.25" x2="55.3393" y2="12.9867" width="0.3048" layer="1"/>
@@ -33209,8 +33115,6 @@ http://dangerousprototypes.com</description>
 <wire x1="29.785" y1="14.25" x2="29.785" y2="13.021" width="0.3048" layer="1"/>
 <wire x1="29.785" y1="13.021" x2="29.21" y2="12.446" width="0.3048" layer="1"/>
 <wire x1="29.21" y1="12.446" x2="29.21" y2="11.826" width="0.3048" layer="1"/>
-<wire x1="34.785" y1="13.47358125" x2="34.785" y2="13.21958125" width="0.3048" layer="1"/>
-<wire x1="34.785" y1="12.067" x2="34.544" y2="11.826" width="0.3048" layer="1"/>
 <wire x1="49.388" y1="7.62" x2="48.6" y2="8.408" width="0.3048" layer="1"/>
 <wire x1="48.6" y1="8.408" x2="47.74" y2="8.408" width="0.3048" layer="1"/>
 <wire x1="67.31" y1="41.544" x2="67.422" y2="41.656" width="0.3048" layer="1"/>
@@ -33219,7 +33123,6 @@ http://dangerousprototypes.com</description>
 <via x="71.247" y="4.572" extent="1-16" drill="0.35"/>
 <wire x1="71.258" y1="3.825" x2="71.598" y2="3.825" width="0.3048" layer="1"/>
 <wire x1="71.598" y1="3.825" x2="72.263" y2="3.16" width="0.3048" layer="1"/>
-<wire x1="71.258" y1="32.273" x2="71.247" y2="32.284" width="0.3048" layer="1"/>
 <wire x1="71.258" y1="32.273" x2="72.106" y2="32.273" width="0.3048" layer="1"/>
 <wire x1="72.106" y1="32.273" x2="72.771" y2="31.608" width="0.3048" layer="1"/>
 <wire x1="72.771" y1="31.608" x2="72.898" y2="31.608" width="0.3048" layer="1"/>
@@ -33231,7 +33134,6 @@ http://dangerousprototypes.com</description>
 <wire x1="66.057" y1="29.75" x2="66.406" y2="30.099" width="0.3048" layer="1"/>
 <wire x1="64.8393" y1="33.75" x2="63.341" y2="33.75" width="0.3048" layer="1"/>
 <wire x1="63.341" y1="33.75" x2="62.1665" y2="32.5755" width="0.3048" layer="1"/>
-<wire x1="62.1665" y1="32.5755" x2="61.976" y2="32.385" width="0.3048" layer="1"/>
 <wire x1="64.8393" y1="33.75" x2="64.8393" y2="36.4917" width="0.3048" layer="1"/>
 <wire x1="64.8393" y1="36.4917" x2="64.77" y2="36.561" width="0.3048" layer="1"/>
 <wire x1="58.42" y1="40.005" x2="65.024" y2="40.005" width="1.1684" layer="16"/>
@@ -33242,7 +33144,6 @@ http://dangerousprototypes.com</description>
 <wire x1="81.885" y1="12.207" x2="82.55" y2="11.542" width="0.3048" layer="1"/>
 <wire x1="82.55" y1="11.542" x2="82.804" y2="11.542" width="0.3048" layer="1"/>
 <wire x1="79.349" y1="35.179" x2="79.364" y2="35.194" width="0.3048" layer="1"/>
-<wire x1="78.247" y1="35.194" x2="78.232" y2="35.179" width="0.3048" layer="1"/>
 <wire x1="82.804" y1="40.244" x2="82.718" y2="40.244" width="0.3048" layer="1"/>
 <wire x1="82.718" y1="40.244" x2="82.053" y2="40.909" width="0.3048" layer="1"/>
 <wire x1="82.053" y1="40.909" x2="81.164" y2="40.909" width="0.3048" layer="1"/>
@@ -33267,8 +33168,6 @@ http://dangerousprototypes.com</description>
 <wire x1="69.443" y1="6.731" x2="68.199" y2="6.731" width="0.3048" layer="1"/>
 <wire x1="68.199" y1="6.731" x2="68.214" y2="6.746" width="0.3048" layer="1"/>
 <wire x1="68.214" y1="6.746" x2="68.214" y2="8.255" width="0.3048" layer="1"/>
-<wire x1="62.865" y1="16.256" x2="62.865" y2="12.954" width="0.6096" layer="2"/>
-<wire x1="62.992" y1="15.113" x2="62.992" y2="16.383" width="1.1684" layer="2"/>
 <wire x1="78.232" y1="15.113" x2="79.364" y2="15.113" width="0.3048" layer="1"/>
 <wire x1="79.364" y1="15.113" x2="79.364" y2="15.128" width="0.3048" layer="1"/>
 <wire x1="78.232" y1="15.113" x2="78.232" y2="16.637" width="0.3048" layer="1"/>
@@ -33283,7 +33182,6 @@ http://dangerousprototypes.com</description>
 <wire x1="78.232" y1="12.954" x2="78.74" y2="12.954" width="0.6096" layer="2"/>
 <wire x1="71.247" y1="12.954" x2="68.961" y2="12.954" width="0.6096" layer="2"/>
 <wire x1="81.153" y1="12.954" x2="78.74" y2="12.954" width="0.6096" layer="2"/>
-<wire x1="62.992" y1="16.383" x2="62.865" y2="16.256" width="0.6096" layer="2"/>
 <wire x1="68.961" y1="12.954" x2="68.326" y2="12.954" width="0.6096" layer="2"/>
 <wire x1="68.326" y1="12.954" x2="62.865" y2="12.954" width="0.6096" layer="2"/>
 <wire x1="68.326" y1="15.113" x2="68.326" y2="12.954" width="0.3048" layer="2"/>
@@ -33328,7 +33226,7 @@ http://dangerousprototypes.com</description>
 <wire x1="68.341" y1="15.128" x2="68.326" y2="15.113" width="0.3048" layer="1"/>
 <wire x1="78.232" y1="42.164" x2="78.74" y2="41.656" width="0.4064" layer="16"/>
 <wire x1="78.232" y1="43.815" x2="76.82" y2="43.815" width="0.3048" layer="1"/>
-<wire x1="76.82" y1="43.815" x2="76.82" y2="45.339" width="0.3048" layer="1"/>
+<wire x1="76.82" y1="43.815" x2="76.82" y2="45.212" width="0.3048" layer="1"/>
 <wire x1="68.326" y1="43.815" x2="65.024" y2="43.815" width="0.6096" layer="16"/>
 <wire x1="65.024" y1="43.815" x2="65.024" y2="40.005" width="0.6096" layer="16"/>
 <wire x1="69.458" y1="43.83" x2="68.326" y2="43.83" width="0.3048" layer="1"/>
@@ -33346,10 +33244,8 @@ http://dangerousprototypes.com</description>
 <wire x1="68.199" y1="4.572" x2="68.199" y2="6.731" width="0.3048" layer="2"/>
 <wire x1="71.247" y1="4.572" x2="71.247" y2="6.604" width="0.3048" layer="2"/>
 <wire x1="71.247" y1="6.604" x2="71.12" y2="6.731" width="0.3048" layer="2"/>
-<wire x1="71.12" y1="6.731" x2="71.247" y2="6.731" width="0.3048" layer="2"/>
 <wire x1="76.947" y1="6.858" x2="76.947" y2="8.255" width="0.3048" layer="1"/>
 <wire x1="79.364" y1="6.731" x2="79.364" y2="6.746" width="0.3048" layer="1"/>
-<wire x1="76.947" y1="6.858" x2="76.947" y2="6.985" width="0.3048" layer="1"/>
 <wire x1="78.232" y1="6.731" x2="79.364" y2="6.731" width="0.3048" layer="1"/>
 <wire x1="78.232" y1="6.731" x2="76.947" y2="6.731" width="0.3048" layer="1"/>
 <wire x1="76.947" y1="6.731" x2="76.947" y2="6.858" width="0.3048" layer="1"/>
@@ -33369,11 +33265,9 @@ http://dangerousprototypes.com</description>
 <wire x1="43.3393" y1="31.25" x2="41.014" y2="31.25" width="0.3048" layer="1"/>
 <wire x1="41.014" y1="31.25" x2="40.4876" y2="30.7236" width="0.3048" layer="1"/>
 <wire x1="36.785" y1="36.7478" x2="36.83" y2="36.7928" width="0.3048" layer="1"/>
-<wire x1="34.785" y1="13.21958125" x2="34.785" y2="12.067" width="0.3048" layer="1"/>
 <wire x1="55.245" y1="15.494" x2="54.102" y2="15.494" width="0.6096" layer="2"/>
 <wire x1="54.102" y1="15.494" x2="50.292" y2="15.494" width="0.6096" layer="2"/>
 <wire x1="54.102" y1="15.494" x2="53.975" y2="15.494" width="0.6096" layer="2"/>
-<wire x1="53.975" y1="15.494" x2="53.975" y2="16.9644" width="0.6096" layer="2"/>
 <wire x1="62.865" y1="12.954" x2="61.087" y2="11.176" width="0.3048" layer="2"/>
 <wire x1="48.514" y1="6.858" x2="47.498" y2="6.858" width="0.3048" layer="2"/>
 <via x="47.498" y="6.858" extent="1-16" drill="0.35" diameter="0.35"/>
@@ -33423,9 +33317,30 @@ http://dangerousprototypes.com</description>
 <wire x1="13.589" y1="16.637" x2="14.702" y2="17.75" width="0.3048" layer="1"/>
 <wire x1="14.254" y1="14.478" x2="13.096" y2="15.636" width="0.3048" layer="1"/>
 <wire x1="13.096" y1="15.636" x2="13.096" y2="16.637" width="0.3048" layer="1"/>
-<wire x1="53.975" y1="16.9644" x2="54.102" y2="17.0914" width="0" layer="19" extent="2-2"/>
-<wire x1="50.292" y1="15.5128" x2="50.292" y2="15.494" width="0" layer="19" extent="1-1"/>
-<wire x1="62.992" y1="16.383" x2="62.865" y2="16.51" width="0" layer="19" extent="1-2"/>
+<contactref element="J4" pad="9"/>
+<wire x1="18.796" y1="17.78" x2="18.923" y2="17.653" width="0.4064" layer="16"/>
+<wire x1="17.523" y1="7.75" x2="17.523" y2="12.827" width="0.3048" layer="1"/>
+<wire x1="17.523" y1="12.827" x2="16.637" y2="12.827" width="0.3048" layer="1"/>
+<wire x1="16.5862" y1="12.7762" x2="16.5862" y2="11.953" width="0.3048" layer="1"/>
+<wire x1="16.637" y1="12.827" x2="16.5862" y2="12.7762" width="0.3048" layer="1"/>
+<wire x1="15.285" y1="18.25" x2="18.326" y2="18.25" width="0.3048" layer="1"/>
+<wire x1="18.326" y1="18.25" x2="18.796" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="19.332" y1="7.303" x2="19.332" y2="6.449" width="0.3048" layer="1"/>
+<wire x1="19.939" y1="5.842" x2="19.332" y2="6.449" width="0.3048" layer="1"/>
+<wire x1="18.031" y1="13.107" x2="17.523" y2="12.599" width="0.3048" layer="1"/>
+<wire x1="17.526" y1="7.747" x2="17.523" y2="7.75" width="0.3048" layer="1"/>
+<wire x1="18.034" y1="7.747" x2="17.526" y2="7.747" width="0.3048" layer="16"/>
+<wire x1="35.34298125" y1="13.21958125" x2="35.34298125" y2="13.69201875" width="0.3048" layer="1"/>
+<wire x1="35.34298125" y1="13.69201875" x2="34.785" y2="14.25" width="0.3048" layer="1"/>
+<wire x1="34.544" y1="11.826" x2="35.34298125" y2="11.826" width="0.3048" layer="1"/>
+<wire x1="35.34298125" y1="11.826" x2="35.34298125" y2="13.21958125" width="0.3048" layer="1"/>
+<wire x1="50.292" y1="15.494" x2="50.2732" y2="15.494" width="0.3048" layer="1"/>
+<wire x1="50.2732" y1="15.494" x2="49.8393" y2="15.0601" width="0.3048" layer="1"/>
+<wire x1="53.975" y1="19.431" x2="53.975" y2="15.494" width="0.6096" layer="2"/>
+<wire x1="53.975" y1="15.494" x2="54.102" y2="15.494" width="0.6096" layer="2"/>
+<wire x1="61.595" y1="24.257" x2="61.595" y2="16.891" width="1.1684" layer="2"/>
+<wire x1="62.865" y1="15.621" x2="62.865" y2="12.954" width="1.1684" layer="2"/>
+<wire x1="61.595" y1="16.891" x2="62.865" y2="15.621" width="1.1684" layer="2"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED900" pad="A"/>
@@ -33478,12 +33393,11 @@ http://dangerousprototypes.com</description>
 <wire x1="74.775" y1="47" x2="65.268" y2="47" width="0.254" layer="1"/>
 <wire x1="3.048" y1="27.686" x2="8.938" y2="33.576" width="0.254" layer="1"/>
 <via x="3.048" y="22.606" extent="1-16" drill="0.4064"/>
-<wire x1="3.048" y1="22.225" x2="9.398" y2="15.875" width="0.254" layer="16"/>
-<wire x1="9.398" y1="15.875" x2="9.398" y2="11.684" width="0.254" layer="16"/>
-<wire x1="9.398" y1="11.684" x2="8.509" y2="10.795" width="0.254" layer="16"/>
+<wire x1="3.048" y1="22.225" x2="8.89" y2="16.383" width="0.254" layer="16"/>
+<wire x1="8.89" y1="16.383" x2="8.89" y2="11.176" width="0.254" layer="16"/>
+<wire x1="8.89" y1="11.176" x2="8.509" y2="10.795" width="0.254" layer="16"/>
 <wire x1="8.509" y1="10.795" x2="7.874" y2="10.795" width="0.254" layer="16"/>
 <via x="7.874" y="10.795" extent="1-16" drill="0.4064"/>
-<wire x1="7.874" y1="10.795" x2="6.64" y2="10.795" width="0.254" layer="1"/>
 <wire x1="3.048" y1="27.686" x2="3.048" y2="22.606" width="0.254" layer="1"/>
 <wire x1="3.048" y1="22.606" x2="3.048" y2="22.225" width="0.254" layer="16"/>
 <wire x1="14.78986875" y1="32.25" x2="13.462" y2="33.57786875" width="0.254" layer="1"/>
@@ -33491,9 +33405,11 @@ http://dangerousprototypes.com</description>
 <wire x1="13.462" y1="33.57786875" x2="13.462" y2="43.18" width="0.254" layer="1"/>
 <wire x1="13.46013125" y1="33.576" x2="13.462" y2="33.57786875" width="0.254" layer="1"/>
 <wire x1="8.938" y1="33.576" x2="13.46013125" y2="33.576" width="0.254" layer="1"/>
+<wire x1="3.952" y1="10.861" x2="3.952" y2="10.668" width="0.254" layer="1"/>
 <wire x1="6.574" y1="10.861" x2="3.952" y2="10.861" width="0.254" layer="1"/>
 <wire x1="3.952" y1="10.861" x2="3.952" y2="10.668" width="0.254" layer="1"/>
-<wire x1="6.574" y1="10.861" x2="6.64" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="7.874" y1="10.795" x2="6.574" y2="10.795" width="0.254" layer="1"/>
+<wire x1="6.574" y1="10.795" x2="6.574" y2="10.861" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="LED902" pad="A"/>
@@ -33520,7 +33436,7 @@ http://dangerousprototypes.com</description>
 <vertex x="7.112" y="13.716"/>
 <vertex x="7.112" y="16.256"/>
 </polygon>
-<via x="4.826" y="39.164" extent="1-16" drill="0.508"/>
+<via x="4.826" y="40.386" extent="1-16" drill="0.508"/>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="40.005" y="12.875"/>
 <vertex x="37.719" y="12.875"/>
@@ -33532,7 +33448,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U301" pad="5"/>
 <contactref element="D200" pad="C"/>
 <contactref element="U201" pad="5"/>
-<wire x1="0.889" y1="14.224" x2="0.889" y2="33.147" width="1.2192" layer="16"/>
 <contactref element="C300" pad="1"/>
 <contactref element="U300" pad="1"/>
 <contactref element="U500" pad="14"/>
@@ -33560,33 +33475,21 @@ http://dangerousprototypes.com</description>
 <wire x1="87.6935" y1="6.5405" x2="92.075" y2="10.922" width="0.8128" layer="16"/>
 <wire x1="87.6935" y1="6.5405" x2="86.995" y2="7.239" width="0.3048" layer="16"/>
 <wire x1="87.376" y1="6.223" x2="87.6935" y2="6.5405" width="0.8128" layer="16"/>
-<wire x1="5.842" y1="10.9474" x2="11.9126" y2="4.8768" width="1.2192" layer="16"/>
-<wire x1="11.9126" y1="4.8768" x2="14.2494" y2="2.54" width="1.2192" layer="16"/>
-<wire x1="14.2494" y1="2.54" x2="38.1" y2="2.54" width="1.2192" layer="16"/>
-<wire x1="0.889" y1="14.224" x2="4.572" y2="14.224" width="1.2192" layer="16"/>
+<wire x1="5.842" y1="10.1854" x2="11.2776" y2="4.7498" width="1.2192" layer="16"/>
+<wire x1="11.2776" y1="4.7498" x2="13.4874" y2="2.54" width="1.2192" layer="16"/>
+<wire x1="13.4874" y1="2.54" x2="38.1" y2="2.54" width="1.2192" layer="16"/>
+<wire x1="4.572" y1="14.224" x2="0.889" y2="14.224" width="1.2192" layer="16"/>
 <wire x1="4.572" y1="14.224" x2="5.842" y2="14.224" width="1.2192" layer="16"/>
 <via x="5.842" y="14.224" extent="1-16" drill="0.4064"/>
 <via x="4.572" y="14.224" extent="1-16" drill="0.4064"/>
-<wire x1="5.842" y1="14.224" x2="5.842" y2="10.9474" width="1.2192" layer="16"/>
-<wire x1="0.889" y1="33.147" x2="4.826" y2="37.084" width="1.2192" layer="16"/>
-<wire x1="4.826" y1="39.164" x2="4.826" y2="37.084" width="1.2192" layer="16"/>
-<via x="11.9126" y="4.8768" extent="1-16" drill="0.4064"/>
+<wire x1="5.842" y1="14.224" x2="5.842" y2="10.1854" width="1.2192" layer="16"/>
+<via x="11.2776" y="4.7498" extent="1-16" drill="0.4064"/>
 <contactref element="C303" pad="2"/>
 <contactref element="C201" pad="1"/>
 <contactref element="C500" pad="2"/>
 <contactref element="C501" pad="2"/>
 <contactref element="C202" pad="1"/>
 <contactref element="C302" pad="2"/>
-<wire x1="11.9126" y1="5.9284" x2="11.9126" y2="5.8268" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="7.732" x2="11.9126" y2="6.835828125" width="0.4064" layer="1"/>
-<wire x1="11.9126" y1="6.835828125" x2="11.9126" y2="5.9284" width="0.4064" layer="1"/>
-<wire x1="9.7638" y1="4.7198" x2="10.8454" y2="5.8014" width="0.3048" layer="1"/>
-<wire x1="10.8454" y1="5.8014" x2="11.9126" y2="5.8014" width="0.3048" layer="1"/>
-<wire x1="13.2826" y1="5.8268" x2="11.9126" y2="5.8268" width="0.3048" layer="1"/>
-<wire x1="11.9126" y1="5.8268" x2="11.9126" y2="4.8768" width="0.3048" layer="1"/>
-<wire x1="13.2826" y1="5.8268" x2="13.267246875" y2="5.865446875" width="0.3048" layer="1"/>
-<wire x1="11.9126" y1="5.9284" x2="11.9126" y2="5.8014" width="0.4064" layer="1"/>
-<wire x1="9.7638" y1="4.6436" x2="9.7638" y2="4.7198" width="0.3048" layer="1"/>
 <contactref element="C305" pad="2"/>
 <contactref element="C307" pad="2"/>
 <contactref element="U302" pad="2"/>
@@ -33620,13 +33523,19 @@ http://dangerousprototypes.com</description>
 <wire x1="85.09" y1="19.05" x2="85.852" y2="19.812" width="0.3048" layer="1"/>
 <wire x1="78.247" y1="19.05" x2="85.09" y2="19.05" width="0.3048" layer="1"/>
 <wire x1="77.612" y1="19.812" x2="77.612" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="9.144" y1="40.236" x2="4.826" y2="40.236" width="1.2192" layer="1"/>
-<wire x1="4.826" y1="40.236" x2="4.826" y2="39.164" width="1.2192" layer="1"/>
-<wire x1="9.144" y1="40.236" x2="9.144" y2="43.854" width="0.6096" layer="1"/>
-<wire x1="7.112" y1="15.67" x2="6.731" y2="15.67" width="0.3048" layer="1"/>
-<wire x1="13.3604" y1="5.9586" x2="13.267246875" y2="5.865446875" width="0.3048" layer="1"/>
 <wire x1="8.748" y1="16.256" x2="7.317" y2="16.256" width="0.3048" layer="1"/>
 <wire x1="7.317" y1="16.256" x2="6.731" y2="15.67" width="0.3048" layer="1"/>
+<wire x1="11.2776" y1="4.7498" x2="9.87" y2="4.7498" width="0.4064" layer="1"/>
+<wire x1="9.87" y1="4.7498" x2="9.7638" y2="4.6436" width="0.4064" layer="1"/>
+<wire x1="12.7" y1="5.984" x2="12.7" y2="7.732" width="0.4064" layer="1"/>
+<wire x1="11.2776" y1="5.0038" x2="12.2578" y2="5.984" width="0.4064" layer="1"/>
+<wire x1="12.2578" y1="5.984" x2="12.7" y2="5.984" width="0.4064" layer="1"/>
+<wire x1="11.2776" y1="4.7498" x2="11.2776" y2="5.0038" width="0.4064" layer="1"/>
+<wire x1="0.889" y1="40.386" x2="4.826" y2="40.386" width="1.2192" layer="16"/>
+<wire x1="0.889" y1="14.224" x2="0.889" y2="40.386" width="1.2192" layer="16"/>
+<wire x1="9.144" y1="40.236" x2="9.144" y2="40.386" width="1.2192" layer="1"/>
+<wire x1="9.144" y1="40.386" x2="4.826" y2="40.386" width="1.2192" layer="1"/>
+<wire x1="9.144" y1="40.236" x2="9.144" y2="43.854" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R903" pad="1"/>
@@ -33739,7 +33648,6 @@ http://dangerousprototypes.com</description>
 <signal name="BUFDIR0">
 <contactref element="U400" pad="5"/>
 <contactref element="R400" pad="2"/>
-<wire x1="81.138" y1="45.0446" x2="81.168" y2="45.339" width="0.254" layer="1"/>
 <contactref element="U700" pad="107"/>
 <wire x1="81.28" y1="44.45" x2="76.962" y2="44.45" width="0.254" layer="2"/>
 <wire x1="76.962" y1="44.45" x2="71.1454" y2="38.6334" width="0.254" layer="2"/>
@@ -33882,7 +33790,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U408" pad="5"/>
 <contactref element="R412" pad="2"/>
 <contactref element="U700" pad="99"/>
-<wire x1="81.164" y1="34.544" x2="81.1466" y2="34.544" width="0.254" layer="1"/>
 <wire x1="81.164" y1="34.544" x2="80.518" y2="34.544" width="0.254" layer="1"/>
 <wire x1="80.518" y1="34.544" x2="80.264" y2="34.798" width="0.254" layer="1"/>
 <wire x1="80.264" y1="34.798" x2="80.264" y2="35.799" width="0.254" layer="1"/>
@@ -33956,15 +33863,14 @@ http://dangerousprototypes.com</description>
 <contactref element="U412" pad="5"/>
 <contactref element="R418" pad="2"/>
 <contactref element="U700" pad="104"/>
-<wire x1="72.136" y1="36.703" x2="71.755" y2="36.703" width="0.254" layer="1"/>
 <wire x1="71.258" y1="34.544" x2="70.612" y2="34.544" width="0.254" layer="1"/>
 <wire x1="70.612" y1="34.544" x2="70.358" y2="34.798" width="0.254" layer="1"/>
 <wire x1="72.136" y1="36.703" x2="71.374" y2="36.703" width="0.254" layer="1"/>
 <via x="72.136" y="36.703" extent="1-16" drill="0.35"/>
 <wire x1="71.374" y1="36.703" x2="71.262" y2="36.703" width="0.254" layer="1"/>
-<wire x1="72.136" y1="36.703" x2="70.231" y2="36.703" width="0.254" layer="2"/>
-<wire x1="70.231" y1="36.703" x2="65.786" y2="32.258" width="0.254" layer="2"/>
-<wire x1="65.786" y1="32.258" x2="63.2826" y2="32.258" width="0.254" layer="2"/>
+<wire x1="72.136" y1="36.703" x2="70.104" y2="36.703" width="0.254" layer="2"/>
+<wire x1="70.104" y1="36.703" x2="65.659" y2="32.258" width="0.254" layer="2"/>
+<wire x1="65.659" y1="32.258" x2="63.2826" y2="32.258" width="0.254" layer="2"/>
 <wire x1="63.2826" y1="32.258" x2="63.246" y2="32.2214" width="0.254" layer="2"/>
 <via x="63.246" y="32.2214" extent="1-16" drill="0.35"/>
 <wire x1="63.7174" y1="31.75" x2="64.8393" y2="31.75" width="0.254" layer="1"/>
@@ -34003,7 +33909,6 @@ http://dangerousprototypes.com</description>
 <contactref element="R420" pad="1"/>
 <contactref element="U414" pad="2"/>
 <contactref element="U700" pad="101"/>
-<wire x1="67.564" y1="31.608" x2="67.422" y2="31.608" width="0.254" layer="1"/>
 <wire x1="69.458" y1="31.623" x2="67.579" y2="31.623" width="0.254" layer="1"/>
 <wire x1="67.579" y1="31.623" x2="67.564" y2="31.608" width="0.254" layer="1"/>
 <wire x1="67.564" y1="31.608" x2="66.563" y2="31.608" width="0.254" layer="1"/>
@@ -34037,41 +33942,39 @@ http://dangerousprototypes.com</description>
 <via x="40.767" y="17.115" extent="1-16" drill="0.4064"/>
 <wire x1="37.50873125" y1="17.75" x2="38.14373125" y2="17.115" width="0.254" layer="1"/>
 <wire x1="38.14373125" y1="17.115" x2="40.767" y2="17.115" width="0.254" layer="1"/>
-<wire x1="41.275" y1="17.623" x2="58.5742" y2="17.623" width="0.254" layer="16"/>
-<via x="59.5884" y="16.6088" extent="1-16" drill="0.4064"/>
-<wire x1="59.586815625" y1="16.607215625" x2="60.8393" y2="15.35473125" width="0.254" layer="1"/>
-<wire x1="60.8393" y1="15.35473125" x2="60.8393" y2="14.25" width="0.254" layer="1"/>
+<wire x1="41.275" y1="17.623" x2="58.7012" y2="17.623" width="0.254" layer="16"/>
+<via x="59.4614" y="16.8628" extent="1-16" drill="0.4064"/>
+<wire x1="59.459815625" y1="16.861215625" x2="60.8393" y2="15.48173125" width="0.254" layer="1"/>
+<wire x1="60.8393" y1="15.48173125" x2="60.8393" y2="14.25" width="0.254" layer="1"/>
 <wire x1="36.785" y1="17.75" x2="37.50873125" y2="17.75" width="0.254" layer="1"/>
-<wire x1="59.5884" y1="16.6088" x2="58.5742" y2="17.623" width="0.254" layer="16"/>
-<wire x1="59.586815625" y1="16.607215625" x2="59.5884" y2="16.6088" width="0.254" layer="1"/>
+<wire x1="59.4614" y1="16.8628" x2="58.7012" y2="17.623" width="0.254" layer="16"/>
+<wire x1="59.459815625" y1="16.861215625" x2="59.4614" y2="16.8628" width="0.254" layer="1"/>
 <wire x1="40.767" y1="17.115" x2="41.275" y2="17.623" width="0.254" layer="16"/>
 </signal>
 <signal name="FPGA_PROG_CLOCK">
 <contactref element="U700" pad="70"/>
 <contactref element="U100" pad="74"/>
 <via x="35.4584" y="17.8262" extent="1-16" drill="0.4064"/>
-<via x="59.5122" y="17.447" extent="1-16" drill="0.4064"/>
-<wire x1="59.5122" y1="17.5486" x2="61.8393" y2="15.2215" width="0.254" layer="1"/>
-<wire x1="61.8393" y1="15.2215" x2="61.8393" y2="14.25" width="0.254" layer="1"/>
-<wire x1="59.5122" y1="17.5486" x2="59.5122" y2="17.447" width="0.254" layer="1"/>
-<wire x1="58.7502" y1="18.209" x2="35.8412" y2="18.209" width="0.254" layer="16"/>
+<via x="59.5122" y="17.828" extent="1-16" drill="0.4064"/>
+<wire x1="59.5122" y1="17.828" x2="61.8393" y2="15.5009" width="0.254" layer="1"/>
+<wire x1="61.8393" y1="15.5009" x2="61.8393" y2="14.25" width="0.254" layer="1"/>
+<wire x1="59.1312" y1="18.209" x2="35.8412" y2="18.209" width="0.254" layer="16"/>
 <wire x1="36.277" y1="16.75" x2="35.4584" y2="17.5686" width="0.254" layer="1"/>
 <wire x1="36.785" y1="16.75" x2="36.277" y2="16.75" width="0.254" layer="1"/>
 <wire x1="35.4584" y1="17.5686" x2="35.4584" y2="17.8262" width="0.254" layer="1"/>
-<wire x1="59.5122" y1="17.447" x2="58.7502" y2="18.209" width="0.254" layer="16"/>
+<wire x1="59.5122" y1="17.828" x2="59.1312" y2="18.209" width="0.254" layer="16"/>
 <wire x1="35.8412" y1="18.209" x2="35.4584" y2="17.8262" width="0.254" layer="16"/>
 </signal>
 <signal name="FPGA_PROG_CS">
 <contactref element="U700" pad="71"/>
 <contactref element="U100" pad="73"/>
 <wire x1="62.3393" y1="14.25" x2="62.3393" y2="15.24" width="0.254" layer="1"/>
-<wire x1="62.3393" y1="15.24" x2="62.3393" y2="15.2962375" width="0.254" layer="1"/>
 <wire x1="35.13528125" y1="17.10128125" x2="35.9865625" y2="16.25" width="0.254" layer="1"/>
 <via x="34.88128125" y="17.10128125" extent="1-16" drill="0.4064"/>
 <wire x1="35.9865625" y1="16.25" x2="36.785" y2="16.25" width="0.254" layer="1"/>
-<wire x1="61.34405" y1="16.68195" x2="59.2836" y2="18.7424" width="0.254" layer="16"/>
-<via x="61.34405" y="16.68195" extent="1-16" drill="0.4064"/>
-<wire x1="59.2836" y1="18.7424" x2="35.47656875" y2="18.7424" width="0.254" layer="16"/>
+<wire x1="60.45505" y1="17.95195" x2="59.6646" y2="18.7424" width="0.254" layer="16"/>
+<via x="60.45505" y="17.95195" extent="1-16" drill="0.4064"/>
+<wire x1="59.6646" y1="18.7424" x2="35.47656875" y2="18.7424" width="0.254" layer="16"/>
 <wire x1="35.13528125" y1="17.10128125" x2="34.88128125" y2="17.10128125" width="0.254" layer="1"/>
 <wire x1="35.47656875" y1="18.7424" x2="34.8234" y2="18.08923125" width="0.254" layer="16"/>
 <wire x1="34.8234" y1="17.1591625" x2="34.88128125" y2="17.10128125" width="0.254" layer="16"/>
@@ -34080,8 +33983,8 @@ http://dangerousprototypes.com</description>
 <wire x1="62.3393" y1="15.24" x2="64.135" y2="15.24" width="0.254" layer="1"/>
 <wire x1="65.786" y1="13.589" x2="65.786" y2="12.842" width="0.254" layer="1"/>
 <wire x1="64.135" y1="15.24" x2="65.786" y2="13.589" width="0.254" layer="1"/>
-<wire x1="62.3393" y1="15.24" x2="62.3393" y2="15.6867" width="0.254" layer="1"/>
-<wire x1="62.3393" y1="15.6867" x2="61.34405" y2="16.68195" width="0.254" layer="1"/>
+<wire x1="62.3393" y1="15.24" x2="62.3393" y2="16.0677" width="0.254" layer="1"/>
+<wire x1="62.3393" y1="16.0677" x2="60.45505" y2="17.95195" width="0.254" layer="1"/>
 </signal>
 <signal name="FPGA_CRESET">
 <contactref element="U700" pad="66"/>
@@ -34156,10 +34059,7 @@ http://dangerousprototypes.com</description>
 <vertex x="45.085" y="12.065"/>
 </polygon>
 <via x="44.577" y="13.081" extent="1-16" drill="0.4064"/>
-<wire x1="48.26" y1="13.081" x2="52.959" y2="13.081" width="1.1684" layer="2"/>
-<wire x1="48.26" y1="13.081" x2="46.863" y2="13.081" width="1.1684" layer="2"/>
 <via x="52.959" y="13.081" extent="1-16" drill="0.4064"/>
-<wire x1="46.8393" y1="13.081" x2="45.847" y2="13.081" width="1.1684" layer="2"/>
 <wire x1="53.8393" y1="13.081" x2="52.959" y2="13.081" width="0.3048" layer="1"/>
 <wire x1="54.3393" y1="35.75" x2="54.3393" y2="34.5607" width="0.3048" layer="1"/>
 <wire x1="54.3393" y1="34.5607" x2="54.61" y2="34.29" width="0.3048" layer="1"/>
@@ -34171,7 +34071,6 @@ http://dangerousprototypes.com</description>
 <wire x1="45.25526875" y1="20.75" x2="56.974" y2="20.75" width="0.3048" layer="1"/>
 <wire x1="53.8393" y1="14.25" x2="53.8393" y2="13.081" width="0.3048" layer="1"/>
 <wire x1="56.261" y1="13.081" x2="52.959" y2="13.081" width="1.1684" layer="2"/>
-<wire x1="45.847" y1="13.081" x2="43.815" y2="13.081" width="1.1684" layer="2"/>
 <wire x1="57.023" y1="20.701" x2="57.023" y2="25.781" width="1.1684" layer="2"/>
 <wire x1="63.246" y1="25.75" x2="57.054" y2="25.75" width="0.3048" layer="1"/>
 <wire x1="57.054" y1="25.75" x2="57.023" y2="25.781" width="0.3048" layer="1"/>
@@ -34192,7 +34091,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U100" pad="35"/>
 <wire x1="64.8393" y1="25.75" x2="66.406" y2="25.75" width="0.3048" layer="1"/>
 <wire x1="66.406" y1="25.75" x2="66.406" y2="25.908" width="0.3048" layer="1"/>
-<via x="46.8393" y="13.081" extent="1-16" drill="0.4064"/>
 <wire x1="61.8393" y1="35.75" x2="61.8393" y2="37.0593" width="0.3048" layer="1"/>
 <wire x1="57.023" y1="34.29" x2="57.023" y2="36.449" width="0.3048" layer="16"/>
 <wire x1="57.023" y1="36.449" x2="58.166" y2="37.592" width="0.3048" layer="16"/>
@@ -34203,18 +34101,21 @@ http://dangerousprototypes.com</description>
 <wire x1="63.0908" y1="38.1132" x2="62.992" y2="38.212" width="0.3048" layer="1"/>
 <wire x1="61.8393" y1="37.0593" x2="62.118" y2="37.338" width="0.3048" layer="1"/>
 <wire x1="62.118" y1="37.338" x2="63.0908" y2="37.338" width="0.3048" layer="1"/>
-<wire x1="46.8393" y1="13.081" x2="46.8393" y2="14.25" width="0.3048" layer="1"/>
-<wire x1="46.482" y1="11.826" x2="46.482" y2="12.7237" width="0.3048" layer="1"/>
-<wire x1="46.482" y1="12.7237" x2="46.8393" y2="13.081" width="0.3048" layer="1"/>
 <via x="43.815" y="13.081" extent="1-16" drill="0.4064"/>
 <wire x1="15.285" y1="16.75" x2="17.131" y2="16.75" width="0.3048" layer="1"/>
 <wire x1="17.131" y1="16.75" x2="17.272" y2="16.891" width="0.3048" layer="1"/>
 <via x="17.272" y="16.891" extent="1-16" drill="0.35" diameter="0.35"/>
 <wire x1="39.75606875" y1="13.081" x2="43.815" y2="13.081" width="0.3048" layer="2"/>
-<wire x1="21.7142" y1="12.4488" x2="39.12386875" y2="12.4488" width="0.3048" layer="2"/>
-<wire x1="39.12386875" y1="12.4488" x2="39.75606875" y2="13.081" width="0.3048" layer="2"/>
-<wire x1="17.272" y1="16.891" x2="21.7142" y2="12.4488" width="0.3048" layer="2"/>
-<wire x1="46.8393" y1="13.081" x2="46.863" y2="13.081" width="0" layer="19" extent="1-2"/>
+<wire x1="22.4762" y1="12.1948" x2="38.86986875" y2="12.1948" width="0.3048" layer="2"/>
+<wire x1="38.86986875" y1="12.1948" x2="39.75606875" y2="13.081" width="0.3048" layer="2"/>
+<wire x1="17.78" y1="16.891" x2="22.4762" y2="12.1948" width="0.3048" layer="2"/>
+<wire x1="17.272" y1="16.891" x2="17.78" y2="16.891" width="0.3048" layer="2"/>
+<wire x1="52.959" y1="13.081" x2="44.577" y2="13.081" width="1.1684" layer="2"/>
+<wire x1="44.577" y1="13.081" x2="43.815" y2="13.081" width="1.1684" layer="2"/>
+<wire x1="44.577" y1="13.081" x2="46.355" y2="13.081" width="0.3048" layer="1"/>
+<wire x1="46.355" y1="13.081" x2="46.355" y2="11.826" width="0.3048" layer="1"/>
+<wire x1="46.355" y1="13.081" x2="46.8393" y2="13.081" width="0.3048" layer="1"/>
+<wire x1="46.8393" y1="13.081" x2="46.8393" y2="14.25" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="XTAL100" pad="2"/>
@@ -34223,7 +34124,6 @@ http://dangerousprototypes.com</description>
 <wire x1="14.334" y1="22.75" x2="13.716" y2="23.368" width="0.254" layer="1"/>
 <wire x1="13.716" y1="23.368" x2="12.621" y2="23.368" width="0.254" layer="1"/>
 <wire x1="12.621" y1="23.368" x2="12.192" y2="23.797" width="0.254" layer="1"/>
-<wire x1="12.113" y1="23.876" x2="12.192" y2="23.797" width="0.254" layer="1"/>
 <contactref element="C101" pad="1"/>
 <wire x1="12.192" y1="23.797" x2="12.192" y2="25.796" width="0.254" layer="1"/>
 <wire x1="12.192" y1="25.796" x2="12.304" y2="25.908" width="0.254" layer="1"/>
@@ -34292,11 +34192,11 @@ http://dangerousprototypes.com</description>
 <wire x1="46.7614" y1="33.02" x2="46.7614" y2="33.2486" width="0.254" layer="1"/>
 <wire x1="46.7614" y1="33.2486" x2="46.355" y2="33.655" width="0.254" layer="1"/>
 <via x="46.355" y="33.655" extent="1-16" drill="0.4064"/>
-<wire x1="29.785" y1="35.75" x2="29.785" y2="34.865" width="0.254" layer="1"/>
-<wire x1="29.785" y1="34.865" x2="29.21" y2="34.29" width="0.254" layer="1"/>
-<via x="29.21" y="34.29" extent="1-16" drill="0.4064"/>
-<wire x1="29.21" y1="34.29" x2="30.353" y2="35.433" width="0.254" layer="16"/>
-<wire x1="30.353" y1="35.433" x2="41.3992" y2="35.433" width="0.254" layer="16"/>
+<wire x1="29.785" y1="35.75" x2="29.785" y2="34.611" width="0.254" layer="1"/>
+<wire x1="29.785" y1="34.611" x2="29.464" y2="34.29" width="0.254" layer="1"/>
+<via x="29.464" y="34.29" extent="1-16" drill="0.4064"/>
+<wire x1="29.464" y1="34.29" x2="30.607" y2="35.433" width="0.254" layer="16"/>
+<wire x1="30.607" y1="35.433" x2="41.3992" y2="35.433" width="0.254" layer="16"/>
 <wire x1="46.355" y1="33.655" x2="43.1772" y2="33.655" width="0.254" layer="16"/>
 <wire x1="41.3992" y1="35.433" x2="43.1772" y2="33.655" width="0.254" layer="16"/>
 </signal>
@@ -34469,9 +34369,9 @@ http://dangerousprototypes.com</description>
 <wire x1="33.2044" y1="26.75" x2="33.6042" y2="27.1498" width="0.254" layer="1"/>
 <via x="33.6042" y="27.1498" extent="1-16" drill="0.4064"/>
 <via x="42.1386" y="29.1084" extent="1-16" drill="0.4064"/>
-<wire x1="41.2524" y1="29.1084" x2="39.2938" y2="27.1498" width="0.254" layer="16"/>
-<wire x1="39.2938" y1="27.1498" x2="33.6042" y2="27.1498" width="0.254" layer="16"/>
-<wire x1="42.1386" y1="29.1084" x2="41.2524" y2="29.1084" width="0.254" layer="16"/>
+<wire x1="41.1254" y1="29.1084" x2="39.1668" y2="27.1498" width="0.254" layer="16"/>
+<wire x1="39.1668" y1="27.1498" x2="33.6042" y2="27.1498" width="0.254" layer="16"/>
+<wire x1="42.1386" y1="29.1084" x2="41.1254" y2="29.1084" width="0.254" layer="16"/>
 <wire x1="15.285" y1="26.75" x2="33.2044" y2="26.75" width="0.254" layer="1"/>
 <wire x1="42.2802" y1="29.25" x2="42.1386" y2="29.1084" width="0.254" layer="1"/>
 <wire x1="42.2802" y1="29.25" x2="43.3393" y2="29.25" width="0.254" layer="1"/>
@@ -34631,10 +34531,8 @@ http://dangerousprototypes.com</description>
 <contactref element="U100" pad="96"/>
 <contactref element="U700" pad="49"/>
 <via x="40.513" y="27.432" extent="1-16" drill="0.35" diameter="0.35"/>
-<wire x1="36.785" y1="27.75" x2="39.9120625" y2="27.75" width="0.254" layer="1"/>
-<wire x1="39.9120625" y1="27.75" x2="39.9825625" y2="27.6795" width="0.254" layer="1"/>
-<wire x1="39.9825625" y1="27.6795" x2="40.2655" y2="27.6795" width="0.254" layer="1"/>
-<wire x1="40.2655" y1="27.6795" x2="40.513" y2="27.432" width="0.254" layer="1"/>
+<wire x1="36.785" y1="27.75" x2="40.195" y2="27.75" width="0.254" layer="1"/>
+<wire x1="40.195" y1="27.75" x2="40.513" y2="27.432" width="0.254" layer="1"/>
 <wire x1="40.513" y1="27.432" x2="43.815" y2="24.13" width="0.254" layer="2"/>
 <wire x1="43.815" y1="24.13" x2="43.815" y2="23.86696875" width="0.254" layer="2"/>
 <wire x1="43.815" y1="23.86696875" x2="44.66576875" y2="23.0162" width="0.254" layer="2"/>
@@ -34647,11 +34545,11 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="MCU_MCO">
 <contactref element="U100" pad="100"/>
-<wire x1="37.9788" y1="29.75" x2="39.6429" y2="28.0859" width="0.254" layer="1"/>
+<wire x1="37.9788" y1="29.75" x2="39.5159" y2="28.2129" width="0.254" layer="1"/>
 <wire x1="36.785" y1="29.75" x2="37.9788" y2="29.75" width="0.254" layer="1"/>
 <contactref element="U700" pad="128"/>
-<wire x1="39.6429" y1="28.0859" x2="41.2561" y2="28.0859" width="0.254" layer="1"/>
-<wire x1="41.275" y1="28.067" x2="41.2561" y2="28.0859" width="0.254" layer="1"/>
+<wire x1="39.5159" y1="28.2129" x2="41.1291" y2="28.2129" width="0.254" layer="1"/>
+<wire x1="41.275" y1="28.067" x2="41.1291" y2="28.2129" width="0.254" layer="1"/>
 <via x="41.275" y="28.067" extent="1-16" drill="0.4064"/>
 <wire x1="52.578" y1="32.512" x2="48.1838" y2="28.1178" width="0.254" layer="16"/>
 <via x="52.7283" y="32.512" extent="1-16" drill="0.4064"/>
@@ -34680,10 +34578,10 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="MCU_ADC2">
 <contactref element="U100" pad="36"/>
-<wire x1="15.285" y1="16.25" x2="18.548" y2="16.25" width="0.254" layer="1"/>
-<wire x1="19.2278" y1="15.5702" x2="20.447" y2="15.5702" width="0.254" layer="1"/>
+<wire x1="15.285" y1="16.25" x2="19.056" y2="16.25" width="0.254" layer="1"/>
+<wire x1="19.7358" y1="15.5702" x2="20.447" y2="15.5702" width="0.254" layer="1"/>
 <via x="20.447" y="15.5702" extent="1-16" drill="0.4064"/>
-<wire x1="18.548" y1="16.25" x2="19.2278" y2="15.5702" width="0.254" layer="1"/>
+<wire x1="19.056" y1="16.25" x2="19.7358" y2="15.5702" width="0.254" layer="1"/>
 <wire x1="24.3586" y1="11.6586" x2="36.4362375" y2="11.6586" width="0.254" layer="16"/>
 <wire x1="36.4362375" y1="11.6586" x2="37.00141875" y2="11.09341875" width="0.254" layer="16"/>
 <wire x1="43.18" y1="10.414" x2="43.688" y2="9.906" width="0.254" layer="16"/>
@@ -35087,11 +34985,11 @@ http://dangerousprototypes.com</description>
 <contactref element="U501" pad="3"/>
 <contactref element="U501" pad="9"/>
 <contactref element="U501" pad="10"/>
-<wire x1="36.81013125" y1="3.556" x2="37.2522" y2="3.99806875" width="0.254" layer="1"/>
-<wire x1="37.2522" y1="3.99806875" x2="37.2522" y2="7.33333125" width="0.254" layer="1"/>
-<wire x1="37.2522" y1="7.33333125" x2="37.85386875" y2="7.935" width="0.254" layer="1"/>
-<wire x1="37.85386875" y1="7.935" x2="38.438" y2="7.935" width="0.254" layer="1"/>
-<wire x1="36.565" y1="3.556" x2="36.81013125" y2="3.556" width="0.254" layer="1"/>
+<wire x1="36.93713125" y1="3.556" x2="37.2522" y2="3.87106875" width="0.3048" layer="1"/>
+<wire x1="37.2522" y1="3.87106875" x2="37.2522" y2="7.33333125" width="0.3048" layer="1"/>
+<wire x1="37.2522" y1="7.33333125" x2="37.85386875" y2="7.935" width="0.3048" layer="1"/>
+<wire x1="37.85386875" y1="7.935" x2="38.438" y2="7.935" width="0.3048" layer="1"/>
+<wire x1="36.565" y1="3.556" x2="36.93713125" y2="3.556" width="0.3048" layer="1"/>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="42.291" y="8.636"/>
 <vertex x="37.592" y="8.636"/>
@@ -35221,7 +35119,7 @@ http://dangerousprototypes.com</description>
 <wire x1="37.7856" y1="5.4" x2="37.803" y2="5.4" width="0.254" layer="1"/>
 <wire x1="37.803" y1="5.4" x2="38.438" y2="6.035" width="0.254" layer="1"/>
 </signal>
-<signal name="N$26">
+<signal name="N$26" class="1">
 <contactref element="R300" pad="2"/>
 <contactref element="C301" pad="1"/>
 <contactref element="Q301" pad="4"/>
@@ -35251,7 +35149,8 @@ http://dangerousprototypes.com</description>
 <via x="14.5288" y="11.303" extent="1-16" drill="0.4064"/>
 <wire x1="36.068" y1="9.398" x2="36.0934" y2="9.3726" width="1.2192" layer="16"/>
 <contactref element="R310" pad="1"/>
-<wire x1="14.5288" y1="9.3726" x2="15.225" y2="9.906" width="0" layer="19" extent="1-16"/>
+<wire x1="14.5288" y1="11.303" x2="14.5288" y2="9.0828" width="0.3048" layer="1"/>
+<wire x1="14.5288" y1="9.0828" x2="14.478" y2="9.032" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R303" pad="2"/>
@@ -35419,7 +35318,6 @@ http://dangerousprototypes.com</description>
 <contactref element="U401" pad="5"/>
 <contactref element="R401" pad="2"/>
 <wire x1="75.184" y1="19.25" x2="64.8393" y2="19.25" width="0.254" layer="1"/>
-<wire x1="81.164" y1="14.50586875" x2="81.164" y2="14.478" width="0.254" layer="1"/>
 <contactref element="U700" pad="79"/>
 <wire x1="80.914" y1="16.533525" x2="80.264" y2="15.6974375" width="0.254" layer="1"/>
 <wire x1="81.164" y1="14.478" x2="80.518" y2="14.478" width="0.254" layer="1"/>
@@ -35439,7 +35337,6 @@ http://dangerousprototypes.com</description>
 <wire x1="66.1093" y1="18.258" x2="65.6013" y2="17.75" width="0.254" layer="1"/>
 <wire x1="64.8393" y1="17.75" x2="65.6013" y2="17.75" width="0.254" layer="1"/>
 <wire x1="75.68383125" y1="17.3495" x2="74.77533125" y2="18.258" width="0.254" layer="1"/>
-<wire x1="77.485" y1="11.557" x2="77.47" y2="11.542" width="0.254" layer="1"/>
 <wire x1="77.502234375" y1="11.574234375" x2="77.47" y2="11.542" width="0.254" layer="1"/>
 <wire x1="79.364" y1="11.557" x2="77.51946875" y2="11.557" width="0.254" layer="1"/>
 <wire x1="77.51946875" y1="11.557" x2="77.502234375" y2="11.574234375" width="0.254" layer="1"/>
@@ -35514,7 +35411,6 @@ http://dangerousprototypes.com</description>
 <signal name="BUFDIR6" class="3">
 <contactref element="U409" pad="5"/>
 <contactref element="R413" pad="2"/>
-<wire x1="81.06486875" y1="6.096" x2="81.164" y2="6.096" width="0.254" layer="1"/>
 <contactref element="U700" pad="64"/>
 <wire x1="58.8393" y1="14.25" x2="58.8393" y2="12.52556875" width="0.254" layer="1"/>
 <wire x1="58.8393" y1="12.52556875" x2="59.63286875" y2="11.732" width="0.254" layer="1"/>
@@ -35667,7 +35563,6 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="LAT0">
 <contactref element="U602" pad="2"/>
-<wire x1="69.932" y1="26.52" x2="69.944" y2="26.532" width="0.254" layer="1"/>
 <contactref element="U700" pad="94"/>
 <wire x1="68.56713125" y1="26.75" x2="68.78513125" y2="26.532" width="0.254" layer="1"/>
 <wire x1="68.78513125" y1="26.532" x2="69.944" y2="26.532" width="0.254" layer="1"/>
@@ -35690,10 +35585,10 @@ http://dangerousprototypes.com</description>
 <contactref element="U602" pad="4"/>
 <contactref element="U700" pad="91"/>
 <wire x1="64.8393" y1="25.25" x2="63.635" y2="25.25" width="0.254" layer="1"/>
-<wire x1="63.635" y1="25.25" x2="63.5" y2="25.115" width="0.254" layer="1"/>
-<via x="63.5" y="25.115" extent="1-16" drill="0.4064"/>
-<wire x1="63.5" y1="25.115" x2="71.216" y2="25.115" width="0.254" layer="2"/>
-<wire x1="71.216" y1="25.115" x2="71.374" y2="25.273" width="0.254" layer="2"/>
+<wire x1="63.635" y1="25.25" x2="63.373" y2="24.988" width="0.254" layer="1"/>
+<via x="63.373" y="24.988" extent="1-16" drill="0.4064"/>
+<wire x1="63.373" y1="24.988" x2="71.089" y2="24.988" width="0.254" layer="2"/>
+<wire x1="71.089" y1="24.988" x2="71.374" y2="25.273" width="0.254" layer="2"/>
 <via x="71.374" y="25.273" extent="1-16" drill="0.4064"/>
 <wire x1="71.374" y1="25.273" x2="71.333" y2="25.232" width="0.254" layer="1"/>
 <wire x1="71.333" y1="25.232" x2="69.944" y2="25.232" width="0.254" layer="1"/>
@@ -35744,7 +35639,6 @@ http://dangerousprototypes.com</description>
 </signal>
 <signal name="LAT7">
 <contactref element="U602" pad="9"/>
-<wire x1="69.906" y1="22.02" x2="69.944" y2="21.982" width="0.254" layer="1"/>
 <contactref element="U700" pad="84"/>
 <wire x1="68.8067375" y1="21.75" x2="64.8393" y2="21.75" width="0.254" layer="1"/>
 <wire x1="69.944" y1="21.982" x2="69.0387375" y2="21.982" width="0.254" layer="1"/>
@@ -35768,42 +35662,42 @@ http://dangerousprototypes.com</description>
 <contactref element="U300" pad="4"/>
 <contactref element="R307" pad="2"/>
 <contactref element="R308" pad="1"/>
-<wire x1="9.174" y1="10.861" x2="11.022" y2="10.861" width="0.254" layer="1"/>
+<wire x1="9.174" y1="10.861" x2="9.779" y2="10.861" width="0.254" layer="1"/>
+<wire x1="9.779" y1="10.861" x2="11.022" y2="10.861" width="0.254" layer="1"/>
 <wire x1="11.022" y1="10.861" x2="11.049" y2="11.034" width="0.254" layer="1"/>
-<wire x1="10.018" y1="9.1626" x2="10.0756" y2="9.105" width="0.254" layer="1"/>
-<wire x1="10.0248" y1="9.1372" x2="10.095" y2="9.067" width="0.254" layer="1"/>
-<wire x1="8.524" y1="9.1372" x2="10.0248" y2="9.1372" width="0.254" layer="1"/>
-<wire x1="8.524" y1="9.779" x2="9.174" y2="10.429" width="0.254" layer="1"/>
-<wire x1="9.174" y1="10.429" x2="9.174" y2="10.861" width="0.254" layer="1"/>
-<wire x1="8.524" y1="9.144" x2="8.524" y2="9.779" width="0.254" layer="1"/>
-<wire x1="10.018" y1="9.1626" x2="9.764" y2="9.144" width="0" layer="19" extent="1-1"/>
-<wire x1="10.0248" y1="9.1372" x2="10.018" y2="9.1626" width="0" layer="19" extent="1-1"/>
-<wire x1="8.524" y1="9.144" x2="8.524" y2="9.1372" width="0" layer="19" extent="1-1"/>
+<wire x1="9.764" y1="9.144" x2="8.524" y2="9.144" width="0.254" layer="1"/>
+<wire x1="9.764" y1="9.144" x2="9.764" y2="10.861" width="0.254" layer="1"/>
+<wire x1="9.764" y1="10.861" x2="9.779" y2="10.861" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R307" pad="1"/>
 <contactref element="U301" pad="1"/>
 <contactref element="R309" pad="2"/>
-<wire x1="7.174" y1="9.094" x2="8.0384" y2="8.2296" width="0.254" layer="1"/>
-<wire x1="8.0384" y1="8.2296" x2="9.2202" y2="8.2296" width="0.254" layer="1"/>
-<wire x1="9.2202" y1="8.2296" x2="9.7638" y2="7.686" width="0.254" layer="1"/>
+<wire x1="9.7638" y1="7.686" x2="9.2202" y2="8.2296" width="0.254" layer="1"/>
 <wire x1="9.7638" y1="7.686" x2="9.7638" y2="7.2436" width="0.254" layer="1"/>
 <wire x1="3.952" y1="9.144" x2="3.952" y2="8.89" width="0.254" layer="1"/>
 <wire x1="7.224" y1="9.144" x2="3.952" y2="9.144" width="0.254" layer="1"/>
-<wire x1="7.224" y1="9.144" x2="7.174" y2="9.094" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2202" y1="8.2296" x2="8.1384" y2="8.2296" width="0.254" layer="1"/>
+<wire x1="8.1384" y1="8.2296" x2="7.224" y2="9.144" width="0.254" layer="1"/>
 </signal>
 <signal name="VREG_DAC">
 <contactref element="U100" pad="40"/>
 <contactref element="R306" pad="1"/>
-<wire x1="18.785" y1="14.25" x2="18.785" y2="6.847" width="0.254" layer="1"/>
-<wire x1="18.785" y1="6.847" x2="14.7066" y2="2.7686" width="0.254" layer="1"/>
-<wire x1="14.7066" y1="2.7686" x2="13.5754" y2="2.7686" width="0.254" layer="1"/>
+<wire x1="18.785" y1="14.25" x2="18.785" y2="12.689" width="0.254" layer="1"/>
+<wire x1="18.785" y1="12.689" x2="18.415" y2="12.319" width="0.254" layer="1"/>
+<via x="18.415" y="12.319" extent="1-16" drill="0.35"/>
+<wire x1="16.637" y1="10.541" x2="16.637" y2="3.937" width="0.254" layer="2"/>
+<wire x1="16.3294" y1="3.6294" x2="15.113" y2="3.6294" width="0.254" layer="2"/>
+<via x="15.113" y="3.6294" extent="1-16" drill="0.35"/>
+<wire x1="16.637" y1="3.937" x2="16.3294" y2="3.6294" width="0.254" layer="2"/>
+<wire x1="13.55" y1="2.667" x2="14.1506" y2="2.667" width="0.254" layer="1"/>
+<wire x1="14.1506" y1="2.667" x2="15.113" y2="3.6294" width="0.254" layer="1"/>
+<wire x1="18.415" y1="12.319" x2="16.637" y2="10.541" width="0.254" layer="2"/>
 </signal>
 <signal name="N$15">
 <contactref element="U301" pad="4"/>
 <contactref element="R309" pad="1"/>
 <wire x1="7.8638" y1="5.4712" x2="7.8638" y2="4.6436" width="0.254" layer="1"/>
-<wire x1="2.667" y1="8.89" x2="2.652" y2="8.89" width="0.254" layer="1"/>
 <wire x1="2.652" y1="8.89" x2="3.922" y2="7.62" width="0.254" layer="1"/>
 <wire x1="3.922" y1="7.62" x2="5.715" y2="7.62" width="0.254" layer="1"/>
 <wire x1="5.715" y1="7.62" x2="7.8638" y2="5.4712" width="0.254" layer="1"/>
@@ -35811,13 +35705,12 @@ http://dangerousprototypes.com</description>
 <signal name="N$31">
 <contactref element="R306" pad="2"/>
 <contactref element="U301" pad="3"/>
-<wire x1="9.8162" y1="2.7432" x2="11.85" y2="2.7432" width="0.254" layer="1"/>
+<wire x1="9.74" y1="2.667" x2="11.85" y2="2.667" width="0.254" layer="1"/>
 <contactref element="C304" pad="2"/>
-<wire x1="11.85" y1="2.7432" x2="11.8754" y2="2.7686" width="0.254" layer="1"/>
 <wire x1="7.8638" y1="7.2436" x2="7.8638" y2="6.1824" width="0.254" layer="1"/>
-<wire x1="8.8138" y1="3.7456" x2="9.8162" y2="2.7432" width="0.254" layer="1"/>
+<wire x1="8.8138" y1="3.5932" x2="9.74" y2="2.667" width="0.254" layer="1"/>
 <wire x1="7.8638" y1="6.1824" x2="8.8138" y2="5.2324" width="0.254" layer="1"/>
-<wire x1="8.8138" y1="5.2324" x2="8.8138" y2="3.7456" width="0.254" layer="1"/>
+<wire x1="8.8138" y1="5.2324" x2="8.8138" y2="3.5932" width="0.254" layer="1"/>
 </signal>
 <signal name="MCU_VPU" class="3">
 <contactref element="U501" pad="12"/>
@@ -35879,26 +35772,26 @@ http://dangerousprototypes.com</description>
 <wire x1="39.116" y1="29.591" x2="40.005" y2="29.591" width="0.254" layer="2"/>
 <wire x1="40.005" y1="29.591" x2="40.9448" y2="30.5308" width="0.254" layer="2"/>
 </signal>
-<signal name="DISPLAY_SPI_CLOCK">
+<signal name="DISPLAY_SPI_CLOCK" class="3">
 <contactref element="U100" pad="41"/>
-<contactref element="J4" pad="P8"/>
-<wire x1="19.285" y1="7.086" x2="19.285" y2="14.25" width="0.254" layer="1"/>
-<wire x1="20.751" y1="5.62" x2="19.285" y2="7.086" width="0.254" layer="1"/>
-<wire x1="20.751" y1="4.477" x2="20.751" y2="5.62" width="0.254" layer="1"/>
+<contactref element="J4" pad="8"/>
+<wire x1="19.832" y1="8.03196875" x2="19.832" y2="7.303" width="0.254" layer="1"/>
+<wire x1="19.285" y1="14.25" x2="19.285" y2="8.57896875" width="0.254" layer="1"/>
+<wire x1="19.285" y1="8.57896875" x2="19.832" y2="8.03196875" width="0.254" layer="1"/>
 </signal>
-<signal name="DISPLAY_SPI_MOSI">
+<signal name="DISPLAY_SPI_MOSI" class="3">
 <contactref element="U100" pad="43"/>
-<contactref element="J4" pad="P6"/>
-<wire x1="20.285" y1="8.205" x2="20.285" y2="14.25" width="0.254" layer="1"/>
-<wire x1="23.251" y1="5.239" x2="20.285" y2="8.205" width="0.254" layer="1"/>
-<wire x1="23.251" y1="4.477" x2="23.251" y2="5.239" width="0.254" layer="1"/>
+<wire x1="20.285" y1="14.25" x2="20.285" y2="8.98244375" width="0.254" layer="1"/>
+<contactref element="J4" pad="6"/>
+<wire x1="20.285" y1="8.98244375" x2="20.832" y2="8.43544375" width="0.254" layer="1"/>
+<wire x1="20.832" y1="8.43544375" x2="20.832" y2="7.303" width="0.254" layer="1"/>
 </signal>
-<signal name="DISPLAY_SPI_MISO">
+<signal name="DISPLAY_SPI_MISO" class="3">
 <contactref element="U100" pad="42"/>
-<contactref element="J4" pad="P7"/>
-<wire x1="19.785" y1="7.582" x2="19.785" y2="14.25" width="0.254" layer="1"/>
-<wire x1="22.001" y1="5.366" x2="19.785" y2="7.582" width="0.254" layer="1"/>
-<wire x1="22.001" y1="4.477" x2="22.001" y2="5.366" width="0.254" layer="1"/>
+<contactref element="J4" pad="7"/>
+<wire x1="20.332" y1="8.23370625" x2="20.332" y2="7.303" width="0.254" layer="1"/>
+<wire x1="19.785" y1="14.25" x2="19.785" y2="8.78070625" width="0.254" layer="1"/>
+<wire x1="19.785" y1="8.78070625" x2="20.332" y2="8.23370625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="RN500" pad="8"/>
@@ -35982,35 +35875,29 @@ http://dangerousprototypes.com</description>
 <wire x1="92.71" y1="5.842" x2="90.203" y2="5.842" width="0.254" layer="1"/>
 <wire x1="88.9" y1="4.539" x2="88.9" y2="3.65" width="0.254" layer="1"/>
 </signal>
-<signal name="DISPLAY_AUX1">
-<contactref element="J4" pad="P2"/>
+<signal name="DISPLAY_AUX1" class="3">
 <contactref element="U100" pad="47"/>
-<wire x1="22.285" y1="9.592" x2="24.511" y2="7.366" width="0.254" layer="1"/>
-<wire x1="24.511" y1="7.366" x2="26.67" y2="7.366" width="0.254" layer="1"/>
-<wire x1="22.285" y1="14.25" x2="22.285" y2="9.592" width="0.254" layer="1"/>
-<wire x1="26.67" y1="7.366" x2="28.251" y2="5.785" width="0.254" layer="1"/>
-<wire x1="28.251" y1="5.785" x2="28.251" y2="4.477" width="0.254" layer="1"/>
+<contactref element="J4" pad="2"/>
+<wire x1="22.285" y1="14.25" x2="22.285" y2="9.91639375" width="0.254" layer="1"/>
+<wire x1="22.832" y1="9.36939375" x2="22.832" y2="7.303" width="0.254" layer="1"/>
+<wire x1="22.285" y1="9.91639375" x2="22.832" y2="9.36939375" width="0.254" layer="1"/>
 </signal>
-<signal name="DISPLAY_PWM">
+<signal name="DISPLAY_PWM" class="3">
 <contactref element="U100" pad="46"/>
-<contactref element="J4" pad="P3"/>
-<wire x1="24.5481" y1="6.5669" x2="25.8848375" y2="6.5669" width="0.254" layer="1"/>
-<wire x1="25.8848375" y1="6.5669" x2="27.001" y2="5.4507375" width="0.254" layer="1"/>
-<wire x1="21.785" y1="9.33" x2="24.5481" y2="6.5669" width="0.254" layer="1"/>
-<wire x1="21.785" y1="14.25" x2="21.785" y2="9.33" width="0.254" layer="1"/>
-<wire x1="27.001" y1="5.4507375" x2="27.001" y2="4.477" width="0.254" layer="1"/>
+<contactref element="J4" pad="3"/>
+<wire x1="22.332" y1="9.16765625" x2="22.332" y2="7.303" width="0.254" layer="1"/>
+<wire x1="21.785" y1="14.25" x2="21.785" y2="9.71465625" width="0.254" layer="1"/>
+<wire x1="21.785" y1="9.71465625" x2="22.332" y2="9.16765625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U100" pad="80"/>
 </signal>
-<signal name="DISPLAY_D/P">
-<contactref element="J4" pad="P4"/>
+<signal name="DISPLAY_D/P" class="3">
 <contactref element="U100" pad="45"/>
-<wire x1="21.285" y1="8.943" x2="24.0675" y2="6.1605" width="0.254" layer="1"/>
-<wire x1="21.285" y1="8.943" x2="21.285" y2="14.25" width="0.254" layer="1"/>
-<wire x1="24.0675" y1="6.1605" x2="25.0815" y2="6.1605" width="0.254" layer="1"/>
-<wire x1="25.751" y1="5.491" x2="25.751" y2="4.477" width="0.254" layer="1"/>
-<wire x1="25.0815" y1="6.1605" x2="25.751" y2="5.491" width="0.254" layer="1"/>
+<contactref element="J4" pad="4"/>
+<wire x1="21.285" y1="14.25" x2="21.285" y2="9.51291875" width="0.254" layer="1"/>
+<wire x1="21.832" y1="8.96591875" x2="21.832" y2="7.303" width="0.254" layer="1"/>
+<wire x1="21.285" y1="9.51291875" x2="21.832" y2="8.96591875" width="0.254" layer="1"/>
 </signal>
 <signal name="D-" class="3">
 <contactref element="J1" pad="DN1"/>
@@ -36105,7 +35992,6 @@ http://dangerousprototypes.com</description>
 <contactref element="R202" pad="2"/>
 <contactref element="R203" pad="1"/>
 <wire x1="50.688" y1="5.588" x2="50.688" y2="3.556" width="0.3048" layer="1"/>
-<wire x1="50.688" y1="5.588" x2="50.688" y2="5.304" width="0.3048" layer="1"/>
 <wire x1="52.436" y1="3.556" x2="50.688" y2="3.556" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$46">
@@ -36127,10 +36013,10 @@ http://dangerousprototypes.com</description>
 <contactref element="U202" pad="4"/>
 <contactref element="U700" pad="45"/>
 <wire x1="46.24" y1="8.408" x2="46.24" y2="9.156" width="0.254" layer="1"/>
-<wire x1="49.3393" y1="12.57643125" x2="49.3393" y2="14.25" width="0.254" layer="1"/>
-<wire x1="49.0546" y1="12.29173125" x2="49.3393" y2="12.57643125" width="0.254" layer="1"/>
-<wire x1="46.24" y1="9.156" x2="49.0546" y2="11.9706" width="0.254" layer="1"/>
-<wire x1="49.0546" y1="11.9706" x2="49.0546" y2="12.29173125" width="0.254" layer="1"/>
+<wire x1="49.3393" y1="12.95743125" x2="49.3393" y2="14.25" width="0.254" layer="1"/>
+<wire x1="46.24" y1="9.156" x2="47.879" y2="10.795" width="0.254" layer="1"/>
+<wire x1="47.879" y1="10.795" x2="47.879" y2="11.49713125" width="0.254" layer="1"/>
+<wire x1="47.879" y1="11.49713125" x2="49.3393" y2="12.95743125" width="0.254" layer="1"/>
 </signal>
 <signal name="ADC_CLOCK">
 <contactref element="U202" pad="2"/>
@@ -36150,10 +36036,10 @@ http://dangerousprototypes.com</description>
 <wire x1="46.74" y1="8.408" x2="46.8106" y2="8.4786" width="0.254" layer="1"/>
 <wire x1="46.8106" y1="8.4786" x2="46.8106" y2="8.99846875" width="0.254" layer="1"/>
 <wire x1="46.8106" y1="8.99846875" x2="47.46413125" y2="9.652" width="0.254" layer="1"/>
-<wire x1="50.3393" y1="12.46583125" x2="50.3393" y2="14.25" width="0.254" layer="1"/>
-<wire x1="50.5134" y1="12.29173125" x2="50.3393" y2="12.46583125" width="0.254" layer="1"/>
-<wire x1="50.5134" y1="10.06026875" x2="50.5134" y2="12.29173125" width="0.254" layer="1"/>
-<wire x1="50.10513125" y1="9.652" x2="50.5134" y2="10.06026875" width="0.254" layer="1"/>
+<wire x1="50.3393" y1="12.84683125" x2="50.3393" y2="14.25" width="0.254" layer="1"/>
+<wire x1="50.7674" y1="12.41873125" x2="50.3393" y2="12.84683125" width="0.254" layer="1"/>
+<wire x1="50.7674" y1="10.31426875" x2="50.7674" y2="12.41873125" width="0.254" layer="1"/>
+<wire x1="50.10513125" y1="9.652" x2="50.7674" y2="10.31426875" width="0.254" layer="1"/>
 <wire x1="47.46413125" y1="9.652" x2="50.10513125" y2="9.652" width="0.254" layer="1"/>
 </signal>
 <signal name="ADC_MUX_S3">
@@ -36202,15 +36088,12 @@ http://dangerousprototypes.com</description>
 <signal name="N$51">
 <contactref element="U700" pad="52"/>
 </signal>
-<signal name="DISPLAY_CS">
-<contactref element="J4" pad="P5"/>
-<wire x1="20.785" y1="8.574" x2="23.6965" y2="5.6625" width="0.254" layer="1"/>
+<signal name="DISPLAY_CS" class="3">
 <contactref element="U100" pad="44"/>
-<wire x1="20.785" y1="8.574" x2="20.785" y2="14.25" width="0.254" layer="1"/>
-<wire x1="23.6965" y1="5.6625" x2="24.3095" y2="5.6625" width="0.254" layer="1"/>
-<wire x1="24.3095" y1="5.6625" x2="24.511" y2="5.461" width="0.254" layer="1"/>
-<wire x1="24.511" y1="5.461" x2="24.501" y2="5.451" width="0.254" layer="1"/>
-<wire x1="24.501" y1="5.451" x2="24.501" y2="4.477" width="0.254" layer="1"/>
+<wire x1="20.785" y1="14.25" x2="20.785" y2="9.18418125" width="0.254" layer="1"/>
+<contactref element="J4" pad="5"/>
+<wire x1="20.785" y1="9.18418125" x2="21.332" y2="8.63718125" width="0.254" layer="1"/>
+<wire x1="21.332" y1="8.63718125" x2="21.332" y2="7.303" width="0.254" layer="1"/>
 </signal>
 <signal name="FSMC_A6" class="3">
 <contactref element="U100" pad="50"/>
@@ -36375,7 +36258,6 @@ http://dangerousprototypes.com</description>
 <wire x1="81.164" y1="2.525" x2="83.424" y2="2.525" width="0.254" layer="1"/>
 <wire x1="83.424" y1="2.525" x2="83.693" y2="2.794" width="0.254" layer="1"/>
 <wire x1="83.693" y1="2.794" x2="83.693" y2="3.302" width="0.254" layer="1"/>
-<wire x1="83.693" y1="3.16" x2="83.693" y2="3.302" width="0.254" layer="1"/>
 <wire x1="83.693" y1="3.302" x2="83.693" y2="4.318" width="0.254" layer="1"/>
 <wire x1="83.693" y1="4.318" x2="83.693" y2="5.192" width="0.254" layer="1"/>
 <wire x1="83.693" y1="5.192" x2="84.582" y2="6.081" width="0.254" layer="1"/>
@@ -36400,25 +36282,32 @@ http://dangerousprototypes.com</description>
 <wire x1="74.676" y1="4.46" x2="73.787" y2="4.46" width="0.254" layer="1"/>
 <wire x1="73.787" y1="4.46" x2="73.787" y2="4.572" width="0.254" layer="1"/>
 </signal>
-<signal name="DISPLAY_RESET">
-<contactref element="J4" pad="P1"/>
-<wire x1="29.501" y1="4.67213125" x2="29.501" y2="4.477" width="0.254" layer="1"/>
+<signal name="DISPLAY_RESET" class="3">
 <contactref element="U100" pad="48"/>
 <contactref element="R101" pad="2"/>
-<wire x1="22.785" y1="14.25" x2="22.785" y2="9.99113125" width="0.254" layer="1"/>
-<wire x1="27.432" y1="10.526" x2="27.432" y2="8.636" width="0.254" layer="1"/>
-<wire x1="27.432" y1="8.636" x2="29.464" y2="6.604" width="0.254" layer="1"/>
-<wire x1="29.464" y1="6.604" x2="29.464" y2="4.514" width="0.254" layer="1"/>
-<wire x1="29.464" y1="4.514" x2="29.501" y2="4.477" width="0.254" layer="1"/>
-<wire x1="27.432" y1="8.636" x2="24.14013125" y2="8.636" width="0.254" layer="1"/>
-<wire x1="24.14013125" y1="8.636" x2="22.785" y2="9.99113125" width="0.254" layer="1"/>
+<wire x1="22.785" y1="14.25" x2="22.785" y2="10.11813125" width="0.254" layer="1"/>
+<wire x1="27.432" y1="10.526" x2="27.432" y2="9.525" width="0.254" layer="1"/>
+<wire x1="27.432" y1="9.525" x2="23.37813125" y2="9.525" width="0.254" layer="1"/>
+<wire x1="23.37813125" y1="9.525" x2="23.25113125" y2="9.652" width="0.254" layer="1"/>
+<contactref element="J4" pad="1"/>
+<wire x1="23.332" y1="7.303" x2="23.332" y2="9.57113125" width="0.254" layer="1"/>
+<wire x1="23.332" y1="9.57113125" x2="23.25113125" y2="9.652" width="0.254" layer="1"/>
+<wire x1="23.25113125" y1="9.652" x2="22.785" y2="10.11813125" width="0.254" layer="1"/>
 </signal>
 <signal name="MCU_ADC0">
 <contactref element="U100" pad="34"/>
 <contactref element="R310" pad="2"/>
 <contactref element="R311" pad="1"/>
-<wire x1="16.51" y1="12.177" x2="15.285" y2="17.25" width="0" layer="19" extent="1-1"/>
-<wire x1="16.525" y1="9.906" x2="16.51" y2="12.177" width="0" layer="19" extent="1-1"/>
+<wire x1="15.285" y1="17.25" x2="16.488" y2="17.25" width="0.254" layer="1"/>
+<wire x1="16.488" y1="17.25" x2="16.764" y2="17.526" width="0.254" layer="1"/>
+<via x="16.764" y="17.526" extent="1-16" drill="0.35"/>
+<wire x1="15.367" y1="16.129" x2="16.764" y2="17.526" width="0.254" layer="2"/>
+<via x="15.367" y="6.97" extent="1-16" drill="0.35"/>
+<wire x1="15.367" y1="6.97" x2="15.367" y2="16.129" width="0.254" layer="2"/>
+<wire x1="14.478" y1="5.984" x2="14.478" y2="6.858" width="0.254" layer="1"/>
+<wire x1="14.478" y1="6.858" x2="14.478" y2="7.732" width="0.254" layer="1"/>
+<wire x1="15.367" y1="6.97" x2="14.478" y2="6.97" width="0.254" layer="1"/>
+<wire x1="14.478" y1="6.97" x2="14.478" y2="6.858" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
