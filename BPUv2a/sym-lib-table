@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ulx3s-rescue)(type Legacy)(uri ${KIPRJMOD}/footprints/ulx3s/ulx3s-rescue.lib)(options "")(descr ""))
+  (lib (name butterstick)(type Legacy)(uri ${KIPRJMOD}/footprints/butterstick2.0/ButterStick-rescue.lib)(options "")(descr ""))
+  (lib (name dp-microcontroller)(type Legacy)(uri ${KIPRJMOD}/footprints/dp-microcontroller/dp-microcontroller.lib)(options "")(descr ""))
+  (lib (name dp-vreg)(type Legacy)(uri ${KIPRJMOD}/footprints/dp-vreg/dp-vreg.lib)(options "")(descr ""))
+  (lib (name dp-dac)(type Legacy)(uri ${KIPRJMOD}/footprints/dp-dac/dp-dac.lib)(options "")(descr ""))
+)
